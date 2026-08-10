@@ -16729,7 +16729,42 @@
       "romaji": "obaachan, aitai yo",
       "category": "Family Terms",
       "generated_at": "2026-08-10T03:09:18.167897"
+    },
+    {
+      "english": "Forgive me, I’ll try harder, please.",
+      "japanese": "ごめんなさい、もっと頑張ります、お願いします。",
+      "romaji": "gomennasai, motto ganbarimasu, onegaishimasu",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-10T07:52:14.291319"
+    },
+    {
+      "english": "It’s okay, I forgive you, let’s move on.",
+      "japanese": "大丈夫、許します、前に進もう。",
+      "romaji": "daijoubu, yurusimasu, mae ni susumou",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-10T07:52:14.291327"
+    },
+    {
+      "english": "I understand, so please forgive me.",
+      "japanese": "わかりました、だから許してください。",
+      "romaji": "wakarimashita, dakara yurushite kudasai",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-10T07:52:14.291329"
+    },
+    {
+      "english": "I forgive you, even if it hurt.",
+      "japanese": "傷ついたけど、あなたを許します。",
+      "romaji": "kizutsuita kedo, anata o yurusimasu",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-10T07:52:14.291331"
+    },
+    {
+      "english": "Let’s be kind, forgive, and breathe.",
+      "japanese": "やさしく、許して、深呼吸しよう。",
+      "romaji": "yasashiku, yurushite, shinkokyuu shiyou",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-10T07:52:14.291332"
     }
   ],
-  "last_updated": "2026-08-10T03:09:18.167898"
+  "last_updated": "2026-08-10T07:52:14.291333"
 }
