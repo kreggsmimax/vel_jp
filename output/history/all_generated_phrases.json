@@ -16694,7 +16694,42 @@
       "romaji": "Anata no tamashii, shin no chikara.",
       "category": "Strength",
       "generated_at": "2026-08-09T20:32:15.220096"
+    },
+    {
+      "english": "My father, please rest today",
+      "japanese": "父は、今日は休んでください",
+      "romaji": "chichi wa, kyou wa yasunde kudasai",
+      "category": "Family Terms",
+      "generated_at": "2026-08-10T03:09:18.167884"
+    },
+    {
+      "english": "Mom, can you cook tonight",
+      "japanese": "母さん、今夜は作ってくれる",
+      "romaji": "kaasan, kon'ya wa tsukutte kureru",
+      "category": "Family Terms",
+      "generated_at": "2026-08-10T03:09:18.167894"
+    },
+    {
+      "english": "My older sister, thank you",
+      "japanese": "姉ちゃん、ありがとう",
+      "romaji": "ane-chan, arigatou",
+      "category": "Family Terms",
+      "generated_at": "2026-08-10T03:09:18.167895"
+    },
+    {
+      "english": "My younger brother, be careful",
+      "japanese": "弟は、気をつけてね",
+      "romaji": "otouto wa, ki o tsukete ne",
+      "category": "Family Terms",
+      "generated_at": "2026-08-10T03:09:18.167896"
+    },
+    {
+      "english": "My grandma, I miss you",
+      "japanese": "おばあちゃん、会いたいよ",
+      "romaji": "obaachan, aitai yo",
+      "category": "Family Terms",
+      "generated_at": "2026-08-10T03:09:18.167897"
     }
   ],
-  "last_updated": "2026-08-09T20:32:15.220098"
+  "last_updated": "2026-08-10T03:09:18.167898"
 }
