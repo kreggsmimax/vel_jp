@@ -16904,7 +16904,42 @@
       "romaji": "okaikei o onegaishimasu, kaado wa tsukaemasu ka",
       "category": "Restaurant Japanese",
       "generated_at": "2026-08-11T03:02:09.992258"
+    },
+    {
+      "english": "I’m listening, take a breath and speak",
+      "japanese": "聞いてます、深呼吸して話してください",
+      "romaji": "kiite masu, shinkokyū shite hanashite kudasai",
+      "category": "Kindness",
+      "generated_at": "2026-08-11T07:17:04.818050"
+    },
+    {
+      "english": "Be careful, please, the road is slippery",
+      "japanese": "気をつけてください、道がすべります",
+      "romaji": "ki o tsukete kudasai, michi ga suberimasu",
+      "category": "Kindness",
+      "generated_at": "2026-08-11T07:17:04.818062"
+    },
+    {
+      "english": "You did your best, I’m proud of you",
+      "japanese": "がんばりましたね、私は誇りに思います",
+      "romaji": "ganbarimashita ne, watashi wa hokori ni omoimasu",
+      "category": "Kindness",
+      "generated_at": "2026-08-11T07:17:04.818064"
+    },
+    {
+      "english": "Have a good day, warm wishes for you",
+      "japanese": "良い一日を、あなたに幸せを",
+      "romaji": "yoi ichinichi o, anata ni shiawase o",
+      "category": "Kindness",
+      "generated_at": "2026-08-11T07:17:04.818065"
+    },
+    {
+      "english": "Small kindness, big change, remember that",
+      "japanese": "小さな優しさが、大きく変えます",
+      "romaji": "chīsana yasashisa ga, ōkiku kaemasu",
+      "category": "Kindness",
+      "generated_at": "2026-08-11T07:17:04.818066"
     }
   ],
-  "last_updated": "2026-08-11T03:02:09.992260"
+  "last_updated": "2026-08-11T07:17:04.818068"
 }
