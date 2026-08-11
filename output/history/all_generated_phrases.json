@@ -16974,7 +16974,42 @@
       "romaji": "machigai wa oshie ni naru, furikaereba",
       "category": "Wisdom",
       "generated_at": "2026-08-11T10:42:18.244301"
+    },
+    {
+      "english": "Wait patiently, breathe slowly, you can do it",
+      "japanese": "ゆっくり待って、深呼吸してね、だいじょうぶ",
+      "romaji": "yukkuri matte, shinkokyuu shite ne, daijoubu",
+      "category": "Patience",
+      "generated_at": "2026-08-11T16:04:32.790112"
+    },
+    {
+      "english": "Calm your mind, keep going",
+      "japanese": "落ち着いて、続けよう",
+      "romaji": "ochitsuite, tsuzukeyou",
+      "category": "Patience",
+      "generated_at": "2026-08-11T16:04:32.790121"
+    },
+    {
+      "english": "Trust the process, even if it takes time",
+      "japanese": "時間がかかっても、信じよう",
+      "romaji": "jikan ga kakatt e mo, shinji you",
+      "category": "Patience",
+      "generated_at": "2026-08-11T16:04:32.790123"
+    },
+    {
+      "english": "Listen first, respond later",
+      "japanese": "先に聞いて、あとで答えよう",
+      "romaji": "saki ni kiite, ato de kotaeyou",
+      "category": "Patience",
+      "generated_at": "2026-08-11T16:04:32.790124"
+    },
+    {
+      "english": "Be patient with yourself, today is enough",
+      "japanese": "自分にやさしく、今日でいい",
+      "romaji": "jibun ni yasashiku, kyou de ii",
+      "category": "Patience",
+      "generated_at": "2026-08-11T16:04:32.790125"
     }
   ],
-  "last_updated": "2026-08-11T10:42:18.244303"
+  "last_updated": "2026-08-11T16:04:32.790127"
 }
