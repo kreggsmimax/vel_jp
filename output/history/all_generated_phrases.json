@@ -16869,7 +16869,42 @@
       "romaji": "ganbatte, yasunde, kokoro o totonoeyou",
       "category": "Balance",
       "generated_at": "2026-08-10T20:41:41.155367"
+    },
+    {
+      "english": "We can make it mild, if you like.",
+      "japanese": "辛さは調整できます、よければ。",
+      "romaji": "karasa wa chousei dekimasu, yokereba",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-11T03:02:09.992243"
+    },
+    {
+      "english": "Please wait a moment, it will be ready soon.",
+      "japanese": "少々お待ちください、すぐ用意します。",
+      "romaji": "shoushou omachi kudasai, sugu youi shimasu",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-11T03:02:09.992254"
+    },
+    {
+      "english": "Your table is ready, please come this way.",
+      "japanese": "お席の準備ができました、こちらへどうぞ。",
+      "romaji": "oseki no junbi ga dekimashita, kochira e douzo",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-11T03:02:09.992255"
+    },
+    {
+      "english": "How is it, is it to your taste?",
+      "japanese": "味はいかがですか、お口に合いますか。",
+      "romaji": "aji wa ikaga desu ka, okuchi ni aimasu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-11T03:02:09.992257"
+    },
+    {
+      "english": "The bill, please, can we pay by card?",
+      "japanese": "お会計をお願いします、カードは使えますか。",
+      "romaji": "okaikei o onegaishimasu, kaado wa tsukaemasu ka",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-11T03:02:09.992258"
     }
   ],
-  "last_updated": "2026-08-10T20:41:41.155369"
+  "last_updated": "2026-08-11T03:02:09.992260"
 }
