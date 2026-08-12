@@ -17114,7 +17114,42 @@
       "romaji": "yasashiku shite, kibou wa modotte kuru",
       "category": "Hope",
       "generated_at": "2026-08-12T07:41:08.806378"
+    },
+    {
+      "english": "Nice to meet you, please be kind.",
+      "japanese": "はじめまして、よろしくお願いします。",
+      "romaji": "hajimemashite, yoroshiku onegaishimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-12T10:51:05.888377"
+    },
+    {
+      "english": "Sorry, I’m late, I apologize.",
+      "japanese": "遅れてごめんなさい、申し訳ありません。",
+      "romaji": "okurete gomen nasai, moushiwake arimasen.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-12T10:51:05.888387"
+    },
+    {
+      "english": "No problem, take your time, please.",
+      "japanese": "大丈夫です、ゆっくりでいいですよ。",
+      "romaji": "daijoubu desu, yukkuri de ii desu yo.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-12T10:51:05.888389"
+    },
+    {
+      "english": "I’m hungry, what should we eat?",
+      "japanese": "お腹すいたね、何食べようか。",
+      "romaji": "onaka sudaita ne, nani tabeyou ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-12T10:51:05.888391"
+    },
+    {
+      "english": "Wait a moment, I’ll check first.",
+      "japanese": "ちょっと待って、先に確認します。",
+      "romaji": "chotto matte, saki ni kakunin shimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-12T10:51:05.888392"
     }
   ],
-  "last_updated": "2026-08-12T07:41:08.806379"
+  "last_updated": "2026-08-12T10:51:05.888394"
 }
