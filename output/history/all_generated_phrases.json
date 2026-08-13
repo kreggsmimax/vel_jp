@@ -17254,7 +17254,42 @@
       "romaji": "ookiku yumemite, shizuka ni junbi shi, koudoushiyou",
       "category": "Success",
       "generated_at": "2026-08-13T03:24:29.078082"
+    },
+    {
+      "english": "Do you have, this color?",
+      "japanese": "この色、ありますか？",
+      "romaji": "Kono iro, arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-13T07:43:15.434045"
+    },
+    {
+      "english": "Can I try, this on?",
+      "japanese": "これを試着できますか？",
+      "romaji": "Kore o shichaku dekimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-13T07:43:15.434056"
+    },
+    {
+      "english": "Where is, the fitting room?",
+      "japanese": "試着室はどこですか？",
+      "romaji": "Shichakushitsu wa doko desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-13T07:43:15.434059"
+    },
+    {
+      "english": "This is, too expensive.",
+      "japanese": "これは高すぎます。",
+      "romaji": "Kore wa takasugimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-13T07:43:15.434060"
+    },
+    {
+      "english": "Do you have, something cheaper?",
+      "japanese": "もっと安いのはありますか？",
+      "romaji": "Motto yasui no wa arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-13T07:43:15.434061"
     }
   ],
-  "last_updated": "2026-08-13T03:24:29.078083"
+  "last_updated": "2026-08-13T07:43:15.434062"
 }
