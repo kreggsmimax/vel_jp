@@ -17289,7 +17289,42 @@
       "romaji": "Motto yasui no wa arimasu ka?",
       "category": "Shopping Japanese",
       "generated_at": "2026-08-13T07:43:15.434061"
+    },
+    {
+      "english": "Where is the nearest, bathroom?",
+      "japanese": "トイレは, どこですか。",
+      "romaji": "Toire wa, doko desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-13T10:53:09.989614"
+    },
+    {
+      "english": "This ticket, is it valid here?",
+      "japanese": "この切符、ここで, 有効ですか？",
+      "romaji": "Kono kippu, koko de, yūkō desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-13T10:53:09.989625"
+    },
+    {
+      "english": "Excuse me, this train, does it go to Tokyo?",
+      "japanese": "すみません, この電車、東京へ行きますか？",
+      "romaji": "Sumimasen, kono densha, Tōkyō e ikimasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-13T10:53:09.989627"
+    },
+    {
+      "english": "How much does this, cost per night?",
+      "japanese": "これ、一泊いくらですか？",
+      "romaji": "Kore, ippaku ikura desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-13T10:53:09.989629"
+    },
+    {
+      "english": "Could you take a photo, of us, please?",
+      "japanese": "写真を, 撮っていただけますか？",
+      "romaji": "Shashin o, totte itadakemasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-13T10:53:09.989630"
     }
   ],
-  "last_updated": "2026-08-13T07:43:15.434062"
+  "last_updated": "2026-08-13T10:53:09.989632"
 }
