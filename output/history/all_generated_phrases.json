@@ -17324,7 +17324,42 @@
       "romaji": "Shashin o, totte itadakemasu ka?",
       "category": "Travel Japanese",
       "generated_at": "2026-08-13T10:53:09.989630"
+    },
+    {
+      "english": "I can’t breathe, call emergency services!",
+      "japanese": "息ができません、緊急でお願いします！",
+      "romaji": "iki ga dekimasen, kinkyu de onegaishimasu!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-13T16:03:16.291883"
+    },
+    {
+      "english": "I need water, please give it now.",
+      "japanese": "水が必要です、今すぐください。",
+      "romaji": "mizu ga hitsuyou desu, ima sugu kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-13T16:03:16.291893"
+    },
+    {
+      "english": "Stay calm, move to safety, now.",
+      "japanese": "落ち着いて、安全な場所へ移動して。",
+      "romaji": "ochitsuite, anzen na basho e idou shite.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-13T16:03:16.291895"
+    },
+    {
+      "english": "Where is the nearest exit? Please!",
+      "japanese": "いちばん近い出口はどこですか？",
+      "romaji": "ichiban chikai deguchi wa doko desu ka?",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-13T16:03:16.291897"
+    },
+    {
+      "english": "I lost my way, please help me.",
+      "japanese": "道に迷いました、助けてください。",
+      "romaji": "michi ni mayoimashita, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-13T16:03:16.291898"
     }
   ],
-  "last_updated": "2026-08-13T10:53:09.989632"
+  "last_updated": "2026-08-13T16:03:16.291899"
 }
