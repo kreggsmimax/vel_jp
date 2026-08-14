@@ -17394,7 +17394,42 @@
       "romaji": "Kike, kyūshū seyo, sore kara jibun no iken o.",
       "category": "Growth",
       "generated_at": "2026-08-13T20:41:43.891490"
+    },
+    {
+      "english": "I can do it, one step at a time",
+      "japanese": "できるよ、ひとつずつ進もう",
+      "romaji": "dekiru yo, hitotsu zutsu susumou",
+      "category": "Strength",
+      "generated_at": "2026-08-14T03:22:10.527818"
+    },
+    {
+      "english": "Stay calm, keep moving forward",
+      "japanese": "落ち着いて、前へ進もう",
+      "romaji": "ochitsuite, mae e susumou",
+      "category": "Strength",
+      "generated_at": "2026-08-14T03:22:10.527831"
+    },
+    {
+      "english": "Start now, even if it’s small",
+      "japanese": "今始めて、少しでいい",
+      "romaji": "ima hajimete, sukoshi de ii",
+      "category": "Strength",
+      "generated_at": "2026-08-14T03:22:10.527833"
+    },
+    {
+      "english": "Trust yourself, you’re getting stronger",
+      "japanese": "自分を信じて、強くなるよ",
+      "romaji": "jibun o shinjite, tsuyoku naru yo",
+      "category": "Strength",
+      "generated_at": "2026-08-14T03:22:10.527834"
+    },
+    {
+      "english": "Work quietly, results will come",
+      "japanese": "静かに頑張って、成果は出る",
+      "romaji": "shizuka ni ganbatte, seika wa deru",
+      "category": "Strength",
+      "generated_at": "2026-08-14T03:22:10.527835"
     }
   ],
-  "last_updated": "2026-08-13T20:41:43.891492"
+  "last_updated": "2026-08-14T03:22:10.527837"
 }
