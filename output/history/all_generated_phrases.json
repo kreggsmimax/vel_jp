@@ -17569,7 +17569,42 @@
       "romaji": "Yasashisa sodatsu... hana ga saku yō ni",
       "category": "Kindness",
       "generated_at": "2026-08-15T02:11:23.878069"
+    },
+    {
+      "english": "Listen first, talk later.",
+      "japanese": "聞くことから始めよう。",
+      "romaji": "Kiku koto kara hajimeyou.",
+      "category": "Patience",
+      "generated_at": "2026-08-15T06:48:24.130822"
+    },
+    {
+      "english": "Slow down, think clearly.",
+      "japanese": "落ち着いて、はっきり考えよう。",
+      "romaji": "Ochitsuite, hakkiri kangaeyou.",
+      "category": "Patience",
+      "generated_at": "2026-08-15T06:48:24.130832"
+    },
+    {
+      "english": "Mistakes are fine, learn from them.",
+      "japanese": "間違いは大丈夫、そこから学ぼう。",
+      "romaji": "Machigai wa daijoubu, soko kara manabou.",
+      "category": "Patience",
+      "generated_at": "2026-08-15T06:48:24.130834"
+    },
+    {
+      "english": "Small steps, steady progress.",
+      "japanese": "一歩ずつ、着実に進もう。",
+      "romaji": "Ippo zuts, chakujitsu ni susumou.",
+      "category": "Patience",
+      "generated_at": "2026-08-15T06:48:24.130835"
+    },
+    {
+      "english": "Don't rush, enjoy the journey.",
+      "japanese": "急がず、道を楽しもう。",
+      "romaji": "Isogazu, michi o tanoshimou.",
+      "category": "Patience",
+      "generated_at": "2026-08-15T06:48:24.130837"
     }
   ],
-  "last_updated": "2026-08-15T02:11:23.878071"
+  "last_updated": "2026-08-15T06:48:24.130838"
 }
