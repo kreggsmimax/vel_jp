@@ -17639,7 +17639,42 @@
       "romaji": "Shippai wa, manabu chansu.",
       "category": "Confidence",
       "generated_at": "2026-08-15T10:13:29.111262"
+    },
+    {
+      "english": "Feeling good, feeling great.",
+      "japanese": "気分がいい、最高です。",
+      "romaji": "Kibun ga ii, saikou desu.",
+      "category": "Joy",
+      "generated_at": "2026-08-15T20:20:58.932267"
+    },
+    {
+      "english": "A truly, special moment.",
+      "japanese": "本当に、特別な瞬間です。",
+      "romaji": "Hontou ni, tokubetsu na shunkan desu.",
+      "category": "Joy",
+      "generated_at": "2026-08-15T20:20:58.932278"
+    },
+    {
+      "english": "My heart is, full.",
+      "japanese": "心が、満たされています。",
+      "romaji": "Kokoro ga, mitasarete imasu.",
+      "category": "Joy",
+      "generated_at": "2026-08-15T20:20:58.932279"
+    },
+    {
+      "english": "This is, perfect!",
+      "japanese": "これは、完璧です！",
+      "romaji": "Kore wa, kanpeki desu!",
+      "category": "Joy",
+      "generated_at": "2026-08-15T20:20:58.932280"
+    },
+    {
+      "english": "So much, fun!",
+      "japanese": "すごく、楽しい！",
+      "romaji": "Sugoku, tanoshii!",
+      "category": "Joy",
+      "generated_at": "2026-08-15T20:20:58.932281"
     }
   ],
-  "last_updated": "2026-08-15T10:13:29.111264"
+  "last_updated": "2026-08-15T20:20:58.932283"
 }
