@@ -17709,7 +17709,42 @@
       "romaji": "Ikimashou ka? Osoku natte kimashita.",
       "category": "Common Expressions",
       "generated_at": "2026-08-16T02:18:52.867687"
+    },
+    {
+      "english": "My grandpa, tell me a story",
+      "japanese": "おじいちゃん、話してね",
+      "romaji": "ojiichan, hanashite ne",
+      "category": "Family Terms",
+      "generated_at": "2026-08-16T06:49:07.477389"
+    },
+    {
+      "english": "My husband, I’m home",
+      "japanese": "夫さん、ただいま",
+      "romaji": "otto-san, tadaima",
+      "category": "Family Terms",
+      "generated_at": "2026-08-16T06:49:07.477398"
+    },
+    {
+      "english": "My wife, let’s eat together",
+      "japanese": "妻は、一緒に食べよう",
+      "romaji": "tsuma wa, issho ni tabeyou",
+      "category": "Family Terms",
+      "generated_at": "2026-08-16T06:49:07.477400"
+    },
+    {
+      "english": "My son, do your homework",
+      "japanese": "息子よ、宿題をしてね",
+      "romaji": "musuko yo, shukudai o shite ne",
+      "category": "Family Terms",
+      "generated_at": "2026-08-16T06:49:07.477402"
+    },
+    {
+      "english": "My daughter, come here now",
+      "japanese": "娘よ、今こっちに来て",
+      "romaji": "musume yo, ima kocchi ni kite",
+      "category": "Family Terms",
+      "generated_at": "2026-08-16T06:49:07.477403"
     }
   ],
-  "last_updated": "2026-08-16T02:18:52.867688"
+  "last_updated": "2026-08-16T06:49:07.477404"
 }
