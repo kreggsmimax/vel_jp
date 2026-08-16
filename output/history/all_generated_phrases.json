@@ -17674,7 +17674,42 @@
       "romaji": "Sugoku, tanoshii!",
       "category": "Joy",
       "generated_at": "2026-08-15T20:20:58.932281"
+    },
+    {
+      "english": "Excuse me, where is the bathroom, please?",
+      "japanese": "すみません、トイレはどこですか？",
+      "romaji": "Sumimasen, toire wa doko desu ka?",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-16T02:18:52.867672"
+    },
+    {
+      "english": "Be careful, that’s hot!",
+      "japanese": "気をつけて、熱いよ！",
+      "romaji": "Ki o tsukete, atsui yo!",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-16T02:18:52.867682"
+    },
+    {
+      "english": "I’m not sure, let me check.",
+      "japanese": " unsure, 確認します。",
+      "romaji": "Ee, wakarimasen... kakunin shimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-16T02:18:52.867684"
+    },
+    {
+      "english": "Thank you so much, you’re so kind!",
+      "japanese": "ありがとうございます。優しいですね！",
+      "romaji": "Arigatou gozaimasu. Yasashii desu ne!",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-16T02:18:52.867686"
+    },
+    {
+      "english": "Shall we go? It’s getting late.",
+      "japanese": "行きましょうか？遅くなってきました。",
+      "romaji": "Ikimashou ka? Osoku natte kimashita.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-16T02:18:52.867687"
     }
   ],
-  "last_updated": "2026-08-15T20:20:58.932283"
+  "last_updated": "2026-08-16T02:18:52.867688"
 }
