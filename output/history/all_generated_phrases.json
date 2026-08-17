@@ -17849,7 +17849,42 @@
       "romaji": "Supīdo janai, keizoku koso shōri.",
       "category": "Success",
       "generated_at": "2026-08-17T07:05:50.498476"
+    },
+    {
+      "english": "One step forward, even if it's small.",
+      "japanese": "小さくても、一歩前に。",
+      "romaji": "Chiisakute mo, ipp no mae ni.",
+      "category": "Courage",
+      "generated_at": "2026-08-17T10:21:56.582387"
+    },
+    {
+      "english": "Fear less, try more.",
+      "japanese": "怖がらず、挑戦しよう。",
+      "romaji": "Kowagaranaku, chōsen shiyō.",
+      "category": "Courage",
+      "generated_at": "2026-08-17T10:21:56.582398"
+    },
+    {
+      "english": "Mistakes are proof you're trying.",
+      "japanese": "失敗は、挑戦の証。",
+      "romaji": "Shippai wa, chōsen no akashi.",
+      "category": "Courage",
+      "generated_at": "2026-08-17T10:21:56.582399"
+    },
+    {
+      "english": "Keep going, even when tired.",
+      "japanese": "疲れても、進もう。",
+      "romaji": "Tsukarete mo, susumō.",
+      "category": "Courage",
+      "generated_at": "2026-08-17T10:21:56.582401"
+    },
+    {
+      "english": "Doubt kills dreams, push forward.",
+      "japanese": "迷いは夢を殺す、進め。",
+      "romaji": "Mayoi wa yume o korosu, susume.",
+      "category": "Courage",
+      "generated_at": "2026-08-17T10:21:56.582402"
     }
   ],
-  "last_updated": "2026-08-17T07:05:50.498478"
+  "last_updated": "2026-08-17T10:21:56.582403"
 }
