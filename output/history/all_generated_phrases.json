@@ -17919,7 +17919,42 @@
       "romaji": "kimochi o totonete, yasashiku mata hajimeru",
       "category": "Purpose",
       "generated_at": "2026-08-17T15:31:41.552367"
+    },
+    {
+      "english": "I need a taxi, right now, please!",
+      "japanese": "今すぐ、タクシーを, お願いします！",
+      "romaji": "Ima sugu, takushī o, onegaishimasu!",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-17T20:27:25.638959"
+    },
+    {
+      "english": "Is this seat, taken?",
+      "japanese": "この席、空いていますか？",
+      "romaji": "Kono seki, aite imasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-17T20:27:25.638974"
+    },
+    {
+      "english": "Where can I exchange, some money?",
+      "japanese": "両替は, どこでできますか？",
+      "romaji": "Ryōgae wa, doko de dekimasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-17T20:27:25.638975"
+    },
+    {
+      "english": "Could you speak, a little slower?",
+      "japanese": "もっと, ゆっくり言ってください。",
+      "romaji": "Motto, yukkuri itte kudasai.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-17T20:27:25.638976"
+    },
+    {
+      "english": "This dish, is too spicy, for me.",
+      "japanese": "この料理、私には, 辛すぎます。",
+      "romaji": "Kono ryōri, watashi ni wa, karasu-gimasu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-08-17T20:27:25.638977"
     }
   ],
-  "last_updated": "2026-08-17T15:31:41.552369"
+  "last_updated": "2026-08-17T20:27:25.638979"
 }
