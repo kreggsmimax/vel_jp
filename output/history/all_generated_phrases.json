@@ -17954,7 +17954,42 @@
       "romaji": "Kono ryōri, watashi ni wa, karasu-gimasu.",
       "category": "Travel Japanese",
       "generated_at": "2026-08-17T20:27:25.638977"
+    },
+    {
+      "english": "Call an ambulance, please!",
+      "japanese": "救急車を呼んでください！",
+      "romaji": "Kyūkyōsha o yonde kudasai!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-18T02:12:57.078946"
+    },
+    {
+      "english": "I need a doctor, quickly!",
+      "japanese": "医者をお願いします、急いで！",
+      "romaji": "Isha o onegaishimasu, isoide!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-18T02:12:57.078956"
+    },
+    {
+      "english": "There's been an accident here.",
+      "japanese": "ここでありました、事故が。",
+      "romaji": "Koko de arimashita, jiko ga.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-18T02:12:57.078958"
+    },
+    {
+      "english": "Please help me, I'm trapped!",
+      "japanese": "助けてください、閉じ込められています！",
+      "romaji": "Tasukete kudasai, tojikomerarete imasu!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-18T02:12:57.078959"
+    },
+    {
+      "english": "My friend has collapsed!",
+      "japanese": "友達が倒れました！",
+      "romaji": "Tomodachi ga taoremashita!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-18T02:12:57.078961"
     }
   ],
-  "last_updated": "2026-08-17T20:27:25.638979"
+  "last_updated": "2026-08-18T02:12:57.078962"
 }
