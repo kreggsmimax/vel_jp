@@ -18269,7 +18269,42 @@
       "romaji": "kenkyo de ireba, tsuyoku nareru",
       "category": "Wisdom",
       "generated_at": "2026-08-21T10:20:28.210391"
+    },
+    {
+      "english": "Mom's cooking is the best, isn't it?",
+      "japanese": "お母さんの料理って、最高だよね。",
+      "romaji": "Okā-san no ryōri tte, saikō da yo ne.",
+      "category": "Family Terms",
+      "generated_at": "2026-08-21T15:39:36.196769"
+    },
+    {
+      "english": "Brother, could you help me, please?",
+      "japanese": "お兄ちゃん、手伝ってくれる？",
+      "romaji": "Onī-chan, tetsudatte kureru?",
+      "category": "Family Terms",
+      "generated_at": "2026-08-21T15:39:36.196780"
+    },
+    {
+      "english": "Dad's hobby is fishing, right?",
+      "japanese": "お父さんの趣味って、釣りだよね。",
+      "romaji": "Otō-san no shumi tte, tsuri da yo ne.",
+      "category": "Family Terms",
+      "generated_at": "2026-08-21T15:39:36.196782"
+    },
+    {
+      "english": "Sister's boyfriend is tall, isn't he?",
+      "japanese": "妹の彼氏って、背が高いよね。",
+      "romaji": "Imōto no kareshi tte, se ga takai yo ne.",
+      "category": "Family Terms",
+      "generated_at": "2026-08-21T15:39:36.196783"
+    },
+    {
+      "english": "Grandma always spoils us, right?",
+      "japanese": "おばあちゃんは、いつも甘やかしてくれる。",
+      "romaji": "Obā-chan wa, itsumo amayakashite kureru.",
+      "category": "Family Terms",
+      "generated_at": "2026-08-21T15:39:36.196784"
     }
   ],
-  "last_updated": "2026-08-21T10:20:28.210392"
+  "last_updated": "2026-08-21T15:39:36.196785"
 }
