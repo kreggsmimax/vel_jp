@@ -18304,7 +18304,42 @@
       "romaji": "Obā-chan wa, itsumo amayakashite kureru.",
       "category": "Family Terms",
       "generated_at": "2026-08-21T15:39:36.196784"
+    },
+    {
+      "english": "This is very helpful, thanks.",
+      "japanese": "これ、すごく助かる、ありがとう。",
+      "romaji": "kore, sugoku tasukaru, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-08-22T02:12:52.159586"
+    },
+    {
+      "english": "You're too kind, thank you.",
+      "japanese": "ご親切に、ありがとうございます。",
+      "romaji": "goshinsetsu ni, arigatou gozaimasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-08-22T02:12:52.159593"
+    },
+    {
+      "english": "I won't forget this, thanks.",
+      "japanese": "これ、忘れません、ありがとう。",
+      "romaji": "kore, wasuremasen, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-08-22T02:12:52.159594"
+    },
+    {
+      "english": "What a relief, thank you.",
+      "japanese": "助かりました、ありがとう。",
+      "romaji": "tasukarimashita, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-08-22T02:12:52.159594"
+    },
+    {
+      "english": "I'm in your debt, thanks.",
+      "japanese": "恩に着ます、ありがとう。",
+      "romaji": "on ni kimasu, arigatou.",
+      "category": "Gratitude",
+      "generated_at": "2026-08-22T02:12:52.159595"
     }
   ],
-  "last_updated": "2026-08-21T15:39:36.196785"
+  "last_updated": "2026-08-22T02:12:52.159596"
 }
