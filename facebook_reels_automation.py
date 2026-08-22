@@ -1080,6 +1080,33 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
 
 # ============== VIDEO CREATION ==============
 
+def _run_ffmpeg(cmd, max_retries: int = 3, timeout: int = 600):
+    """Run an ffmpeg command with retries. Returns True on success."""
+    import time
+    for attempt in range(1, max_retries + 1):
+        try:
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout)
+            rc = result.returncode
+            out = Path(cmd[-1])
+            if rc == 0 and out.exists() and out.stat().st_size > 0:
+                return True
+            stderr_tail = (result.stderr or "")[-600:].replace("\n", " ")
+            print(f"[video] ffmpeg attempt {attempt}/{max_retries} failed (rc={rc}): {stderr_tail}")
+        except subprocess.TimeoutExpired as e:
+            print(f"[video] ffmpeg attempt {attempt}/{max_retries} timed out: {e}")
+        except Exception as e:
+            print(f"[video] ffmpeg attempt {attempt}/{max_retries} exception: {e}")
+        try:
+            partial = Path(cmd[-1])
+            if partial.exists():
+                partial.unlink()
+        except Exception:
+            pass
+        if attempt < max_retries:
+            time.sleep(3)
+    return False
+
+
 def create_video_from_images_audio(image_files: list, audio_files: list, combined_audio: str, output_file: str):
     """Create video from images and audio with PERFECT synchronization"""
 
@@ -1107,7 +1134,8 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
             str(temp_clip)
         ]
 
-        subprocess.run(cmd, check=True, capture_output=True)
+        if not _run_ffmpeg(cmd):
+            raise RuntimeError(f"Failed to create clip {i+1} after retries")
 
     # Concatenate clips
     print("[video] Concatenating clips...")
@@ -1119,12 +1147,16 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
             f.write(f"file '{clip.resolve().as_posix()}'\n")
 
     cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file), "-c", "copy", str(temp_video)]
-    subprocess.run(cmd, check=True, capture_output=True)
+    if not _run_ffmpeg(cmd):
+        raise RuntimeError("Failed to concatenate clips after retries")
 
     # Add audio
     print("[video] Adding audio (ensuring complete playback)...")
     audio_duration = get_audio_duration(combined_audio)
     print(f"[video] Audio duration: {audio_duration:.2f}s")
+
+    if not Path(combined_audio).exists() or Path(combined_audio).stat().st_size == 0:
+        raise RuntimeError(f"Narration audio missing or empty: {combined_audio}")
 
     cmd = [
         "ffmpeg", "-y",
@@ -1135,7 +1167,20 @@ def create_video_from_images_audio(image_files: list, audio_files: list, combine
         "-shortest",
         str(output_file)
     ]
-    subprocess.run(cmd, check=True, capture_output=True)
+    mux_ok = _run_ffmpeg(cmd)
+    if not mux_ok:
+        print("[video] Mux with -c:v copy failed, retrying with re-encode...")
+        cmd = [
+            "ffmpeg", "-y",
+            "-i", str(temp_video),
+            "-i", str(combined_audio),
+            "-c:v", "libx264", "-pix_fmt", "yuv420p", "-preset", "fast",
+            "-c:a", "aac",
+            "-shortest",
+            str(output_file)
+        ]
+        if not _run_ffmpeg(cmd):
+            raise RuntimeError("Failed to mux video+audio after retries")
 
     # Verify
     video_duration = get_audio_duration(str(output_file).replace(".mp4", ".mp4"))
