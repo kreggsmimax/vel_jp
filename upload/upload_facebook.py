@@ -11,13 +11,19 @@ load_dotenv()
 
 def _post_pinned_comment(video_id, description, access_token, page_id):
     import time
-    print(f"[facebook] Posting description as pinned comment...")
+    website = "velocityjapanese.com"
+    pinned_message = (
+        f"{description}\n\n"
+        f"🌐 Learn more at our website: {website}\n"
+        f"Visit {website} for daily Japanese lessons!"
+    )
+    print(f"[facebook] Posting pinned comment with website ({website})...")
     max_retries = 5
     comment_id = None
     for attempt in range(max_retries):
         try:
             comment_url = f"https://graph.facebook.com/v21.0/{video_id}/comments"
-            comment_data = {'access_token': access_token, 'message': description}
+            comment_data = {'access_token': access_token, 'message': pinned_message}
             res_comment = requests.post(comment_url, data=comment_data, timeout=30)
             if res_comment.status_code == 200:
                 resp = res_comment.json()
