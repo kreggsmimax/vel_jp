@@ -18339,7 +18339,42 @@
       "romaji": "on ni kimasu, arigatou.",
       "category": "Gratitude",
       "generated_at": "2026-08-22T02:12:52.159595"
+    },
+    {
+      "english": "Feel the air, let it pass.",
+      "japanese": "空気を感じて、通りすぎて。",
+      "romaji": "kuuki o kanjite, toorisugite",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-22T06:49:45.074037"
+    },
+    {
+      "english": "One step, one breath, stay present.",
+      "japanese": "一歩ずつ、ひと呼吸、今に。",
+      "romaji": "ipposu zutsu, hito kokyuu, ima ni",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-22T06:49:45.074047"
+    },
+    {
+      "english": "Kindness first, even in silence.",
+      "japanese": "やさしさから、沈黙でもね。",
+      "romaji": "yasashisa kara, chinmoku demo ne",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-22T06:49:45.074050"
+    },
+    {
+      "english": "Thank your body, and soften.",
+      "japanese": "体にありがとう、力をゆるめて。",
+      "romaji": "karada ni arigatou, chikara o yurumete",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-22T06:49:45.074051"
+    },
+    {
+      "english": "Return to breath, whenever you drift.",
+      "japanese": "息に戻ってね、ふらふらしても。",
+      "romaji": "iki ni modotte ne, furafura shitemo",
+      "category": "Mindfulness",
+      "generated_at": "2026-08-22T06:49:45.074052"
     }
   ],
-  "last_updated": "2026-08-22T02:12:52.159596"
+  "last_updated": "2026-08-22T06:49:45.074054"
 }
