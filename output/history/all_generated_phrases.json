@@ -18409,7 +18409,42 @@
       "romaji": "Saigetsu, kyori, nanimo kono kizuna o kowasenai",
       "category": "Friendship",
       "generated_at": "2026-08-22T09:20:51.756335"
+    },
+    {
+      "english": "Where is the cashier, please?",
+      "japanese": "レジはどこですか、お願いします。",
+      "romaji": "reji wa doko desu ka, onegaishimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-22T09:46:21.708391"
+    },
+    {
+      "english": "I’ll take this, please.",
+      "japanese": "これください、お願いします。",
+      "romaji": "kore kudasai, onegaishimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-22T09:46:21.708401"
+    },
+    {
+      "english": "Is there a discount today?",
+      "japanese": "今日は割引ありますか。",
+      "romaji": "kyo wa waribiki arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-22T09:46:21.708403"
+    },
+    {
+      "english": "Can I pay with credit card?",
+      "japanese": "クレジットカードで払えますか。",
+      "romaji": "kurejitto kaado de haraemasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-22T09:46:21.708405"
+    },
+    {
+      "english": "Do you have this in blue?",
+      "japanese": "これの青はありますか。",
+      "romaji": "kore no ao wa arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-22T09:46:21.708406"
     }
   ],
-  "last_updated": "2026-08-22T09:20:51.756337"
+  "last_updated": "2026-08-22T09:46:21.708408"
 }
