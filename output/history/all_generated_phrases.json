@@ -18514,7 +18514,42 @@
       "romaji": "Besuto o tsukuse, hoka wa ki suru na.",
       "category": "Confidence",
       "generated_at": "2026-08-23T02:22:09.667487"
+    },
+    {
+      "english": "Try, fail, learn, repeat,",
+      "japanese": "ためす。まける。まなぶ。くりかえす。",
+      "romaji": "Tamesu. Makeru. Manabu. Kurikaesu.",
+      "category": "Purpose",
+      "generated_at": "2026-08-23T06:50:35.228183"
+    },
+    {
+      "english": "Speak slowly, listen carefully,",
+      "japanese": "ゆっくりはなして。じゅうぶんにきいて。",
+      "romaji": "Yukkuri hanashite. Jūbun ni kiite.",
+      "category": "Purpose",
+      "generated_at": "2026-08-23T06:50:35.228192"
+    },
+    {
+      "english": "Read aloud, write daily,",
+      "japanese": "おんどくを。まいにちかいて。",
+      "romaji": "Ondoku o. Mainichi kaite.",
+      "category": "Purpose",
+      "generated_at": "2026-08-23T06:50:35.228194"
+    },
+    {
+      "english": "Watch anime, listen to J-pop,",
+      "japanese": "アニメをみて。Jポップをきいて。",
+      "romaji": "Anime o mite. J-poppu o kiite.",
+      "category": "Purpose",
+      "generated_at": "2026-08-23T06:50:35.228195"
+    },
+    {
+      "english": "Order food, count money, ask for help,",
+      "japanese": "たべものをちゅうもんして。かねをかぞえて。たすけをもとめて。",
+      "romaji": "Tabemono o chūmon shite. Kane o kazoe te. Tasuke o motomete.",
+      "category": "Purpose",
+      "generated_at": "2026-08-23T06:50:35.228197"
     }
   ],
-  "last_updated": "2026-08-23T02:22:09.667489"
+  "last_updated": "2026-08-23T06:50:35.228198"
 }
