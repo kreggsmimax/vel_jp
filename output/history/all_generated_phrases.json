@@ -18584,7 +18584,42 @@
       "romaji": "Chiisa na shōri o mainichi no yō ni iwau.",
       "category": "Success",
       "generated_at": "2026-08-23T10:13:32.257510"
+    },
+    {
+      "english": "Wow! This is amazing, right?",
+      "japanese": "ああっ！すごいですね！",
+      "romaji": "Aa! Sugoi desu ne!",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-23T15:28:36.191592"
+    },
+    {
+      "english": "Can I help you, or leave you alone?",
+      "japanese": "手伝いましょうか？それとも、放っておきましょうか？",
+      "romaji": "Tetsudaimashou ka? Soretomo, houtte okimashou ka?",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-23T15:28:36.191605"
+    },
+    {
+      "english": "No way! That’s impossible!",
+      "japanese": "うそ！あり得ない！",
+      "romaji": "Uso! Ari-enai!",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-23T15:28:36.191607"
+    },
+    {
+      "english": "I’m sorry, I didn’t mean to bother you.",
+      "japanese": "すみません、邪魔するつもりじゃなかったです。",
+      "romaji": "Sumimasen, jama suru tsumori ja nakatta desu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-23T15:28:36.191609"
+    },
+    {
+      "english": "Let’s meet at the usual place, okay?",
+      "japanese": "いつもの場所で会いましょう、いいですか？",
+      "romaji": "Itsumo no basho de aimashou, ii desu ka?",
+      "category": "Common Expressions",
+      "generated_at": "2026-08-23T15:28:36.191610"
     }
   ],
-  "last_updated": "2026-08-23T10:13:32.257512"
+  "last_updated": "2026-08-23T15:28:36.191612"
 }
