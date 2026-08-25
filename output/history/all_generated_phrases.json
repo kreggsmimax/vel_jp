@@ -18794,7 +18794,42 @@
       "romaji": "otagai iyasou, yurushiaou",
       "category": "Forgiveness",
       "generated_at": "2026-08-25T06:57:31.569017"
+    },
+    {
+      "english": "Call the police immediately!",
+      "japanese": "すぐに警察を呼んでください！",
+      "romaji": "Suguni keisatsu o yonde kudasai!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-25T15:50:48.480393"
+    },
+    {
+      "english": "I can't breathe, I need air!",
+      "japanese": "呼吸ができません、空気が必要です！",
+      "romaji": "Kokyū ga dekimasen, kūki ga hitsuyōdesu!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-25T15:50:48.480406"
+    },
+    {
+      "english": "Someone is bleeding badly.",
+      "japanese": "誰かがひどく出血しています。",
+      "romaji": "Dareka ga hidoku shukketsu shite imasu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-25T15:50:48.480408"
+    },
+    {
+      "english": "Fire! Get everyone out!",
+      "japanese": "火事です、皆を逃がしてください！",
+      "romaji": "Kaji desu, mina o nigashite kudasai!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-25T15:50:48.480410"
+    },
+    {
+      "english": "I've lost my child, please help!",
+      "japanese": "子供を見失いました、助けてください！",
+      "romaji": "Kodomo o miushimashita, tasukete kudasai!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-08-25T15:50:48.480411"
     }
   ],
-  "last_updated": "2026-08-25T06:57:31.569018"
+  "last_updated": "2026-08-25T15:50:48.480413"
 }
