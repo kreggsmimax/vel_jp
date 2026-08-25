@@ -18759,7 +18759,42 @@
       "romaji": "Kanpeki yori, shinpo o.",
       "category": "Strength",
       "generated_at": "2026-08-24T20:29:14.589192"
+    },
+    {
+      "english": "Thank you, I forgive you too.",
+      "japanese": "ありがとう、私も許します。",
+      "romaji": "arigatou, watashi mo yurushimasu",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-25T06:57:31.569002"
+    },
+    {
+      "english": "Please don’t worry, I’m letting go.",
+      "japanese": "心配しないで、手放します。",
+      "romaji": "shinpai shinaide, tebanashimasu",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-25T06:57:31.569013"
+    },
+    {
+      "english": "You can start again, I forgive you.",
+      "japanese": "また始めていいよ、許すから。",
+      "romaji": "mata hajimete ii yo, yurusu kara",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-25T06:57:31.569015"
+    },
+    {
+      "english": "I’ll stop holding grudges, forgive me.",
+      "japanese": "恨みをやめます、許してね。",
+      "romaji": "urami o yamemasu, yurusite ne",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-25T06:57:31.569016"
+    },
+    {
+      "english": "We both can heal, forgive each other.",
+      "japanese": "お互い癒やそう、許し合おう。",
+      "romaji": "otagai iyasou, yurushiaou",
+      "category": "Forgiveness",
+      "generated_at": "2026-08-25T06:57:31.569017"
     }
   ],
-  "last_updated": "2026-08-24T20:29:14.589193"
+  "last_updated": "2026-08-25T06:57:31.569018"
 }
