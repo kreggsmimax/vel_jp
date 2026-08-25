@@ -18829,7 +18829,42 @@
       "romaji": "Kodomo o miushimashita, tasukete kudasai!",
       "category": "Emergency Japanese",
       "generated_at": "2026-08-25T15:50:48.480411"
+    },
+    {
+      "english": "Morning, grab some coffee, wake up gently",
+      "japanese": "朝だよ、コーヒー飲んで、ゆっくり起きよう",
+      "romaji": "Asa da yo, koohii nonde, yukkuri okiyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-08-25T20:31:03.375477"
+    },
+    {
+      "english": "Afternoon, short break, recharge yourself",
+      "japanese": "お昼、少し休んで、リフレッシュしよう",
+      "romaji": "Ohiru, sukoshi yasunde, rifureshushiyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-08-25T20:31:03.375491"
+    },
+    {
+      "english": "Evening, slow down, enjoy the quiet",
+      "japanese": "夜になった、ゆっくりして、静けさを楽しもう",
+      "romaji": "Yoru ni natta, yukkuri shite, shizukesa o tanoshimou",
+      "category": "Time Japanese",
+      "generated_at": "2026-08-25T20:31:03.375493"
+    },
+    {
+      "english": "Late night, sleep early, tomorrow’s fresh",
+      "japanese": "遅くなった、早く寝て、明日の元気を貯めよう",
+      "romaji": "Osoku natta, hayaku nete, ashita no genki o tameyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-08-25T20:31:03.375495"
+    },
+    {
+      "english": "Weekday rush, pause, breathe deep",
+      "japanese": "平日だって、一旦止まって、深呼吸しよう",
+      "romaji": "Heijitsu datte, ittan tomatte, shin kokyuu shiyou",
+      "category": "Time Japanese",
+      "generated_at": "2026-08-25T20:31:03.375496"
     }
   ],
-  "last_updated": "2026-08-25T15:50:48.480413"
+  "last_updated": "2026-08-25T20:31:03.375498"
 }
