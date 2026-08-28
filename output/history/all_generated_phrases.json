@@ -19004,7 +19004,42 @@
       "romaji": "Yorokobi o wakachiaeba... yorokobi wa nibai ni",
       "category": "Kindness",
       "generated_at": "2026-08-28T12:26:20.403643"
+    },
+    {
+      "english": "Is this table available?",
+      "japanese": "この席, 空いていますか？",
+      "romaji": "Kono seki, aite imasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-28T18:27:28.157660"
+    },
+    {
+      "english": "May I have some water?",
+      "japanese": "お水を, お願いできますか？",
+      "romaji": "Omizu o, onegai dekimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-28T18:27:28.157671"
+    },
+    {
+      "english": "I'll have this dish.",
+      "japanese": "これを, 頂きます。",
+      "romaji": "Kore o, itadakimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-28T18:27:28.157673"
+    },
+    {
+      "english": "Can I get this to go?",
+      "japanese": "お持ち帰り, できますか？",
+      "romaji": "Omochikaeri, dekimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-28T18:27:28.157674"
+    },
+    {
+      "english": "Do you accept credit cards?",
+      "japanese": "クレジットカードは, 使えますか？",
+      "romaji": "Kurejitto kādo wa, tsukaemasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-08-28T18:27:28.157675"
     }
   ],
-  "last_updated": "2026-08-28T12:26:20.403645"
+  "last_updated": "2026-08-28T18:27:28.157677"
 }
