@@ -19074,7 +19074,42 @@
       "romaji": "Anata wa, ima no mama de, jūbun",
       "category": "Inner Peace",
       "generated_at": "2026-08-28T21:02:15.701998"
+    },
+    {
+      "english": "Where is the cash register please?",
+      "japanese": "レジはあちらですか？",
+      "romaji": "Reji wa achira desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-30T22:25:25.066776"
+    },
+    {
+      "english": "Do you have this in a different size?",
+      "japanese": "これ、違うサイズありますか？",
+      "romaji": "Kore, chigau saizu arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-30T22:25:25.066786"
+    },
+    {
+      "english": "I’ll take this one, please.",
+      "japanese": "これをください。",
+      "romaji": "Kore o kudasai.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-30T22:25:25.066788"
+    },
+    {
+      "english": "How much is this item?",
+      "japanese": "これはいくらですか？",
+      "romaji": "Kore wa ikura desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-30T22:25:25.066789"
+    },
+    {
+      "english": "Is this item on sale now?",
+      "japanese": "これ、セール中ですか？",
+      "romaji": "Kore, sēru-chū desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-08-30T22:25:25.066790"
     }
   ],
-  "last_updated": "2026-08-28T21:02:15.702000"
+  "last_updated": "2026-08-30T22:25:25.066792"
 }
