@@ -19144,7 +19144,42 @@
       "romaji": "Koko de tomatte, kono shunkan de jūbun.",
       "category": "Mindfulness",
       "generated_at": "2026-08-31T13:16:58.660669"
+    },
+    {
+      "english": "Thank you, I feel grateful today.",
+      "japanese": "ありがとうございます、今日はありがたいです。",
+      "romaji": "arigatou gozaimasu, kyou wa arigatai desu.",
+      "category": "Gratitude",
+      "generated_at": "2026-09-01T05:57:42.373710"
+    },
+    {
+      "english": "Thanks for helping me, I appreciate you.",
+      "japanese": "手伝ってくれてありがとう、感謝しています。",
+      "romaji": "tetsudatte kurete arigatou, kansha shiteimasu.",
+      "category": "Gratitude",
+      "generated_at": "2026-09-01T05:57:42.373721"
+    },
+    {
+      "english": "I’m grateful, your kindness means a lot.",
+      "japanese": "感謝しています、あなたのやさしさが大きいです。",
+      "romaji": "kansha shiteimasu, anata no yasashisa ga ookii desu.",
+      "category": "Gratitude",
+      "generated_at": "2026-09-01T05:57:42.373723"
+    },
+    {
+      "english": "Thank you, I won’t forget your support.",
+      "japanese": "ありがとう、あなたの支えは忘れません。",
+      "romaji": "arigatou, anata no sasae wa wasuremasen.",
+      "category": "Gratitude",
+      "generated_at": "2026-09-01T05:57:42.373725"
+    },
+    {
+      "english": "Thanks, you made today easier for me.",
+      "japanese": "ありがとう、今日は楽になりました。",
+      "romaji": "arigatou, kyou wa raku ni narimashita.",
+      "category": "Gratitude",
+      "generated_at": "2026-09-01T05:57:42.373726"
     }
   ],
-  "last_updated": "2026-08-31T13:16:58.660671"
+  "last_updated": "2026-09-01T05:57:42.373728"
 }
