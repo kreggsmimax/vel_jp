@@ -19249,7 +19249,42 @@
       "romaji": "Anata no monogatari ni wa, imi ga aru",
       "category": "Positive Life",
       "generated_at": "2026-09-02T18:31:06.115070"
+    },
+    {
+      "english": "Mistakes happen, don't worry about it.",
+      "japanese": "ミスは付き物です、気にしないでください。",
+      "romaji": "Misu wa tsukimono desu, ki ni shinai de kudasai.",
+      "category": "Forgiveness",
+      "generated_at": "2026-09-03T10:59:42.363143"
+    },
+    {
+      "english": "It's fine, let's move forward together.",
+      "japanese": "大丈夫です、一緒に前に進みましょう。",
+      "romaji": "Daijoubu desu, issho ni mae ni susumimashou.",
+      "category": "Forgiveness",
+      "generated_at": "2026-09-03T10:59:42.363164"
+    },
+    {
+      "english": "I apologize for my rudeness, it won't happen again.",
+      "japanese": "失礼な態度を取ってすみません、二度とありません。",
+      "romaji": "Shitsurei na taido o totte sumimasen, nido to arimasen.",
+      "category": "Forgiveness",
+      "generated_at": "2026-09-03T10:59:42.363165"
+    },
+    {
+      "english": "No need to stress, I forgive you.",
+      "japanese": "気にしなくていいよ、許します。",
+      "romaji": "Ki ni shinakute ii yo, yurushimasu.",
+      "category": "Forgiveness",
+      "generated_at": "2026-09-03T10:59:42.363167"
+    },
+    {
+      "english": "This is on me, my mistake entirely.",
+      "japanese": "これは私のせいです、完全な私のミスです。",
+      "romaji": "Kore wa watashi no sei desu, kanzen na watashi no misu desu.",
+      "category": "Forgiveness",
+      "generated_at": "2026-09-03T10:59:42.363168"
     }
   ],
-  "last_updated": "2026-09-02T18:31:06.115072"
+  "last_updated": "2026-09-03T10:59:42.363171"
 }
