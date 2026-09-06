@@ -14,7 +14,6 @@ on:
 # Use Node.js 24 for JavaScript-based actions
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
 jobs:
   generate-and-upload:
@@ -76,7 +75,7 @@ jobs:
       - name: 🔐 Create .env file from secrets
         run: |
           echo "POLLINATIONS_API_KEY=${{ secrets.POLLINATIONS_API_KEY }}" >> .env
-          echo "AI_MODEL=gemini-fast" >> .env
+          echo "AI_MODEL=${{ secrets.AI_MODEL || 'openai' }}" >> .env
           echo "" >> .env
           echo "# YouTube" >> .env
           echo "YT_CLIENT_ID=${{ secrets.YT_CLIENT_ID }}" >> .env

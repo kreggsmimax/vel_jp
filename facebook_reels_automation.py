@@ -5,6 +5,7 @@ IMPROVED VERSION: Better backgrounds, English categories, no repeats, Velocity J
 
 import os
 import sys
+import re
 import json
 import random
 import asyncio
@@ -19,13 +20,32 @@ if sys.platform == "win32":
 load_dotenv()
 
 POLLINATIONS_API_KEY = os.getenv("POLLINATIONS_API_KEY")
-AI_MODEL = os.getenv("AI_MODEL")
+AI_MODEL = os.getenv("AI_MODEL", "openai")
 
-if not AI_MODEL:
-    raise ValueError(
-        "AI_MODEL not set! Please add 'AI_MODEL=gemini-fast' to your .env file. "
-        "For GitHub Actions: Add AI_MODEL to repository secrets."
-    )
+def has_japanese_characters(text: str) -> bool:
+    """Check if string contains at least one Japanese character (Hiragana, Katakana, or Kanji)."""
+    if not text:
+        return False
+    return bool(re.search(r'[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9faf]', text))
+
+def sanitize_text(text: str, is_romaji: bool = False) -> str:
+    """Clean text string, removing high-plane emoji artifacts and normalizing punctuation."""
+    if not text:
+        return ""
+    text = re.sub(r'[\r\n]+', ' ', text)
+    # Remove emoji & symbols that cause tofu rectangle boxes
+    text = re.sub(r'[\U00010000-\U0010ffff]', '', text)
+    text = re.sub(r'[\u2600-\u26ff\u2700-\u27bf\u2300-\u23ff]', '', text)
+    if is_romaji:
+        trans = {
+            '！': '!', '？': '?', '、': ', ', '。': '. ', '・': ' ',
+            '〜': '~', '～': '~', '「': '"', '」': '"', '『': '"', '』': '"',
+            '（': '(', '）': ')', '［': '[', '］': ']', '　': ' '
+        }
+        for k, v in trans.items():
+            text = text.replace(k, v)
+        text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 # Directories
 BASE_DIR = Path(__file__).parent
@@ -205,14 +225,16 @@ def get_available_category():
 # ============== CONTENT GENERATION ==============
 
 def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
-    """Generate unique bilingual phrases with natural pauses, ensuring no repeats"""
+    """Generate unique bilingual phrases with natural pauses, ensuring no repeats and valid Japanese."""
 
-    category_japanese = CATEGORIES_JAPANESE[category_english]
+    category_japanese = CATEGORIES_JAPANESE.get(category_english, "日本語")
 
-    # Try AI first with multiple models
-    models_to_try = ["gemini-fast", "openai", "mistral", "llama"]
+    # Priority models on Pollinations (OpenAI is most reliable for Japanese text)
+    models_to_try = ["openai", "gemini-fast", "mistral"]
     if AI_MODEL in models_to_try:
         models_to_try.remove(AI_MODEL)
+        models_to_try.insert(0, AI_MODEL)
+    elif AI_MODEL:
         models_to_try.insert(0, AI_MODEL)
 
     import requests
@@ -225,37 +247,30 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
                     "Content-Type": "application/json"
                 }
 
-                prompt = f"""Create {num_phrases * 2} unique {category_english} phrases for English speakers learning Japanese.
+                prompt = f"""Create {num_phrases * 2} unique {category_english} ({category_japanese}) phrases for English speakers learning Japanese.
 
-IMPORTANT RULES FOR NATURAL SPEECH:
-1. Keep phrases SHORT (5-12 words max per language)
-2. Add NATURAL PAUSES using commas (e.g., "Dream big, start small")
-3. Use punctuation for breathing room in TTS
-4. Avoid long run-on sentences
-5. Each phrase should be speakable in 3-5 seconds
-6. Japanese text should be CLEAN - use standard Japanese (mix of Kanji, Hiragana, Katakana as appropriate)
-7. Do NOT include multiple versions or slashes - just ONE clean Japanese translation
+IMPORTANT RULES:
+1. Keep phrases SHORT (3-10 words per language).
+2. Add NATURAL PAUSES using commas in English (e.g. "Good morning, everyone", "Thank you, very much").
+3. MANDATORY: The 'japanese' field MUST contain REAL Japanese characters (Kanji, Hiragana, Katakana). NEVER return empty or romaji-only in 'japanese'.
+4. The 'romaji' field MUST be clean Hepburn Romaji using ONLY English Latin letters and standard ASCII punctuation.
+5. Return ONLY a valid JSON array of objects. No markdown explanations.
 
-For each phrase:
-1. English phrase (with commas for natural pauses)
-2. Japanese translation (natural Japanese with appropriate Kanji/Hiragana/Katakana)
-3. Romaji pronunciation guide (Hepburn Romanization, e.g., "konnichiwa")
-
-Return as JSON array:
-[{{"english": "...", "japanese": "...", "romaji": "..."}}]
-
-IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before."""
+Format:
+[
+  {{"english": "Good morning, everyone", "japanese": "皆さん、おはようございます。", "romaji": "Minasan, ohayou gozaimasu."}}
+]"""
 
                 payload = {
                     "model": model,
                     "messages": [
-                        {"role": "system", "content": "You are a Japanese teacher. Create short, natural phrases with pauses."},
+                        {"role": "system", "content": "You are a professional Japanese educator. Output strictly valid JSON arrays of Japanese phrases."},
                         {"role": "user", "content": prompt}
                     ],
-                    "temperature": 0.9
+                    "temperature": 0.7
                 }
 
-                response = requests.post(url, headers=headers, json=payload, timeout=120)
+                response = requests.post(url, headers=headers, json=payload, timeout=60)
                 response.raise_for_status()
 
                 data = response.json()
@@ -267,19 +282,47 @@ IMPORTANT: Create FRESH, UNIQUE phrases that haven't been used before."""
                     content = content.split("```")[1].split("```")[0].strip()
 
                 phrases = json.loads(content)
+                if isinstance(phrases, dict):
+                    # In case model wrapped it in an object like {"phrases": [...]}
+                    for k in ["phrases", "items", "data", "result"]:
+                        if k in phrases and isinstance(phrases[k], list):
+                            phrases = phrases[k]
+                            break
+
+                if not isinstance(phrases, list):
+                    continue
 
                 unique_phrases = []
-                for phrase in phrases:
-                    if len(phrase["english"].split()) > 15:
+                for p in phrases:
+                    if not isinstance(p, dict):
                         continue
-                    if not is_phrase_used(phrase["english"]):
-                        unique_phrases.append(phrase)
+
+                    eng = sanitize_text(p.get("english") or p.get("English") or "")
+                    jap = sanitize_text(p.get("japanese") or p.get("Japanese") or p.get("kanji") or p.get("nihongo") or p.get("translation") or "")
+                    rom = sanitize_text(p.get("romaji") or p.get("Romaji") or p.get("pronunciation") or p.get("transliteration") or "", is_romaji=True)
+
+                    if not eng or len(eng.split()) > 15:
+                        continue
+
+                    # CRITICAL: Verify Japanese characters exist
+                    if not has_japanese_characters(jap):
+                        print(f"  [content] Skipping item missing Japanese kana/kanji: {eng} -> '{jap}'")
+                        continue
+
+                    if not is_phrase_used(eng):
+                        unique_phrases.append({
+                            "english": eng,
+                            "japanese": jap,
+                            "romaji": rom or eng
+                        })
+
                     if len(unique_phrases) >= num_phrases:
                         break
 
                 if len(unique_phrases) >= num_phrases:
-                    add_phrases_to_history(unique_phrases[:num_phrases], category_english)
-                    return unique_phrases[:num_phrases]
+                    selected = unique_phrases[:num_phrases]
+                    add_phrases_to_history(selected, category_english)
+                    return selected
 
             except Exception as e:
                 print(f"[content] {model} attempt {attempt + 1} failed: {e}")
@@ -559,25 +602,52 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
 
     fallbacks = all_fallbacks.get(category, all_fallbacks["Motivation"])
     fresh_phrases = [p for p in fallbacks if not is_phrase_used(p["english"])]
-    return fresh_phrases[:num_phrases]
+
+    # If all unused phrases for this category are exhausted, recycle from fallbacks
+    if len(fresh_phrases) < num_phrases:
+        remaining = [p for p in fallbacks if p not in fresh_phrases]
+        random.shuffle(remaining)
+        fresh_phrases.extend(remaining[:num_phrases - len(fresh_phrases)])
+
+    # If still not enough, pool from other categories
+    if len(fresh_phrases) < num_phrases:
+        all_pool = []
+        for cat_list in all_fallbacks.values():
+            all_pool.extend(cat_list)
+        random.shuffle(all_pool)
+        fresh_phrases.extend(all_pool[:num_phrases - len(fresh_phrases)])
+
+    result = []
+    for p in fresh_phrases[:num_phrases]:
+        result.append({
+            "english": sanitize_text(p.get("english", "")),
+            "japanese": sanitize_text(p.get("japanese", "")),
+            "romaji": sanitize_text(p.get("romaji", ""), is_romaji=True)
+        })
+    return result
 
 
 # ============== AUDIO GENERATION ==============
 
-async def generate_single_audio(text: str, voice: str, output_path: str):
-    """Generate audio using Edge TTS"""
+async def generate_single_audio(text: str, voice: str, output_path: str) -> bool:
+    """Generate audio using Edge TTS with strict verification"""
+    if not text or not text.strip():
+        return False
     try:
         import edge_tts
-        communicate = edge_tts.Communicate(text, voice)
+        communicate = edge_tts.Communicate(text.strip(), voice)
         await communicate.save(output_path)
-        return True
+        out = Path(output_path)
+        if out.exists() and out.stat().st_size > 500:
+            return True
+        return False
     except Exception as e:
-        print(f"  TTS error: {e}")
+        print(f"    TTS error: {e}")
         return False
 
 
 def generate_all_audio(phrases: list, output_dir: str):
-    """Generate audio for all phrases with proper timing"""
+    """Generate audio for all phrases with proper timing and seamless concatenation"""
 
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -586,6 +656,7 @@ def generate_all_audio(phrases: list, output_dir: str):
     for i, phrase in enumerate(phrases):
         english_file = output_dir / f"english_{i}.mp3"
         japanese_file = output_dir / f"japanese_{i}.mp3"
+        pause_file = output_dir / f"pause_{i}.mp3"
         combined_file = output_dir / f"combined_{i}.mp3"
 
         print(f"\n  Phrase {i+1}:")
@@ -597,7 +668,8 @@ def generate_all_audio(phrases: list, output_dir: str):
         if en_success:
             print(f"    ✓ English: {english_file.name}")
         else:
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(english_file)]
+            print(f"    ⚠️ English TTS unavailable, generating clean silence")
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", "2.0", "-c:a", "libmp3lame", "-b:a", "192k", str(english_file)]
             subprocess.run(cmd, capture_output=True)
 
         # Generate Japanese audio
@@ -605,42 +677,56 @@ def generate_all_audio(phrases: list, output_dir: str):
         if jp_success:
             print(f"    ✓ Japanese: {japanese_file.name}")
         else:
-            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "2", str(japanese_file)]
+            print(f"    ⚠️ Japanese TTS unavailable, generating clean silence")
+            cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", "2.0", "-c:a", "libmp3lame", "-b:a", "192k", str(japanese_file)]
             subprocess.run(cmd, capture_output=True)
+
+        # Generate 0.5s pause audio
+        pause_between = 0.5
+        cmd = ["ffmpeg", "-y", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", str(pause_between), "-c:a", "libmp3lame", "-b:a", "192k", str(pause_file)]
+        subprocess.run(cmd, capture_output=True)
 
         # Get ACTUAL durations
         en_duration = get_audio_duration(str(english_file))
         jp_duration = get_audio_duration(str(japanese_file))
-
-        # Add pause between English and Japanese
-        pause_between = 0.5
         total_duration = en_duration + pause_between + jp_duration
 
         print(f"    ⏱️  Total: {total_duration:.2f}s (EN: {en_duration:.2f}s + pause: {pause_between}s + JP: {jp_duration:.2f}s)")
 
-        # Combine audio files
+        # Combine audio files (English + Pause + Japanese) with normalized stereo 44.1kHz
         cmd = [
             "ffmpeg", "-y",
             "-i", str(english_file),
+            "-i", str(pause_file),
             "-i", str(japanese_file),
-            "-filter_complex", f"[0:a][1:a]concat=n=2:v=0:a=1[out]",
+            "-filter_complex",
+            "[0:a]aformat=sample_rates=44100:channel_layouts=stereo[a0];"
+            "[1:a]aformat=sample_rates=44100:channel_layouts=stereo[a1];"
+            "[2:a]aformat=sample_rates=44100:channel_layouts=stereo[a2];"
+            "[a0][a1][a2]concat=n=3:v=0:a=1[out]",
             "-map", "[out]",
+            "-c:a", "libmp3lame",
+            "-b:a", "192k",
             str(combined_file)
         ]
 
         result = subprocess.run(cmd, capture_output=True, text=True)
 
-        if result.returncode != 0:
+        if result.returncode != 0 or not combined_file.exists() or combined_file.stat().st_size == 0:
             concat_file = output_dir / f"concat_{i}.txt"
             with open(concat_file, "w", encoding="utf-8") as f:
                 f.write(f"file '{english_file.as_posix()}'\n")
+                f.write(f"file '{pause_file.as_posix()}'\n")
                 f.write(f"file '{japanese_file.as_posix()}'\n")
 
             cmd = [
                 "ffmpeg", "-y",
                 "-f", "concat", "-safe", "0",
                 "-i", str(concat_file),
-                "-c:a", "aac",
+                "-c:a", "libmp3lame",
+                "-ar", "44100",
+                "-ac", "2",
+                "-b:a", "192k",
                 str(combined_file)
             ]
             subprocess.run(cmd, capture_output=True)
@@ -666,42 +752,58 @@ def generate_all_audio(phrases: list, output_dir: str):
 
 def get_audio_duration(audio_file: str) -> float:
     """Get audio duration in seconds"""
-    if not Path(audio_file).exists():
+    if not Path(audio_file).exists() or Path(audio_file).stat().st_size == 0:
         return 2.0
     cmd = ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=noprint_wrappers=1:nokey=1", audio_file]
     result = subprocess.run(cmd, capture_output=True, text=True)
     try:
-        return float(result.stdout.strip())
-    except:
+        val = float(result.stdout.strip())
+        return val if val > 0 else 2.0
+    except Exception:
         return 2.0
 
 
-def create_final_narration(audio_files: list, output_file: str):
-    """Combine all audio files"""
-    n = len(audio_files)
+def create_final_narration(audio_files: list, output_file: str) -> bool:
+    """Combine all audio files with fallback re-encoding"""
+    output_path = Path(output_file)
+    valid_files = [Path(a["combined"]) for a in audio_files if Path(a["combined"]).exists() and Path(a["combined"]).stat().st_size > 500]
+    if not valid_files:
+        raise RuntimeError("No valid combined audio files to create final narration")
+
+    n = len(valid_files)
     print(f"[audio] Combining {n} audio files...")
 
-    concat_file = Path(output_file).parent / "narration_list.txt"
-
+    concat_file = output_path.parent / "narration_list.txt"
     with open(concat_file, "w", encoding="utf-8") as f:
-        for audio_info in audio_files:
-            combined_path = Path(audio_info["combined"])
-            if combined_path.exists():
-                path_str = str(combined_path.resolve()).replace("\\", "/").replace("'", "'\\''")
-                f.write(f"file '{path_str}'\n")
+        for p in valid_files:
+            path_str = str(p.resolve()).replace("\\", "/").replace("'", "'\\''")
+            f.write(f"file '{path_str}'\n")
 
-    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file), "-c:a", "copy", str(output_file)]
+    # Attempt 1: Fast stream copy
+    cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file), "-c:a", "copy", str(output_path)]
     result = subprocess.run(cmd, capture_output=True, text=True)
+
+    # Attempt 2: Re-encode with standard MP3 settings
+    if result.returncode != 0 or not output_path.exists() or output_path.stat().st_size == 0:
+        print("[audio] Stream copy concat failed, re-encoding narration with libmp3lame...")
+        cmd2 = [
+            "ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(concat_file),
+            "-c:a", "libmp3lame", "-ar", "44100", "-ac", "2", "-b:a", "192k",
+            str(output_path)
+        ]
+        result2 = subprocess.run(cmd2, capture_output=True, text=True)
+        if result2.returncode != 0:
+            print(f"[audio] Re-encode failed: {result2.stderr[-400:] if result2.stderr else ''}")
 
     if concat_file.exists():
         concat_file.unlink()
 
-    if result.returncode == 0 and Path(output_file).exists() and Path(output_file).stat().st_size > 0:
-        size = Path(output_file).stat().st_size
-        print(f"\n[audio] ✓ Final narration: {Path(output_file).name} ({size/1024:.1f} KB)")
+    if output_path.exists() and output_path.stat().st_size > 0:
+        size = output_path.stat().st_size
+        print(f"\n[audio] ✓ Final narration: {output_path.name} ({size/1024:.1f} KB)")
         return True
 
-    return False
+    raise RuntimeError(f"Narration audio creation failed: {output_file}")
 
 
 # ============== IMAGE GENERATION ==============
@@ -869,9 +971,9 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
     font_branding = load_font(english_font_paths, SIZE_BRANDING)
     font_progress = load_font(english_font_paths, SIZE_PROGRESS)
 
-    english = phrase_data.get("english", "")
-    japanese = phrase_data.get("japanese", "")
-    romaji = phrase_data.get("romaji", "")
+    english = sanitize_text(phrase_data.get("english", ""))
+    japanese = sanitize_text(phrase_data.get("japanese", ""))
+    romaji = sanitize_text(phrase_data.get("romaji", ""), is_romaji=True)
     romaji_text = f"[{romaji}]" if romaji else ""
 
     def wrap_text(text, font, max_width):
@@ -917,6 +1019,15 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
                                 current_line = ch
             if current_line:
                 lines.append(current_line)
+
+            # Kinsoku Shori: Never let closing punctuation start a new line alone
+            cleaned_lines = []
+            for l in lines:
+                if l.strip() in '。、！？・!?~' and cleaned_lines:
+                    cleaned_lines[-1] += l.strip()
+                else:
+                    cleaned_lines.append(l)
+            lines = cleaned_lines
         else:
             words = text.split()
             current_line = []
@@ -935,7 +1046,13 @@ def generate_complete_image(phrase_data: dict, category_english: str, output_pat
         return lines
 
     def pick_native_font(text, max_w):
+        # Prefer single-line display if possible (L -> M -> S)
         for font, name in [(font_native_l, 'L'), (font_native_m, 'M'), (font_native_s, 'S')]:
+            lines = wrap_text(text, font, max_w)
+            if len(lines) == 1:
+                return font, lines
+        # Otherwise pick font that fits in at most 2 balanced lines
+        for font, name in [(font_native_m, 'M'), (font_native_s, 'S')]:
             lines = wrap_text(text, font, max_w)
             if len(lines) <= 2:
                 return font, lines

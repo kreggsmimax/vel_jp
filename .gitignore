@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.env
+output/video/
+output/audio/
+output/images/
+*.log
+.DS_Store

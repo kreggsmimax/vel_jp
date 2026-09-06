@@ -45,7 +45,7 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
         except Exception as e:
             print(f"[facebook] Pin error: {e}")
 
-def upload_to_facebook(video_path, description, title="VELOCITY HEBREW"):
+def upload_to_facebook(video_path, description, title="VELOCITY JAPANESE"):
     print("\n" + "=" * 60)
     print("FACEBOOK UPLOAD")
     print("=" * 60)

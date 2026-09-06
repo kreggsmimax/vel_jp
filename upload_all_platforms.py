@@ -74,6 +74,7 @@ def get_latest_reel():
 
 
 LANGUAGE_MAP = {
+    "jp": "Japanese", "japanese": "Japanese", "jap": "Japanese", "ja": "Japanese",
     "slovn": "Slovenian", "slovenian": "Slovenian",
     "heb": "Hebrew", "hebrew": "Hebrew",
     "dut": "Dutch", "dutch": "Dutch",
