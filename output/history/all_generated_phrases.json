@@ -19389,7 +19389,42 @@
       "romaji": "Machi wa daijōbu. Tonikaku susunde.",
       "category": "Purpose",
       "generated_at": "2026-09-04T18:14:00.119143"
+    },
+    {
+      "english": "You’re my best friend, always",
+      "japanese": "あなたは、親友です。いつも",
+      "romaji": "Anata wa, shinyuu desu. Itsumo.",
+      "category": "Friendship",
+      "generated_at": "2026-09-06T20:16:35.663748"
+    },
+    {
+      "english": "Thanks for being with me, today",
+      "japanese": "今日は、そばにいてくれてありがとう",
+      "romaji": "Kyou wa, soba ni itekurete arigatou.",
+      "category": "Friendship",
+      "generated_at": "2026-09-06T20:16:35.663760"
+    },
+    {
+      "english": "We laugh together, every day",
+      "japanese": "毎日、一緒に笑おう",
+      "romaji": "Mainichi, issho ni waraou.",
+      "category": "Friendship",
+      "generated_at": "2026-09-06T20:16:35.663762"
+    },
+    {
+      "english": "Your smile makes me happy",
+      "japanese": "あなたの笑顔が、うれしい",
+      "romaji": "Anata no egao ga, ureshii.",
+      "category": "Friendship",
+      "generated_at": "2026-09-06T20:16:35.663763"
+    },
+    {
+      "english": "Let’s support each other, always",
+      "japanese": "いつも、支え合おう",
+      "romaji": "Itsumo, sasae aou.",
+      "category": "Friendship",
+      "generated_at": "2026-09-06T20:16:35.663764"
     }
   ],
-  "last_updated": "2026-09-04T18:14:00.119145"
+  "last_updated": "2026-09-06T20:16:35.663766"
 }
