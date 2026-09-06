@@ -20,7 +20,7 @@ if sys.platform == "win32":
 load_dotenv()
 
 POLLINATIONS_API_KEY = os.getenv("POLLINATIONS_API_KEY")
-AI_MODEL = os.getenv("AI_MODEL", "openai")
+AI_MODEL = os.getenv("AI_MODEL", "gemini-fast")
 
 def has_japanese_characters(text: str) -> bool:
     """Check if string contains at least one Japanese character (Hiragana, Katakana, or Kanji)."""
@@ -229,8 +229,8 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
 
     category_japanese = CATEGORIES_JAPANESE.get(category_english, "日本語")
 
-    # Priority models on Pollinations (OpenAI is most reliable for Japanese text)
-    models_to_try = ["openai", "gemini-fast", "mistral"]
+    # Priority models on Pollinations: gemini-fast prioritized first, with resilient fallbacks
+    models_to_try = ["gemini-fast", "openai", "mistral"]
     if AI_MODEL in models_to_try:
         models_to_try.remove(AI_MODEL)
         models_to_try.insert(0, AI_MODEL)
@@ -243,9 +243,10 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
             try:
                 url = "https://gen.pollinations.ai/v1/chat/completions"
                 headers = {
-                    "Authorization": f"Bearer {POLLINATIONS_API_KEY}",
                     "Content-Type": "application/json"
                 }
+                if POLLINATIONS_API_KEY:
+                    headers["Authorization"] = f"Bearer {POLLINATIONS_API_KEY}"
 
                 prompt = f"""Create {num_phrases * 2} unique {category_english} ({category_japanese}) phrases for English speakers learning Japanese.
 
@@ -281,7 +282,23 @@ Format:
                 elif "```" in content:
                     content = content.split("```")[1].split("```")[0].strip()
 
-                phrases = json.loads(content)
+                phrases = None
+                try:
+                    phrases = json.loads(content)
+                except Exception as parse_err:
+                    print(f"  [content] Direct JSON parse failed ({parse_err}), attempting regex object recovery for {model}...")
+                    obj_matches = re.findall(r'\{[^{}]*(?:"english"|"English")[^{}]*(?:"japanese"|"Japanese"|"kanji")[^{}]*\}', content, re.DOTALL)
+                    if obj_matches:
+                        recovered = []
+                        for m in obj_matches:
+                            try:
+                                recovered.append(json.loads(m))
+                            except Exception:
+                                continue
+                        if recovered:
+                            phrases = recovered
+                            print(f"  [content] Successfully recovered {len(phrases)} phrases via regex!")
+
                 if isinstance(phrases, dict):
                     # In case model wrapped it in an object like {"phrases": [...]}
                     for k in ["phrases", "items", "data", "result"]:
