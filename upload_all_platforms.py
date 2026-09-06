@@ -164,7 +164,7 @@ def get_language_name(phrases, lang_field):
         for code, name in LANGUAGE_MAP.items():
             if code in sample:
                 return name
-    return lang_field.capitalize()
+    return "Japanese"
 
 
 FALLBACK_PHRASES = [

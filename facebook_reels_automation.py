@@ -64,11 +64,15 @@ VIDEO_HEIGHT = 1920
 FPS = 30
 
 # English category names (for American/European learners)
-# Essential Japanese learning categories + Motivational categories
+# Essential Japanese learning categories + Viral Phenomenon + Motivational categories
 CATEGORIES_ENGLISH = [
     # Essential Japanese Learning (Priority)
     "Greetings", "Basic Phrases", "Common Expressions", "Travel Japanese", "Restaurant Japanese",
     "Shopping Japanese", "Emergency Japanese", "Family Terms", "Numbers Japanese", "Time Japanese",
+    # Viral & Cultural Phenomenon Categories (High Engagement / Social Shares)
+    "Untranslatable Japanese", "Zen Wisdom", "Anime Quotes", "Heartfelt Romance", "Native Slang",
+    "Deep Encouragement", "Life Philosophy", "Mindset Shift", "Tokyo Street Japanese", "Foodie Reactions",
+    "Kawaii Japanese", "Samurai Spirit", "Quiet Strength", "Serenity", "Soul Connection",
     # Motivational Categories
     "Motivation", "Love", "Success", "Wisdom", "Happiness",
     "Self Improvement", "Gratitude", "Friendship", "Hope", "Creativity",
@@ -90,6 +94,22 @@ CATEGORIES_JAPANESE = {
     "Family Terms": "家族用語",
     "Numbers Japanese": "数字日本語",
     "Time Japanese": "時間日本語",
+    # Viral & Cultural Phenomenon Categories
+    "Untranslatable Japanese": "言葉の美学",
+    "Zen Wisdom": "禅の知恵",
+    "Anime Quotes": "アニメ名言",
+    "Heartfelt Romance": "胸キュン・愛の言葉",
+    "Native Slang": "リアル若者言葉",
+    "Deep Encouragement": "心に響く励まし",
+    "Life Philosophy": "人生の哲学",
+    "Mindset Shift": "マインドセット",
+    "Tokyo Street Japanese": "東京ストリート会話",
+    "Foodie Reactions": "絶品グルメ表現",
+    "Kawaii Japanese": "可愛いリアクション",
+    "Samurai Spirit": "武士道の精神",
+    "Quiet Strength": "静かな強さ",
+    "Serenity": "心の静寂",
+    "Soul Connection": "魂の絆",
     # Motivational Categories
     "Motivation": "モチベーション",
     "Love": "愛",
@@ -248,18 +268,21 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
                 if POLLINATIONS_API_KEY:
                     headers["Authorization"] = f"Bearer {POLLINATIONS_API_KEY}"
 
-                prompt = f"""Create {num_phrases * 2} unique {category_english} ({category_japanese}) phrases for English speakers learning Japanese.
+                prompt = f"""You are an elite Japanese content creator crafting high-retention, VIRAL Facebook Reels & Shorts for 'Velocity Japanese'.
+Category: {category_english} ({category_japanese})
+Target: Create {num_phrases * 2} unique, emotionally resonant, and culturally fascinating Japanese phrases designed to go VIRAL.
 
-IMPORTANT RULES:
-1. Keep phrases SHORT (3-10 words per language).
-2. Add NATURAL PAUSES using commas in English (e.g. "Good morning, everyone", "Thank you, very much").
-3. MANDATORY: The 'japanese' field MUST contain REAL Japanese characters (Kanji, Hiragana, Katakana). NEVER return empty or romaji-only in 'japanese'.
-4. The 'romaji' field MUST be clean Hepburn Romaji using ONLY English Latin letters and standard ASCII punctuation.
-5. Return ONLY a valid JSON array of objects. No markdown explanations.
+VIRAL ENGAGEMENT GUIDELINES:
+1. Make phrases punchy, deeply meaningful, and instantly relatable (3-8 words per language).
+2. Prioritize phrases with emotional punch, profound Japanese cultural nuance (like Yojijukugo, untranslatable beauty, or clever native speaking hacks) that make viewers stop scrolling, hit save, and share.
+3. Natural rhythm: Add natural pauses using commas in English (e.g., "In the quiet moments, truth appears", "No matter how dark, dawn always comes").
+4. MANDATORY: The 'japanese' field MUST contain AUTHENTIC Japanese characters (Kanji, Hiragana, Katakana). NEVER return empty or romaji-only in 'japanese'.
+5. The 'romaji' field MUST be clean Hepburn Romaji using ONLY English Latin letters and standard ASCII punctuation (!, ?, .).
+6. Return ONLY a valid JSON array of objects. No markdown explanations, no conversational text.
 
 Format:
 [
-  {{"english": "Good morning, everyone", "japanese": "皆さん、おはようございます。", "romaji": "Minasan, ohayou gozaimasu."}}
+  {{"english": "Fall seven times, stand up eight.", "japanese": "七転び八起き。", "romaji": "Nanakorobi yaoki."}}
 ]"""
 
                 payload = {
@@ -438,6 +461,49 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
             {"english": "See you at noon.", "japanese": "正午に会いましょう。", "romaji": "Shougo ni aimashou."},
             {"english": "I'll be there in five minutes.", "japanese": "5 分後に行きます。", "romaji": "Go-fun-go ni ikimasu."},
             {"english": "What day is today?", "japanese": "今日は何曜日ですか？", "romaji": "Kyou wa nan'youbi desu ka?"},
+        ],
+        # Viral & Cultural Phenomenon Categories
+        "Untranslatable Japanese": [
+            {"english": "Cherish every unrepeatable encounter.", "japanese": "一期一会の出会いを大切に。", "romaji": "Ichigo ichie no deai o taisetsu ni."},
+            {"english": "Finding beauty in imperfection.", "japanese": "侘び寂びの心を感じる。", "romaji": "Wabi-sabi no kokoro o kanjiru."},
+            {"english": "Sunlight filtering through trees.", "japanese": "木漏れ日がとても綺麗ですね。", "romaji": "Komorebi ga totemo kirei desu ne."},
+            {"english": "Finding your true reason for being.", "japanese": "自分だけの生きがいを見つけよう。", "romaji": "Jibun dake no ikigai o mitsukeyou."},
+            {"english": "Healing with gold, stronger than before.", "japanese": "金継ぎのように、傷も美しさに変わる。", "romaji": "Kintsugi no you ni, kizu mo utsukushisa ni kawaru."},
+        ],
+        "Anime Quotes": [
+            {"english": "I will never give up, no matter what.", "japanese": "絶対に諦めない、何があっても。", "romaji": "Zettai ni akiramenai, nani ga attemo."},
+            {"english": "Believe in the you that believes in yourself.", "japanese": "自分を信じる自分を信じろ。", "romaji": "Jibun o shinjiru jibun o shinjiro."},
+            {"english": "I will protect what matters most.", "japanese": "一番大切なものを守り抜く。", "romaji": "Ichiban taisetsu na mono o mamorinuku."},
+            {"english": "Even in darkness, light always shines.", "japanese": "暗闇の中でも、必ず光は射す。", "romaji": "Kurayami no naka demo, kanarazu hikari wa sasu."},
+            {"english": "Our true story begins right now.", "japanese": "ここから、本当の物語が始まる。", "romaji": "Koko kara, hontou no monogatari ga hajimaru."},
+        ],
+        "Zen Wisdom": [
+            {"english": "A quiet mind, like clear water.", "japanese": "明鏡止水の心を持つ。", "romaji": "Meikyou shisui no kokoro o motsu."},
+            {"english": "Every single day is a good day.", "japanese": "日々是好日、今日を愛そう。", "romaji": "Nichi nichi kore koujitsu, kyou o aisou."},
+            {"english": "Live completely in this present moment.", "japanese": "今この瞬間に全力を尽くす。", "romaji": "Ima kono shunkan ni zenryoku o tsukusu."},
+            {"english": "True richness lies in simplicity.", "japanese": "簡素の中にこそ、真の豊かさがある。", "romaji": "Kanso no naka ni koso, shin no yutakasa ga aru."},
+            {"english": "Let your attachments drift away freely.", "japanese": "雲のように、執着を手放す。", "romaji": "Kumo no you ni, shuuchaku o tebanasu."},
+        ],
+        "Heartfelt Romance": [
+            {"english": "Please stay by my side, always.", "japanese": "ずっとそばにいてほしい。", "romaji": "Zutto soba ni ite hoshii."},
+            {"english": "The moon is beautiful tonight, isn't it?", "japanese": "今夜は月がとても綺麗ですね。", "romaji": "Konya wa tsuki ga totemo kirei desu ne."},
+            {"english": "I am so grateful to have met you.", "japanese": "あなたに出会えて、本当によかった。", "romaji": "Anata ni deaete, hontou ni yokatta."},
+            {"english": "Whenever I see you, my heart races.", "japanese": "あなたを見るたび、胸がドキドキします。", "romaji": "Anata o miru tabi, mune ga dokidoki shimasu."},
+            {"english": "You bring warmth into my world.", "japanese": "あなたが私の世界を温かくしてくれる。", "romaji": "Anata ga watashi no sekai o atatakaku shite kureru."},
+        ],
+        "Native Slang": [
+            {"english": "Are you seriously telling the truth?", "japanese": "マジで言ってるの？", "romaji": "Maji de itteru no?"},
+            {"english": "That is insanely amazing!", "japanese": "それ、ヤバすぎるでしょ！", "romaji": "Sore, yaba sugiru desho!"},
+            {"english": "No way, you must be kidding!", "japanese": "嘘でしょ、信じられない！", "romaji": "Uso desho, shinjirarenai!"},
+            {"english": "As expected of you, you're the best!", "japanese": "さすが、頼りになるね！", "romaji": "Sasuga, tayori ni naru ne!"},
+            {"english": "I totally, completely agree with that!", "japanese": "それな、完全に同感！", "romaji": "Sore na, kanzen ni doukan!"},
+        ],
+        "Deep Encouragement": [
+            {"english": "You don't have to carry it all alone.", "japanese": "一人で抱え込まなくて大丈夫だよ。", "romaji": "Hitori de kakae komana kute daijoubu da yo."},
+            {"english": "Take it easy, at your own pace.", "japanese": "焦らず、自分のペースで進もう。", "romaji": "Aserazu, jibun no peesu de susumou."},
+            {"english": "Your best is more than enough today.", "japanese": "今日の頑張りは、十分素晴らしい。", "romaji": "Kyou no ganbari wa, juubun subarashii."},
+            {"english": "After the heaviest rain comes the rainbow.", "japanese": "やまない雨は、絶対にない。", "romaji": "Yamanai ame wa, zettai ni nai."},
+            {"english": "Be proud of how far you've come.", "japanese": "ここまで歩んできた自分を誇ろう。", "romaji": "Koko made ayunde kita jibun o hokorou."},
         ],
         # Motivational Categories
         "Motivation": [

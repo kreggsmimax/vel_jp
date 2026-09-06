@@ -1,5 +1,5 @@
 """
-Facebook Reels Upload - VELOCITY HEBREW
+Facebook Reels Upload - VELOCITY JAPANESE
 """
 
 import os
