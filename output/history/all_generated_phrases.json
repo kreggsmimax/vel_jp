@@ -19529,7 +19529,42 @@
       "romaji": "Nintai wa chikara, hibi tsumiageru.",
       "category": "Quiet Strength",
       "generated_at": "2026-09-07T05:34:28.556440"
+    },
+    {
+      "english": "First bite, tears almost fall.",
+      "japanese": "一口目、涙が出そう。",
+      "romaji": "Ikkuchi me, namida ga desou.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-07T12:06:57.552806"
+    },
+    {
+      "english": "Hurry slowly, ramen tastes deeper.",
+      "japanese": "急がば回れ、ラーメン深まる。",
+      "romaji": "Isogaba maware, ramen fukamaru.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-07T12:06:57.552817"
+    },
+    {
+      "english": "Warm bowl, cold worries melt.",
+      "japanese": "熱々の器、冷えた心ほどける。",
+      "romaji": "Atsu-atsu no utsuwa, hieta kokoro hokeru.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-07T12:06:57.552819"
+    },
+    {
+      "english": "If it’s not served, it isn’t ready.",
+      "japanese": "出された瞬間が、仕上がり。",
+      "romaji": "Dasareta shunkan ga, shiagari.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-07T12:06:57.552821"
+    },
+    {
+      "english": "Flavor hits, silence becomes gratitude.",
+      "japanese": "味が刺さる、無言が礼。",
+      "romaji": "Aji ga sas a ru, mumon ga rei.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-07T12:06:57.552822"
     }
   ],
-  "last_updated": "2026-09-07T05:34:28.556441"
+  "last_updated": "2026-09-07T12:06:57.552824"
 }
