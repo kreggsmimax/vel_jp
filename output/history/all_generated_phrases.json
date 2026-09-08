@@ -19774,7 +19774,42 @@
       "romaji": "Arashi ni mukatte aruke.",
       "category": "Wisdom",
       "generated_at": "2026-09-08T14:00:18.080081"
+    },
+    {
+      "english": "Even small wins, keep shining.",
+      "japanese": "小さな勝ちも、光になる。",
+      "romaji": "Chiisana kachi mo, hikari ni naru.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-08T18:26:46.939592"
+    },
+    {
+      "english": "In silence, answers arrive.",
+      "japanese": "沈黙が、答えを連れてくる。",
+      "romaji": "Chinmoku ga, kotae o tsurete kuru.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-08T18:26:46.939601"
+    },
+    {
+      "english": "Worry once, act twice.",
+      "japanese": "悩むなら一回、動くのは二回。",
+      "romaji": "Nayamu nara ikkai, ugoku no wa nikai.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-08T18:26:46.939603"
+    },
+    {
+      "english": "Hard days, become your strength.",
+      "japanese": "つらい日は、強さに変わる。",
+      "romaji": "Tsurai hi wa, tsuyosa ni kawaru.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-08T18:26:46.939604"
+    },
+    {
+      "english": "The heart learns, little by little.",
+      "japanese": "心は、少しずつ学ぶ。",
+      "romaji": "Kokoro wa, sukoshi zutsu manabu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-08T18:26:46.939605"
     }
   ],
-  "last_updated": "2026-09-08T14:00:18.080083"
+  "last_updated": "2026-09-08T18:26:46.939607"
 }
