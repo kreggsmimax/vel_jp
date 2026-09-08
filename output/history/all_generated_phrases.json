@@ -19844,7 +19844,70 @@
       "romaji": "Hitogomi demo, omoiyari wasurenai.",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-09-08T22:23:58.870193"
+    },
+    {
+      "english": "This is seriously delicious, no joke!",
+      "japanese": "これ、マジで美味すぎなんだけど！",
+      "romaji": "Kore, maji de oishisugi nan da kedo!",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T04:50:47.046183"
+    },
+    {
+      "english": "I could eat this every single day.",
+      "japanese": "これ、毎日でも食べられちゃうわ。",
+      "romaji": "Kore, mainichi demo tabera re chau wa.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T04:50:47.046198"
+    },
+    {
+      "english": "What's the most popular dish here?",
+      "japanese": "ここ、一番人気なメニューって何ですか？",
+      "romaji": "Koko, ichiban ninki na menyū tte nan desu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T04:50:47.046201"
+    },
+    {
+      "english": "Excuse me, where is that place?",
+      "japanese": "すみません、あそこどこですか？",
+      "romaji": "Sumimasen, asoko doko desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-09T04:50:55.254665"
+    },
+    {
+      "english": "This is really crowded, isn't it?",
+      "japanese": "めっちゃ混んでるね、これ。",
+      "romaji": "Metcha konderu ne, kore.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-09T04:50:55.254716"
+    },
+    {
+      "english": "Wow, that looks amazing!",
+      "japanese": "うわ、めっちゃ美味しそう！",
+      "romaji": "Uwa, metcha oishisou!",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-09T04:50:55.254719"
+    },
+    {
+      "english": "This hot snack is surprisingly cheap!",
+      "japanese": "この揚げ物、意外と安いんだよね！",
+      "romaji": "Kono agetmono, igai to yasui n' da yo ne!",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-09T04:51:01.949699"
+    },
+    {
+      "english": "Get free hot water for instant ramen.",
+      "japanese": "カップ麺用のお湯、タダでもらえるよ。",
+      "romaji": "Kappumen you no oyu, tada de moraeru yo.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-09T04:51:01.949750"
+    },
+    {
+      "english": "They have cool limited-edition drinks.",
+      "japanese": "ここでしか買えない限定ドリンクあるよ。",
+      "romaji": "Koko de shika kaenai gentei dorinku aru yo.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-09T04:51:01.949751"
     }
   ],
-  "last_updated": "2026-09-08T22:23:58.870195"
+  "last_updated": "2026-09-09T04:51:01.949758"
 }
