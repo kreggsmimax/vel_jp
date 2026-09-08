@@ -19739,7 +19739,42 @@
       "romaji": "Sawaganai, tan-tan ga chikara.",
       "category": "Strength",
       "generated_at": "2026-09-08T10:59:22.384416"
+    },
+    {
+      "english": "Silence, then courage speaks.",
+      "japanese": "沈黙のあとに勇気が言う。",
+      "romaji": "Chinmoku no ato ni yuki ga iu.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-08T14:00:18.080066"
+    },
+    {
+      "english": "Small steps, big destiny arrives.",
+      "japanese": "小さな一歩が運命を呼ぶ。",
+      "romaji": "Chiisana ippo ga unmei o yobu.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-08T14:00:18.080076"
+    },
+    {
+      "english": "After tears, kindness returns.",
+      "japanese": "涙のあとに優しさが戻る。",
+      "romaji": "Namida no ato ni yasashisa ga modoru.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-08T14:00:18.080078"
+    },
+    {
+      "english": "Waste time, but never waste effort.",
+      "japanese": "時間は無駄にしても、努力は無駄にするな。",
+      "romaji": "Jikan wa muda ni shitemo, doryoku wa muda ni suruna.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-08T14:00:18.080080"
+    },
+    {
+      "english": "Face the storm, walk on.",
+      "japanese": "嵐に向かって歩け。",
+      "romaji": "Arashi ni mukatte aruke.",
+      "category": "Wisdom",
+      "generated_at": "2026-09-08T14:00:18.080081"
     }
   ],
-  "last_updated": "2026-09-08T10:59:22.384418"
+  "last_updated": "2026-09-08T14:00:18.080083"
 }
