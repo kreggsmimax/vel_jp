@@ -19809,7 +19809,42 @@
       "romaji": "Kokoro wa, sukoshi zutsu manabu.",
       "category": "Common Expressions",
       "generated_at": "2026-09-08T18:26:46.939605"
+    },
+    {
+      "english": "In Tokyo rush, breathe—then speak.",
+      "japanese": "東京の喧騒、息をしてから。",
+      "romaji": "Tokyo no kensou, iki o shite kara.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-08T22:23:58.870181"
+    },
+    {
+      "english": "Smile first, wounds later heal.",
+      "japanese": "笑ってから、傷が治る。",
+      "romaji": "Emotte kara, kizu ga naoru.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-08T22:23:58.870189"
+    },
+    {
+      "english": "No matter the rain, walk on.",
+      "japanese": "雨でも、足は止めない。",
+      "romaji": "Ame demo, ashi wa tomenai.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-08T22:23:58.870191"
+    },
+    {
+      "english": "Silent train, loud feelings today.",
+      "japanese": "無言の電車、胸は満員。",
+      "romaji": "Mugon no densha, mune wa mannen.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-08T22:23:58.870192"
+    },
+    {
+      "english": "Even in crowds, be kind.",
+      "japanese": "人混みでも、思いやり忘れない。",
+      "romaji": "Hitogomi demo, omoiyari wasurenai.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-08T22:23:58.870193"
     }
   ],
-  "last_updated": "2026-09-08T18:26:46.939607"
+  "last_updated": "2026-09-08T22:23:58.870195"
 }
