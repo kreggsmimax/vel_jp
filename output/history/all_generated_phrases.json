@@ -20075,7 +20075,42 @@
       "romaji": "Doko de kaikei sureba ii desu ka?",
       "category": "Shopping Japanese",
       "generated_at": "2026-09-09T09:04:09.348232"
+    },
+    {
+      "english": "Good morning, did you sleep well?",
+      "japanese": "おはようございます、よく眠れましたか。",
+      "romaji": "ohayō gozaimasu, yoku nemure mashita ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T05:39:23.408007"
+    },
+    {
+      "english": "Hi, sorry I’m late.",
+      "japanese": "こんにちは、遅れてすみません。",
+      "romaji": "konnichiwa, okurete sumimasen.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T05:39:23.408018"
+    },
+    {
+      "english": "Excuse me, are you waiting here?",
+      "japanese": "すみません、こちらでお待ちですか。",
+      "romaji": "sumimasen, kochira de omachi desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T05:39:23.408019"
+    },
+    {
+      "english": "Morning, how are you feeling today?",
+      "japanese": "おはよう、今日は元気ですか。",
+      "romaji": "ohayō, kyō wa genki desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T05:39:23.408021"
+    },
+    {
+      "english": "Hello, how’s your day going?",
+      "japanese": "こんにちは、調子どうですか。",
+      "romaji": "konnichiwa, chōshi dō desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T05:39:23.408022"
     }
   ],
-  "last_updated": "2026-09-09T09:04:09.348234"
+  "last_updated": "2026-09-09T05:39:23.408024"
 }
