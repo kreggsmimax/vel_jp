@@ -20180,7 +20180,42 @@
       "romaji": "Fuyu ga chikadzuite kite, kūki ga kansō shitemasu.",
       "category": "Weather & Seasons",
       "generated_at": "2026-09-09T14:02:02.011206"
+    },
+    {
+      "english": "My mom is coming over today.",
+      "japanese": "母が今日来ます。",
+      "romaji": "Haha ga kyou kimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-09T18:26:11.162149"
+    },
+    {
+      "english": "My dad works late these days.",
+      "japanese": "父は最近遅くまで働いてます。",
+      "romaji": "Chichi wa saikin osokumade hataraite masu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-09T18:26:11.162161"
+    },
+    {
+      "english": "My older sister is really kind.",
+      "japanese": "姉はすごく優しいです。",
+      "romaji": "Ane wa sugoku yasashii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-09T18:26:11.162164"
+    },
+    {
+      "english": "My younger brother is still in school.",
+      "japanese": "弟はまだ学校です。",
+      "romaji": "Otouto wa mada gakkou desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-09T18:26:11.162166"
+    },
+    {
+      "english": "We’re having dinner with my parents tonight.",
+      "japanese": "今夜は両親とご飯です。",
+      "romaji": "Kon'ya wa ryoushin to gohan desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-09T18:26:11.162168"
     }
   ],
-  "last_updated": "2026-09-09T14:02:02.011208"
+  "last_updated": "2026-09-09T18:26:11.162170"
 }
