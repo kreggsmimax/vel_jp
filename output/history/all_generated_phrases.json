@@ -20215,7 +20215,42 @@
       "romaji": "Kon'ya wa ryoushin to gohan desu.",
       "category": "Family Terms",
       "generated_at": "2026-09-09T18:26:11.162168"
+    },
+    {
+      "english": "Do you have this without onions, please?",
+      "japanese": "玉ねぎ抜きでできますか？",
+      "romaji": "Tamanegi nuki de dekimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T22:18:44.282660"
+    },
+    {
+      "english": "How spicy is the curry, really?",
+      "japanese": "このカレーって、辛さどのくらいですか？",
+      "romaji": "Kono karē tte, karasa dono kurai desu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T22:18:44.282670"
+    },
+    {
+      "english": "Can I get the less sweet version?",
+      "japanese": "甘さ控えめにできますか？",
+      "romaji": "Amisa hikaeme ni dekimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T22:18:44.282672"
+    },
+    {
+      "english": "Is there a lunch set with miso soup?",
+      "japanese": "味噌汁付きのランチセットありますか？",
+      "romaji": "Misoshiru tsuki no ranchi setto arimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T22:18:44.282673"
+    },
+    {
+      "english": "Do you take allergies seriously here?",
+      "japanese": "アレルギーは対応していますか？",
+      "romaji": "Arerugī wa taiō shite imasuka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-09T22:18:44.282675"
     }
   ],
-  "last_updated": "2026-09-09T18:26:11.162170"
+  "last_updated": "2026-09-09T22:18:44.282676"
 }
