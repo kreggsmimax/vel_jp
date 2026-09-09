@@ -20110,7 +20110,42 @@
       "romaji": "konnichiwa, chōshi dō desu ka.",
       "category": "Greetings",
       "generated_at": "2026-09-09T05:39:23.408022"
+    },
+    {
+      "english": "Can I use a credit card here?",
+      "japanese": "こちらクレジットカード使えますか。",
+      "romaji": "Kochira kurejitto kaado tsukaemasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-09T11:04:07.134740"
+    },
+    {
+      "english": "Yeah, pay with card then.",
+      "japanese": "うん、カードで払って。",
+      "romaji": "Un, kaado de haratte.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-09T11:04:07.134751"
+    },
+    {
+      "english": "Try the smaller one, it’ll fit.",
+      "japanese": "小さいのでいけるよ。",
+      "romaji": "Chiisai node ikeru yo.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-09T11:04:07.134753"
+    },
+    {
+      "english": "How long does it take to get there?",
+      "japanese": "そこまでどれくらいかかりますか。",
+      "romaji": "Soko made dore kurai kakarimasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-09T11:04:07.134754"
+    },
+    {
+      "english": "About 20 minutes, maybe less.",
+      "japanese": "たぶん20分くらいで、短いよ。",
+      "romaji": "Tabun nijuppun kurai de, mijikai yo.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-09T11:04:07.134755"
     }
   ],
-  "last_updated": "2026-09-09T05:39:23.408024"
+  "last_updated": "2026-09-09T11:04:07.134757"
 }
