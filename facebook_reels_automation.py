@@ -275,8 +275,58 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
 
     import requests
 
-    # Pick dynamic viral hook style for this run (HablaVerse style)
-    viral_style = random.choice(VIRAL_STYLES)
+    # Category-specific viral styles to guarantee 100% realistic, natural, authentic Japanese
+    CATEGORY_VIRAL_STYLES = {
+        "Heartfelt Romance": [
+            "sweet romantic confession", "heartfelt romantic expression", "subtle Japanese love nuance", "cute date conversation"
+        ],
+        "Tokyo Street Japanese": [
+            "real modern street slang", "casual banter between friends", "youth culture reaction in Shibuya/Shinjuku"
+        ],
+        "Native Slang": [
+            "trendy youth slang", "viral Japanese slang on social media", "funny casual exclamation"
+        ],
+        "Foodie Reactions": [
+            "mind-blowing food reaction", "compliment to the chef", "authentic gourmet expression"
+        ],
+        "Convenience Store Hacks": [
+            "smart konbini ordering trick", "convenience store survival phrase", "quick counter secret"
+        ],
+        "Anime Quotes": [
+            "iconic heroic determination line", "memorable emotional quote", "classic famous catchphrase"
+        ],
+        "Izakaya & Nightlife": [
+            "drinking party toast & reaction", "ordering favorite bar snacks", "casual pub conversation"
+        ],
+        "Kawaii Japanese": [
+            "adorable friendly reaction", "cute compliment", "wholesome happy expression"
+        ],
+        "Polite vs Casual": [
+            "how to switch from formal to friendly", "polite staff phrase vs casual friend reply"
+        ],
+        "Untranslatable Japanese": [
+            "untranslatable cultural aesthetic (mono no aware, komorebi, ikigai)"
+        ],
+        "Zen Wisdom": [
+            "mindful present-moment wisdom", "peaceful acceptance philosophy"
+        ],
+        "Deep Encouragement": [
+            "gentle supportive words for tough times", "warm comforting reassurance"
+        ]
+    }
+
+    CORE_PRACTICAL_STYLES = [
+        "must-know essential phrase that locals appreciate",
+        "common beginner mistake correction (how natives actually say it)",
+        "quick native speaker hack (natural conversational shortcut)",
+        "real-life practical situation natives encounter daily",
+        "polite, natural phrase that makes Japanese locals smile",
+        "insider tip for sounding natural and respectful in Japan"
+    ]
+
+    # Pick dynamic viral hook style tailored to this category
+    category_styles = CATEGORY_VIRAL_STYLES.get(category_english, CORE_PRACTICAL_STYLES)
+    viral_style = random.choice(category_styles)
 
     # Build exclusion list from recent history so model actively avoids repeating recent phrases
     history = load_phrase_history()
@@ -287,34 +337,35 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
         exclusion_note = f"\n\nAVOID these phrases (already recently used):\n" + "\n".join(f"- {p}" for p in sample_avoid)
 
     system_prompt = (
-        "You are a viral Japanese language educator creating engaging educational content for social media (TikTok, Reels, Shorts). "
-        "Generate practical, authentic, native-level Japanese phrases that learners actually want to share, save, and use in real conversations. "
-        "IMPORTANT: Create COMPLETE sentences with NO blanks, NO underscores, NO placeholders. "
-        "Every phrase must be a full, natural sentence that can be spoken aloud by text-to-speech. "
-        "Avoid phrases like 'I am allergic to ____' - instead use specific examples like 'I am allergic to peanuts'. "
-        "Return ONLY a valid JSON array format with no additional markdown text or commentary. "
-        f"Style angle: Make each phrase feel like a {viral_style} - something people will immediately screenshot, save, and share! "
-        "CRITICAL: Keep phrases SHORT and PUNCHY (max 8-12 words in English). "
-        "Use natural everyday vocabulary that learners can understand and remember. "
-        f"STRICT CATEGORY FOCUS: Every single phrase MUST be directly and specifically relevant to '{category_english}'. "
-        "DO NOT write generic motivational or inspirational quotes unless the category explicitly asks for it."
+        "You are an elite native Japanese language educator creating practical educational content for social media (TikTok, Reels, Shorts). "
+        "Generate 100% REALISTIC, NATURAL, everyday Japanese phrases that people actually speak in real daily life in Japan. "
+        "STRICT REALISM & AUTHENTICITY RULES: "
+        "1. Real-life authenticity: Every phrase must be something a real person would genuinely say in Japan today. "
+        "   NEVER generate awkward, bizarre, stiff, or unrealistic sentences (e.g. no calling cashiers 'darling', no stiff textbook jargon). "
+        "2. NO placeholders whatsoever: NO [Name], NO [Item], NO brackets [], NO fill-in-the-blanks (____). "
+        "   Always use concrete, natural words (e.g., 'Nice to meet you, I'm Ken' or 'Do you have this in a medium size?'). "
+        "3. Contextual Politeness: "
+        "   - Use natural polite Japanese (Desu/Masu) for stores, restaurants, transit, strangers, and office. "
+        "   - Use natural casual Japanese only for street slang, anime quotes, and close friends. "
+        "4. High retention: Short, punchy (max 8-12 words in English), with natural commas so text-to-speech sounds like a real human. "
+        f"5. Strict Category Focus: Every single phrase MUST directly match the theme of '{category_english}'. "
+        "   DO NOT write generic motivational or inspirational quotes unless the category explicitly asks for it."
     )
 
     user_prompt = (
-        f"Create {num_phrases * 2} ESSENTIAL and VIRAL {category_english} ({category_japanese}) phrases for English speakers learning Japanese.\n"
-        f"Each phrase must be UNIQUE, PRACTICAL, and ENGAGING - perfect for high-retention social media reels.\n\n"
+        f"Create {num_phrases * 2} 100% REALISTIC, ESSENTIAL, and VIRAL {category_english} ({category_japanese}) phrases for English speakers learning Japanese.\n"
+        f"Focus strictly on realistic real-world usage for '{category_english}'.\n\n"
         f"For each phrase, provide:\n"
         f"1. english: Natural, conversational English (COMPLETE sentence with NO blanks or underscores, MAX 8-12 WORDS).\n"
         f"2. japanese: Authentic native Japanese characters (Kanji, Hiragana, Katakana). NEVER empty, NEVER Romaji in this field.\n"
         f"3. romaji: Clean Hepburn Romaji pronunciation for English speakers.\n\n"
         f"CRITICAL RULES:\n"
-        f"- DIRECT CATEGORY RELEVANCE: Phrases MUST fit '{category_english}' authentically (real practical expressions that fit the topic, NOT generic motivational quotes).\n"
-        f"- NO placeholders (____), NO brackets [item], NO fill-in-the-blanks. Always use concrete words.\n"
+        f"- DIRECT CATEGORY RELEVANCE & REALISM: Phrases MUST be 100% authentic and realistic for '{category_english}' (how people genuinely speak in Japan).\n"
+        f"- NO placeholders (NO [Name], NO [Item]), NO brackets, NO fill-in-the-blanks. Always use concrete words.\n"
         f"- Natural pauses: Use natural commas in English so text-to-speech has great pacing.\n"
-        f"- Variety: Mix practical essentials, native speaker tricks, and catchy expressions.\n"
         f"- Style angle: {viral_style}.\n"
         f"{exclusion_note}\n\n"
-        f"Return ONLY valid JSON array:\n"
+        f"Return strictly as a JSON array of objects:\n"
         f'[\n  {{"english": "...", "japanese": "...", "romaji": "..."}}\n]'
     )
 
@@ -391,6 +442,11 @@ def generate_phrases(category_english: str, num_phrases: int = 5) -> list:
                     # CRITICAL: Verify Japanese characters exist
                     if not has_japanese_characters(jap):
                         print(f"  [content] Skipping item missing Japanese kana/kanji: {eng} -> '{jap}'")
+                        continue
+
+                    # CRITICAL: Reject placeholders like [Name], [Item], brackets, or blanks
+                    if re.search(r'[\[\]{}|_\_]', eng) or re.search(r'[\[\]{}|_\_]', jap):
+                        print(f"  [content] Skipping item with placeholders/brackets: {eng} -> '{jap}'")
                         continue
 
                     if not is_phrase_used(eng):

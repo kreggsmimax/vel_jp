@@ -19907,7 +19907,175 @@
       "romaji": "Koko de shika kaenai gentei dorinku aru yo.",
       "category": "Convenience Store Hacks",
       "generated_at": "2026-09-09T04:51:01.949751"
+    },
+    {
+      "english": "Good morning! Have a great day!",
+      "japanese": "おはようございます。良い一日を！",
+      "romaji": "Ohayou gozaimasu. Yoi ichinichi o!",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:02:12.770061"
+    },
+    {
+      "english": "Hello, fancy seeing you here!",
+      "japanese": "こんにちは、偶然ですね！",
+      "romaji": "Konnichiwa, guuzen desu ne!",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:02:12.770102"
+    },
+    {
+      "english": "Nice to meet you, I'm [Name].",
+      "japanese": "はじめまして、[名前]です。",
+      "romaji": "Hajimemashite, [Namae] desu.",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:02:12.770106"
+    },
+    {
+      "english": "You're really cute when you smile like that.",
+      "japanese": "その笑顔、本当に可愛いね。",
+      "romaji": "Sono egao, hontou ni kawaii ne.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:02:16.172590"
+    },
+    {
+      "english": "I want to see you again soon.",
+      "japanese": "またすぐに会いたいです。",
+      "romaji": "Mata sugu ni aitai desu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:02:16.172600"
+    },
+    {
+      "english": "Your voice is so soothing, I could listen all day.",
+      "japanese": "あなたの声、ずっと聞いていられます。",
+      "romaji": "Anata no koe, zutto kiite iraremasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:02:16.172602"
+    },
+    {
+      "english": "This is the best sushi I've ever had.",
+      "japanese": "今までで一番美味しいお寿司です。",
+      "romaji": "Ima made de ichiban oishii o-sushi desu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:02:18.942551"
+    },
+    {
+      "english": "Could you take a picture of me, please?",
+      "japanese": "写真を撮っていただけますか？",
+      "romaji": "Shashin o totte itadakemasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:02:18.942562"
+    },
+    {
+      "english": "Where is the nearest convenient store?",
+      "japanese": "一番近いコンビニはどこですか？",
+      "romaji": "Ichiban chikai konbini wa doko desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:02:18.942563"
+    },
+    {
+      "english": "This color perfectly suits you, doesn't it?",
+      "japanese": "この色、あなたにすごく似合ってるね？",
+      "romaji": "Kono iro, anata ni sugoku niatteru ne?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:02:22.308539"
+    },
+    {
+      "english": "Could I try this on, darling?",
+      "japanese": "これ、試着してもいいですか、ダーリン？",
+      "romaji": "Kore, shichaku shite mo ii desu ka, dārin?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:02:22.308547"
+    },
+    {
+      "english": "This item is as charming as you are.",
+      "japanese": "この商品、あなたみたいに魅力的だね。",
+      "romaji": "Kono shōhin, anata mitai ni miryokuteki da ne.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:02:22.308549"
+    },
+    {
+      "english": "Hi, how's it going?",
+      "japanese": "やあ、元気？",
+      "romaji": "Yaa, genki?",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:04:00.289907"
+    },
+    {
+      "english": "See you later!",
+      "japanese": "またね！",
+      "romaji": "Mata ne!",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:04:00.289916"
+    },
+    {
+      "english": "Good evening!",
+      "japanese": "こんばんは！",
+      "romaji": "Konbanwa!",
+      "category": "Greetings",
+      "generated_at": "2026-09-09T09:04:00.289918"
+    },
+    {
+      "english": "Excuse me, where is the restroom?",
+      "japanese": "すみません、トイレはどこですか？",
+      "romaji": "Sumimasen, toire wa doko desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:04:03.684735"
+    },
+    {
+      "english": "Could you recommend something good?",
+      "japanese": "何かおすすめはありますか？",
+      "romaji": "Nani ka osusume wa arimasu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:04:03.684755"
+    },
+    {
+      "english": "I don't understand this word.",
+      "japanese": "この言葉が分かりません。",
+      "romaji": "Kono kotoba ga wakarimasen.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-09T09:04:03.684757"
+    },
+    {
+      "english": "Could I have a receipt, please?",
+      "japanese": "レシートをいただけますか？",
+      "romaji": "Reshiito o itadakemasu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:04:06.609748"
+    },
+    {
+      "english": "I'm looking for a souvenir.",
+      "japanese": "お土産を探しています。",
+      "romaji": "Omiyage o sagashite imasu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:04:06.609756"
+    },
+    {
+      "english": "Is tax included in the price?",
+      "japanese": "税込みですか？",
+      "romaji": "Zeikomi desu ka?",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-09T09:04:06.609757"
+    },
+    {
+      "english": "This one looks good, I'll take it.",
+      "japanese": "これ、いいね。これにします。",
+      "romaji": "Kore, ii ne. Kore ni shimasu.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:04:09.348222"
+    },
+    {
+      "english": "Could I see that one again?",
+      "japanese": "もう一度それを見せてもらえますか？",
+      "romaji": "Mou ichido sore o misete moraemasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:04:09.348230"
+    },
+    {
+      "english": "Where can I pay for this?",
+      "japanese": "どこで会計すればいいですか？",
+      "romaji": "Doko de kaikei sureba ii desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-09T09:04:09.348232"
     }
   ],
-  "last_updated": "2026-09-09T04:51:01.949758"
+  "last_updated": "2026-09-09T09:04:09.348234"
 }
