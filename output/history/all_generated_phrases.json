@@ -20145,7 +20145,42 @@
       "romaji": "Tabun nijuppun kurai de, mijikai yo.",
       "category": "Polite vs Casual",
       "generated_at": "2026-09-09T11:04:07.134755"
+    },
+    {
+      "english": "It’s really hot today, isn’t it?",
+      "japanese": "今日はめちゃくちゃ暑いですね。",
+      "romaji": "Kyō wa mechakucha atsui desu ne.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-09T14:02:02.011188"
+    },
+    {
+      "english": "Is it going to rain later today?",
+      "japanese": "今日、あとで雨降りますかね。",
+      "romaji": "Kyō, ato de ame furimasu ka ne.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-09T14:02:02.011202"
+    },
+    {
+      "english": "The forecast says it’ll clear up.",
+      "japanese": "天気予報だと晴れますよ。",
+      "romaji": "Tenkiyohō dato hare masu yo.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-09T14:02:02.011203"
+    },
+    {
+      "english": "It’s cloudy today, so it feels colder.",
+      "japanese": "今日は曇ってるから、ちょっと寒いです。",
+      "romaji": "Kyō wa kumatteru kara, chotto samui desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-09T14:02:02.011205"
+    },
+    {
+      "english": "Winter is starting, the air is dry.",
+      "japanese": "冬が近づいてきて、空気が乾燥してます。",
+      "romaji": "Fuyu ga chikadzuite kite, kūki ga kansō shitemasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-09T14:02:02.011206"
     }
   ],
-  "last_updated": "2026-09-09T11:04:07.134757"
+  "last_updated": "2026-09-09T14:02:02.011208"
 }
