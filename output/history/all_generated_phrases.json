@@ -20355,7 +20355,42 @@
       "romaji": "Atsumari wa juu-ji sanjuppun ni hajimarimasu yo ne.",
       "category": "Numbers Japanese",
       "generated_at": "2026-09-10T13:57:11.692360"
+    },
+    {
+      "english": "I have a sore throat today.",
+      "japanese": "今日は喉が痛いです。",
+      "romaji": "Kyou wa nodo ga itai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-10T18:15:12.901587"
+    },
+    {
+      "english": "I think I’m getting a cold.",
+      "japanese": "風邪っぽいです。",
+      "romaji": "Kaze ppoi desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-10T18:15:12.901599"
+    },
+    {
+      "english": "I’m going to rest today.",
+      "japanese": "今日は休みます。",
+      "romaji": "Kyou wa yasumimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-10T18:15:12.901600"
+    },
+    {
+      "english": "I have a headache and feel tired.",
+      "japanese": "頭が痛くて、だるいです。",
+      "romaji": "Atama ga itakute, darui desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-10T18:15:12.901602"
+    },
+    {
+      "english": "My stomach hurts, I can’t eat.",
+      "japanese": "お腹が痛くて、食べられないです。",
+      "romaji": "Onaka ga itakute, taberarenai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-10T18:15:12.901603"
     }
   ],
-  "last_updated": "2026-09-10T13:57:11.692362"
+  "last_updated": "2026-09-10T18:15:12.901605"
 }
