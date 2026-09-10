@@ -20320,7 +20320,42 @@
       "romaji": "Epipen wa arimasu ka.",
       "category": "Emergency Japanese",
       "generated_at": "2026-09-10T11:00:33.474105"
+    },
+    {
+      "english": "How much is this, is it 1,000 yen?",
+      "japanese": "これはいくらですか、1,000円ですか。",
+      "romaji": "Kore wa ikura desu ka, sen en desu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-10T13:57:11.692347"
+    },
+    {
+      "english": "I have 2,000 yen, is that enough?",
+      "japanese": "2,000円あるんですけど、それで足りますか。",
+      "romaji": "Ni-sen en aru n desu kedo, sore de tarimasu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-10T13:57:11.692356"
+    },
+    {
+      "english": "Can I pay by card for 3,500 yen?",
+      "japanese": "3,500円をカードで払えますか。",
+      "romaji": "San-zen gohyaku en o kaado de harae-masu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-10T13:57:11.692358"
+    },
+    {
+      "english": "What time does the train leave at 7?",
+      "japanese": "7時の電車は何分に出ますか。",
+      "romaji": "Shichi-ji no densha wa nan-pun ni de-masu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-10T13:57:11.692359"
+    },
+    {
+      "english": "The meeting starts at 10:30, right?",
+      "japanese": "集まりは10時30分に始まりますよね。",
+      "romaji": "Atsumari wa juu-ji sanjuppun ni hajimarimasu yo ne.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-10T13:57:11.692360"
     }
   ],
-  "last_updated": "2026-09-10T11:00:33.474107"
+  "last_updated": "2026-09-10T13:57:11.692362"
 }
