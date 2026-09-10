@@ -20285,7 +20285,42 @@
       "romaji": "Aitakatta yo, hontou ni.",
       "category": "Heartfelt Romance",
       "generated_at": "2026-09-10T05:30:05.050355"
+    },
+    {
+      "english": "Please call an ambulance right now.",
+      "japanese": "すぐに救急車を呼んでください。",
+      "romaji": "Sugu ni kyūkyūsha o yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-10T11:00:33.474090"
+    },
+    {
+      "english": "I think I’m having a heart problem.",
+      "japanese": "心臓が苦しい気がします。",
+      "romaji": "Shinzō ga kurushii ki ga shimasu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-10T11:00:33.474101"
+    },
+    {
+      "english": "I can’t breathe, please help me.",
+      "japanese": "息ができません、助けてください。",
+      "romaji": "Iki ga dekimasen, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-10T11:00:33.474102"
+    },
+    {
+      "english": "I’m having a severe allergic reaction.",
+      "japanese": "ひどいアレルギー反応です。",
+      "romaji": "Hidoi arerugī hannō desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-10T11:00:33.474104"
+    },
+    {
+      "english": "Do you have an EpiPen, please?",
+      "japanese": "エピペンはありますか。",
+      "romaji": "Epipen wa arimasu ka.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-10T11:00:33.474105"
     }
   ],
-  "last_updated": "2026-09-10T05:30:05.050356"
+  "last_updated": "2026-09-10T11:00:33.474107"
 }
