@@ -20425,7 +20425,42 @@
       "romaji": "Owan o yukkuri aratte, nayami ga usuresu.",
       "category": "Zen Wisdom",
       "generated_at": "2026-09-10T22:16:45.807590"
+    },
+    {
+      "english": "Excuse me, do you have this in small?",
+      "japanese": "すみません、これの小さいサイズありますか。",
+      "romaji": "Sumimasen, kore no chiisai saizu arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-11T05:31:57.015635"
+    },
+    {
+      "english": "Where is the fitting room?",
+      "japanese": "試着室はどこですか。",
+      "romaji": "Shichaku shitsu wa doko desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-11T05:31:57.015647"
+    },
+    {
+      "english": "Can I try this on, please?",
+      "japanese": "これ、試してもいいですか。",
+      "romaji": "Kore, tameshite mo ii desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-11T05:31:57.015649"
+    },
+    {
+      "english": "Is it okay if I exchange it later?",
+      "japanese": "あとで交換してもらえますか。",
+      "romaji": "Ato de kōkan shite moraemasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-11T05:31:57.015650"
+    },
+    {
+      "english": "Does this price include tax?",
+      "japanese": "この値段、消費税込みですか。",
+      "romaji": "Kono nedan, shōhizei komi desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-11T05:31:57.015651"
     }
   ],
-  "last_updated": "2026-09-10T22:16:45.807592"
+  "last_updated": "2026-09-11T05:31:57.015653"
 }
