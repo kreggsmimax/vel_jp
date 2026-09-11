@@ -20565,7 +20565,42 @@
       "romaji": "Ame ga, isogte nai mitai de yasashii.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-09-11T18:19:03.014245"
+    },
+    {
+      "english": "I have a meeting at ten, today.",
+      "japanese": "今日は10時に会議があります。",
+      "romaji": "Kyou wa juu-ji ni kaigi ga arimasu.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-11T22:17:02.968728"
+    },
+    {
+      "english": "Can I reschedule this to tomorrow?",
+      "japanese": "これ、明日に振り替えできますか。",
+      "romaji": "Kore, ashita ni furikae dekimasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-11T22:17:02.968739"
+    },
+    {
+      "english": "Please send the file to my email.",
+      "japanese": "ファイルを私のメールに送ってください。",
+      "romaji": "Fairu o watashi no meeru ni okutte kudasai.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-11T22:17:02.968741"
+    },
+    {
+      "english": "I’ll be late, the train was delayed.",
+      "japanese": "電車が遅れて、遅れます。すみません。",
+      "romaji": "Densha ga okurete, okuremasu. Sumimasen.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-11T22:17:02.968742"
+    },
+    {
+      "english": "Could you summarize it in two minutes?",
+      "japanese": "2分で要点をまとめてもらえますか。",
+      "romaji": "Nifun de youten o matometemoraemasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-11T22:17:02.968744"
     }
   ],
-  "last_updated": "2026-09-11T18:19:03.014247"
+  "last_updated": "2026-09-11T22:17:02.968745"
 }
