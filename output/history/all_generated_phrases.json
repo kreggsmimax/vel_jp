@@ -20495,7 +20495,42 @@
       "romaji": "Tama ni izakaya no ato de karaoke ikimasu.",
       "category": "Hobbies & Activities",
       "generated_at": "2026-09-11T11:00:15.863561"
+    },
+    {
+      "english": "This tastes incredible, you nailed it, chef!",
+      "japanese": "これ、めちゃくちゃ美味しい、シェフ最高！",
+      "romaji": "Kore, mechakucha oishii, shefu saikou!",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-09-11T13:56:36.210139"
+    },
+    {
+      "english": "The flavor is so rich, I’m impressed!",
+      "japanese": "味が濃くて深い、ほんと感動しました。",
+      "romaji": "Aji ga koku te fukai, honto kandou shimashita.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-09-11T13:56:36.210149"
+    },
+    {
+      "english": "Wow, this texture is perfect, seriously!",
+      "japanese": "うわっ、食感が最高、ガチで！",
+      "romaji": "Uwa, shokkan ga saikou, gachi de!",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-09-11T13:56:36.210151"
+    },
+    {
+      "english": "The aroma is amazing, I can’t stop eating.",
+      "japanese": "香りが最高すぎて、箸が止まりません。",
+      "romaji": "Kaori ga saikousugite, hashi ga tomariません.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-09-11T13:56:36.210152"
+    },
+    {
+      "english": "That sauce is perfect, it matches everything!",
+      "japanese": "このソース、絶妙だね、何にでも合う。",
+      "romaji": "Kono so-su, zetsumyou da ne, nan ni demo au.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-09-11T13:56:36.210153"
     }
   ],
-  "last_updated": "2026-09-11T11:00:15.863562"
+  "last_updated": "2026-09-11T13:56:36.210155"
 }
