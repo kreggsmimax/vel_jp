@@ -20460,7 +20460,42 @@
       "romaji": "Kono nedan, shōhizei komi desu ka.",
       "category": "Shopping Japanese",
       "generated_at": "2026-09-11T05:31:57.015651"
+    },
+    {
+      "english": "I go to the gym after work, mostly weekdays.",
+      "japanese": "仕事のあとジムに行くんです、だいたい平日です。",
+      "romaji": "Shigoto no ato jimu ni iku ndesu, daitai heijitsu desu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-11T11:00:15.863546"
+    },
+    {
+      "english": "I play badminton on Saturdays with my friends.",
+      "japanese": "土曜日は友だちとバドミントンやってます。",
+      "romaji": "Doyoubi wa tomodachi to badminton yatte masu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-11T11:00:15.863556"
+    },
+    {
+      "english": "I’ve been learning Japanese, using Duolingo too.",
+      "japanese": "日本語を勉強してて、デュオリンゴも使ってます。",
+      "romaji": "Nihongo o benkyou shite te, duoringo mo tsukatte imasu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-11T11:00:15.863558"
+    },
+    {
+      "english": "I like watching anime on streaming services at night.",
+      "japanese": "夜はサブスクでアニメを見るのが好きです。",
+      "romaji": "Yoru wa sabusuku de anime o miru no ga suki desu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-11T11:00:15.863559"
+    },
+    {
+      "english": "I go to karaoke with coworkers after dinner sometimes.",
+      "japanese": "たまに居酒屋のあとでカラオケ行きます。",
+      "romaji": "Tama ni izakaya no ato de karaoke ikimasu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-11T11:00:15.863561"
     }
   ],
-  "last_updated": "2026-09-11T05:31:57.015653"
+  "last_updated": "2026-09-11T11:00:15.863562"
 }
