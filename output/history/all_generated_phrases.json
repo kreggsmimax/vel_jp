@@ -20705,7 +20705,42 @@
       "romaji": "Gohan ni henkou dekimasu ka.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-09-12T13:15:03.143348"
+    },
+    {
+      "english": "At the register, ask for points card discount.",
+      "japanese": "レジでポイントカードの割引できますか？",
+      "romaji": "Reji de pointo kaado no waribiki dekimasu ka?",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-12T17:44:13.671750"
+    },
+    {
+      "english": "Grab hot coffee, then add extra sugar packets.",
+      "japanese": "ホットコーヒーに砂糖、追加で入れてください。",
+      "romaji": "Hotto koohii ni satoo, tsuika de irete kudasai.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-12T17:44:13.671762"
+    },
+    {
+      "english": "If it’s cold, warm your bento in the microwave.",
+      "japanese": "お弁当、電子レンジで温めてもらえますか？",
+      "romaji": "Obentō, denshi renji de atatamete moraemasu ka?",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-12T17:44:13.671763"
+    },
+    {
+      "english": "Use the self-scan to pay faster at checkout.",
+      "japanese": "セルフレジで先にスキャンしておくと早いです。",
+      "romaji": "Serufu reji de saki ni sukyan shite oku to hayai desu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-12T17:44:13.671765"
+    },
+    {
+      "english": "For ramen, ask for extra noodles, not sauce.",
+      "japanese": "カップ麺、麺だけ追加できますか？",
+      "romaji": "Kappu mein, men dake tsuika dekimasu ka?",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-12T17:44:13.671765"
     }
   ],
-  "last_updated": "2026-09-12T13:15:03.143350"
+  "last_updated": "2026-09-12T17:44:13.671767"
 }
