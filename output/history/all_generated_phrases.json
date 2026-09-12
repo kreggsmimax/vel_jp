@@ -20635,7 +20635,42 @@
       "romaji": "koko, kurejitto kaado tsukaemasu ka?",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-09-12T05:19:58.479438"
+    },
+    {
+      "english": "I’m nervous, but I’ll do my best.",
+      "japanese": "緊張してるけど、頑張ります。",
+      "romaji": "kinchō shiteru kedo, ganbarimasu.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-12T10:26:55.730154"
+    },
+    {
+      "english": "I’m relieved it worked out.",
+      "japanese": "うまくいって、ほっとしました。",
+      "romaji": "umaku itte, hotto shimashita.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-12T10:26:55.730168"
+    },
+    {
+      "english": "I’m disappointed, I really wanted it.",
+      "japanese": "がっかりしたよ、すごく欲しかった。",
+      "romaji": "gakkari shita yo, sugoku hoshikatta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-12T10:26:55.730170"
+    },
+    {
+      "english": "Sorry, I got carried away.",
+      "japanese": "ごめん、つい言いすぎた。",
+      "romaji": "gomen, tsui iisugita.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-12T10:26:55.730172"
+    },
+    {
+      "english": "I’m happy you came today.",
+      "japanese": "今日来てくれて嬉しいよ。",
+      "romaji": "kyō kite kurete ureshii yo.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-12T10:26:55.730174"
     }
   ],
-  "last_updated": "2026-09-12T05:19:58.479440"
+  "last_updated": "2026-09-12T10:26:55.730176"
 }
