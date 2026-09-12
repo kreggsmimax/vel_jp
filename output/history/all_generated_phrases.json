@@ -20600,7 +20600,42 @@
       "romaji": "Nifun de youten o matometemoraemasu ka.",
       "category": "Work & Business",
       "generated_at": "2026-09-11T22:17:02.968744"
+    },
+    {
+      "english": "Where’s the nearest station, like, exactly?",
+      "japanese": "いちばん近い駅って、どこですか？",
+      "romaji": "ichiban chikai eki tte, doko desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-12T05:19:58.479423"
+    },
+    {
+      "english": "Sorry, could you pass me there?",
+      "japanese": "すみません、そこ通ってもいいですか？",
+      "romaji": "sumimasen, soko tootte mo ii desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-12T05:19:58.479434"
+    },
+    {
+      "english": "Do you have this in black?",
+      "japanese": "これ、黒ありますか？",
+      "romaji": "kore, kuro arimasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-12T05:19:58.479436"
+    },
+    {
+      "english": "How much is it, for real?",
+      "japanese": "これいくらですか？",
+      "romaji": "kore ikura desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-12T05:19:58.479437"
+    },
+    {
+      "english": "Can I pay with card here?",
+      "japanese": "ここ、クレジットカード使えますか？",
+      "romaji": "koko, kurejitto kaado tsukaemasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-12T05:19:58.479438"
     }
   ],
-  "last_updated": "2026-09-11T22:17:02.968745"
+  "last_updated": "2026-09-12T05:19:58.479440"
 }
