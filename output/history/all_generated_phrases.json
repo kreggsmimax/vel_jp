@@ -20670,7 +20670,42 @@
       "romaji": "kyō kite kurete ureshii yo.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-09-12T10:26:55.730174"
+    },
+    {
+      "english": "Hi, can I make a reservation for two?",
+      "japanese": "すみません、2人で予約できますか。",
+      "romaji": "Sumimasen, futari de yoyaku dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-12T13:15:03.143332"
+    },
+    {
+      "english": "Do you have any English menus?",
+      "japanese": "英語のメニューはありますか。",
+      "romaji": "Eigo no menyuu wa arimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-12T13:15:03.143345"
+    },
+    {
+      "english": "Could we have two waters, please?",
+      "japanese": "お水を2つお願いします。",
+      "romaji": "O-mizu o futatsu onegaishimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-12T13:15:03.143346"
+    },
+    {
+      "english": "What comes with this set?",
+      "japanese": "このセットには何がつきますか。",
+      "romaji": "Kono setto ni wa nani ga tsukimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-12T13:15:03.143347"
+    },
+    {
+      "english": "Can I change it to regular rice?",
+      "japanese": "ごはんに変更できますか。",
+      "romaji": "Gohan ni henkou dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-12T13:15:03.143348"
     }
   ],
-  "last_updated": "2026-09-12T10:26:55.730176"
+  "last_updated": "2026-09-12T13:15:03.143350"
 }
