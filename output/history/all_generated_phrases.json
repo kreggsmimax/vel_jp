@@ -20740,7 +20740,42 @@
       "romaji": "Kappu mein, men dake tsuika dekimasu ka?",
       "category": "Convenience Store Hacks",
       "generated_at": "2026-09-12T17:44:13.671765"
+    },
+    {
+      "english": "Which exit is closest to the station square?",
+      "japanese": "駅の広場には、どの出口が一番近いですか。",
+      "romaji": "Eki no hiroba ni wa, dono deguchi ga ichiban chikai desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-12T21:57:07.036187"
+    },
+    {
+      "english": "Is this train going to Shinjuku?",
+      "japanese": "この電車は新宿まで行きますか。",
+      "romaji": "Kono densha wa Shinjuku made ikimasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-12T21:57:07.036197"
+    },
+    {
+      "english": "Does this line stop at Tokyo Station?",
+      "japanese": "この路線は東京駅に止まりますか。",
+      "romaji": "Kono rosen wa Tōkyō-eki ni tomari masu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-12T21:57:07.036199"
+    },
+    {
+      "english": "When is the next train for Asakusa?",
+      "japanese": "浅草行きの次の電車は、いつですか。",
+      "romaji": "Asakusa yuki no tsugi no densha wa, itsu desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-12T21:57:07.036200"
+    },
+    {
+      "english": "Sorry, what platform is this train for?",
+      "japanese": "すみません、この電車は何番のホームですか。",
+      "romaji": "Sumimasen, kono densha wa nanban no hōmu desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-12T21:57:07.036202"
     }
   ],
-  "last_updated": "2026-09-12T17:44:13.671767"
+  "last_updated": "2026-09-12T21:57:07.036203"
 }
