@@ -20880,7 +20880,42 @@
       "romaji": "Suki dakara, chanto iu ne.",
       "category": "Heartfelt Romance",
       "generated_at": "2026-09-13T13:59:07.212378"
+    },
+    {
+      "english": "Do you take credit cards here?",
+      "japanese": "ここはクレジットカードは使えますか。",
+      "romaji": "Koko wa kurejitto kaado wa tsukaemasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-13T18:02:11.013743"
+    },
+    {
+      "english": "I’d like one ticket to Kyoto, please.",
+      "japanese": "京都までの切符を一枚お願いします。",
+      "romaji": "Kyoto made no kippu o ichimai onegaishimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-13T18:02:11.013755"
+    },
+    {
+      "english": "Could I get some water, please?",
+      "japanese": "お水をいただけますか。",
+      "romaji": "Omizu o itadakemasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-13T18:02:11.013757"
+    },
+    {
+      "english": "What time does it open?",
+      "japanese": "何時に開きますか。",
+      "romaji": "Nanji ni akimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-13T18:02:11.013758"
+    },
+    {
+      "english": "Is there a discount for seniors?",
+      "japanese": "シニア割引はありますか。",
+      "romaji": "Shinia waribiki wa arimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-13T18:02:11.013759"
     }
   ],
-  "last_updated": "2026-09-13T13:59:07.212380"
+  "last_updated": "2026-09-13T18:02:11.013761"
 }
