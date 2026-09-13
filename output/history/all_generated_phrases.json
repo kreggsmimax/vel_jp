@@ -20915,7 +20915,42 @@
       "romaji": "Shinia waribiki wa arimasu ka.",
       "category": "Basic Phrases",
       "generated_at": "2026-09-13T18:02:11.013759"
+    },
+    {
+      "english": "What time do you get off work?",
+      "japanese": "何時に仕事終わりますか。",
+      "romaji": "Nanji ni shigoto owarimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-13T22:08:41.357593"
+    },
+    {
+      "english": "I start at nine, and I’m on time.",
+      "japanese": "9時からで、きっちり間に合います。",
+      "romaji": "Kuji kara de, kicchiri mani aimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-13T22:08:41.357604"
+    },
+    {
+      "english": "Sorry, I’m late by five minutes.",
+      "japanese": "すみません、5分遅れました。",
+      "romaji": "Sumimasen, gofun okuremashita.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-13T22:08:41.357606"
+    },
+    {
+      "english": "Can you check the time, please?",
+      "japanese": "時間、確認してもらえますか。",
+      "romaji": "Jikan, kakunin shitemoraemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-13T22:08:41.357607"
+    },
+    {
+      "english": "The train is delayed about ten minutes.",
+      "japanese": "電車、だいたい10分遅れています。",
+      "romaji": "Densha, daitai juppun okurete imasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-13T22:08:41.357608"
     }
   ],
-  "last_updated": "2026-09-13T18:02:11.013761"
+  "last_updated": "2026-09-13T22:08:41.357609"
 }
