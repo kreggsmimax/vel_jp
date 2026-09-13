@@ -20810,7 +20810,42 @@
       "romaji": "nigenai. shoshinmen kara uk eru",
       "category": "Anime Quotes",
       "generated_at": "2026-09-13T05:33:43.703193"
+    },
+    {
+      "english": "Hey, where’s the restroom?",
+      "japanese": "ねえ、トイレどこ？",
+      "romaji": "Nee, toire doko?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-13T11:29:49.576326"
+    },
+    {
+      "english": "Thank you, I’ll have this one, please.",
+      "japanese": "ありがとうございます、これをお願いします。",
+      "romaji": "Arigatou gozaimasu, kore o onegaishimasu.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-13T11:29:49.576335"
+    },
+    {
+      "english": "Thanks, I’ll take this.",
+      "japanese": "ありがとう、これにするわ。",
+      "romaji": "Arigatou, kore ni suruwa.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-13T11:29:49.576337"
+    },
+    {
+      "english": "Could you write this address for me?",
+      "japanese": "この住所、書いていただけますか。",
+      "romaji": "Kono jūsho, kaite itadakemasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-13T11:29:49.576338"
+    },
+    {
+      "english": "Can you write this address for me?",
+      "japanese": "これ住所書いてくれる？",
+      "romaji": "Kore jūsho kaite kureru?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-13T11:29:49.576340"
     }
   ],
-  "last_updated": "2026-09-13T05:33:43.703195"
+  "last_updated": "2026-09-13T11:29:49.576341"
 }
