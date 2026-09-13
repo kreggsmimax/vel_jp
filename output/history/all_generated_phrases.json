@@ -20845,7 +20845,42 @@
       "romaji": "Kore jūsho kaite kureru?",
       "category": "Polite vs Casual",
       "generated_at": "2026-09-13T11:29:49.576340"
+    },
+    {
+      "english": "I want to hear your voice, right now.",
+      "japanese": "今すぐ、あなたの声が聞きたい。",
+      "romaji": "Ima sugu, anata no koe ga kikitai.",
+      "category": "Heartfelt Romance",
+      "generated_at": "2026-09-13T13:59:07.212360"
+    },
+    {
+      "english": "I’m happy just being with you.",
+      "japanese": "あなたといるだけで幸せ。",
+      "romaji": "Anata to iru dake de shiawase.",
+      "category": "Heartfelt Romance",
+      "generated_at": "2026-09-13T13:59:07.212372"
+    },
+    {
+      "english": "Please don’t go, I’ll miss you.",
+      "japanese": "行かないで、寂しくなる。",
+      "romaji": "Ikanai de, sabishiku naru.",
+      "category": "Heartfelt Romance",
+      "generated_at": "2026-09-13T13:59:07.212374"
+    },
+    {
+      "english": "Even on busy days, I think of you.",
+      "japanese": "忙しくても、あなたのこと考えちゃう。",
+      "romaji": "Isogashikute mo, anata no koto kangaechau.",
+      "category": "Heartfelt Romance",
+      "generated_at": "2026-09-13T13:59:07.212376"
+    },
+    {
+      "english": "I like you, so I’ll be honest.",
+      "japanese": "好きだから、ちゃんと言うね。",
+      "romaji": "Suki dakara, chanto iu ne.",
+      "category": "Heartfelt Romance",
+      "generated_at": "2026-09-13T13:59:07.212378"
     }
   ],
-  "last_updated": "2026-09-13T11:29:49.576341"
+  "last_updated": "2026-09-13T13:59:07.212380"
 }
