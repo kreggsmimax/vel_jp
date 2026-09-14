@@ -20950,7 +20950,42 @@
       "romaji": "Densha, daitai juppun okurete imasu.",
       "category": "Time Japanese",
       "generated_at": "2026-09-13T22:08:41.357608"
+    },
+    {
+      "english": "My mom says hello to everyone.",
+      "japanese": "母が皆さんに挨拶します。",
+      "romaji": "Haha ga minasan ni aisatsu shimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-14T05:38:38.023252"
+    },
+    {
+      "english": "My dad is at work right now.",
+      "japanese": "父は今、仕事中です。",
+      "romaji": "Chichi wa ima, shigoto chuu desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-14T05:38:38.023267"
+    },
+    {
+      "english": "My sister called me this morning.",
+      "japanese": "姉が今朝、電話してきました。",
+      "romaji": "Ane ga kesa, denwa shite kimashita.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-14T05:38:38.023268"
+    },
+    {
+      "english": "My brother is really into soccer.",
+      "japanese": "弟はサッカーがすごく好きです。",
+      "romaji": "Otouto wa sakkā ga sugoku suki desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-14T05:38:38.023269"
+    },
+    {
+      "english": "My grandparents are coming next weekend.",
+      "japanese": "祖父母が来週末来ます。",
+      "romaji": "Sofubo ga raishuu matsu kimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-14T05:38:38.023270"
     }
   ],
-  "last_updated": "2026-09-13T22:08:41.357609"
+  "last_updated": "2026-09-14T05:38:38.023272"
 }
