@@ -21125,7 +21125,42 @@
       "romaji": "E, zurui, ama sugiru tte!",
       "category": "Kawaii Japanese",
       "generated_at": "2026-09-14T22:58:25.776485"
+    },
+    {
+      "english": "Hey, you’re doing fine, just keep going.",
+      "japanese": "ね、大丈夫だよ、ゆっくりでいいからね。",
+      "romaji": "Ne, daijōbu da yo, yukkuri de ii kara ne.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-09-15T05:40:42.446546"
+    },
+    {
+      "english": "It’s okay, you don’t have to rush today.",
+      "japanese": "大丈夫、今日は急がなくていいよ。",
+      "romaji": "Daijōbu, kyō wa isoganakute ii yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-09-15T05:40:42.446555"
+    },
+    {
+      "english": "Take your time, you’re not alone in this.",
+      "japanese": "焦らなくていいよ、ひとりじゃないから。",
+      "romaji": "Asせrānaku te ii yo, hitori janai kara.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-09-15T05:40:42.446556"
+    },
+    {
+      "english": "Even if it’s small, that effort matters.",
+      "japanese": "少しでもやったなら、ちゃんと意味あるよ。",
+      "romaji": "Sukoshi demo yattana ra, chanto imi aru yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-09-15T05:40:42.446558"
+    },
+    {
+      "english": "You can mess up, then try again tomorrow.",
+      "japanese": "失敗してもいいよ、明日またやれば。",
+      "romaji": "Shippai shite mo ii yo, ashita mata ya reba.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-09-15T05:40:42.446559"
     }
   ],
-  "last_updated": "2026-09-14T22:58:25.776488"
+  "last_updated": "2026-09-15T05:40:42.446561"
 }
