@@ -21265,7 +21265,42 @@
       "romaji": "kyou wa sabishii, nanka shizuka da ne.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-09-15T18:50:23.180671"
+    },
+    {
+      "english": "Hello, long time no see, how have you been?",
+      "japanese": "こんにちは、久しぶりですね。元気でしたか。",
+      "romaji": "Konnichiwa, hisashiburi desu ne. Genki deshita ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-15T22:43:54.051153"
+    },
+    {
+      "english": "Good evening, are you all right?",
+      "japanese": "こんばんは、大丈夫ですか。",
+      "romaji": "Konbanwa, daijōbu desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-15T22:43:54.051164"
+    },
+    {
+      "english": "Thanks for coming, I appreciate it.",
+      "japanese": "お越しいただきありがとうございます。",
+      "romaji": "O-ki ni itadaki arigatō gozaimasu.",
+      "category": "Greetings",
+      "generated_at": "2026-09-15T22:43:54.051165"
+    },
+    {
+      "english": "Excuse me, can I ask you something?",
+      "japanese": "すみません、ちょっとお伺いしてもいいですか。",
+      "romaji": "Sumimasen, chotto okagai shite mo ii desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-15T22:43:54.051166"
+    },
+    {
+      "english": "How’s it going, what are you up to today?",
+      "japanese": "おつかれさま、今日は何してるの？",
+      "romaji": "Otsukaresama, kyō wa nani shiteru no?",
+      "category": "Greetings",
+      "generated_at": "2026-09-15T22:43:54.051167"
     }
   ],
-  "last_updated": "2026-09-15T18:50:23.180673"
+  "last_updated": "2026-09-15T22:43:54.051169"
 }
