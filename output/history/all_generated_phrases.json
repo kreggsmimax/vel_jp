@@ -21230,7 +21230,42 @@
       "romaji": "Kono hen ni toire ga arimasu ka.",
       "category": "Common Expressions",
       "generated_at": "2026-09-15T14:33:17.987052"
+    },
+    {
+      "english": "I’m nervous, but I’ll try anyway.",
+      "japanese": "緊張するけど、とりあえずやってみる。",
+      "romaji": "kinchou suru kedo, tori aezu yattemiru.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-15T18:50:23.180652"
+    },
+    {
+      "english": "That surprised me, I didn’t expect it.",
+      "japanese": "それはびっくりした、思わなかった。",
+      "romaji": "sore wa bikkuri shita, omowanakatta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-15T18:50:23.180666"
+    },
+    {
+      "english": "I’m annoyed, you keep forgetting again.",
+      "japanese": "もうイライラする、また忘れてる。",
+      "romaji": "mou iraira suru, mata wasureru.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-15T18:50:23.180668"
+    },
+    {
+      "english": "I’m tired, I just want to go home.",
+      "japanese": "疲れた、もう帰りたい。",
+      "romaji": "tsukareta, mou kaeritai.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-15T18:50:23.180670"
+    },
+    {
+      "english": "I feel lonely today, it’s kind of quiet.",
+      "japanese": "今日は寂しい、なんか静かだね。",
+      "romaji": "kyou wa sabishii, nanka shizuka da ne.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-15T18:50:23.180671"
     }
   ],
-  "last_updated": "2026-09-15T14:33:17.987053"
+  "last_updated": "2026-09-15T18:50:23.180673"
 }
