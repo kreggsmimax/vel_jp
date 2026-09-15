@@ -21195,7 +21195,42 @@
       "romaji": "Chiisai koto demo, chanto shimi te kuru.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-09-15T11:29:15.570174"
+    },
+    {
+      "english": "Sorry, I’m late, traffic was terrible.",
+      "japanese": "すみません、遅れました。渋滞で。",
+      "romaji": "Sumimasen, okuremashita. Jūtai de.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-15T14:33:17.987019"
+    },
+    {
+      "english": "Do you have this in a smaller size?",
+      "japanese": "これ、もう少し小さいサイズありますか。",
+      "romaji": "Kore, mō sukoshi chiisai saizu arimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-15T14:33:17.987030"
+    },
+    {
+      "english": "How much is this, and does it include tax?",
+      "japanese": "これはいくらですか。消費税は込みですか。",
+      "romaji": "Kore wa ikura desu ka. Shōhizei wa komi desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-15T14:33:17.987031"
+    },
+    {
+      "english": "Could I get it to go?",
+      "japanese": "これ、持ち帰りできますか。",
+      "romaji": "Kore, mochikae-ri dekimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-15T14:33:17.987033"
+    },
+    {
+      "english": "Is there a restroom around here?",
+      "japanese": "このへんにトイレありますか。",
+      "romaji": "Kono hen ni toire ga arimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-15T14:33:17.987052"
     }
   ],
-  "last_updated": "2026-09-15T11:29:15.570176"
+  "last_updated": "2026-09-15T14:33:17.987053"
 }
