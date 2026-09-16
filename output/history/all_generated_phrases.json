@@ -21440,7 +21440,42 @@
       "romaji": "Sumimasen, o-kaikei onegaishimasu.",
       "category": "Polite vs Casual",
       "generated_at": "2026-09-16T18:47:47.908729"
+    },
+    {
+      "english": "Could I get a window seat, please?",
+      "japanese": "窓側の席はできますか。",
+      "romaji": "Madosokū no seki wa dekimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-16T22:40:21.769208"
+    },
+    {
+      "english": "Do you have an English menu?",
+      "japanese": "英語のメニューはありますか。",
+      "romaji": "Eigo no menyū wa arimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-16T22:40:21.769217"
+    },
+    {
+      "english": "Is there a vegetarian option here?",
+      "japanese": "こちら、ベジタリアン用はありますか。",
+      "romaji": "Kochira, bejiatarian yō wa arimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-16T22:40:21.769219"
+    },
+    {
+      "english": "Can I fill up my water bottle here?",
+      "japanese": "ここで水を補充できますか。",
+      "romaji": "Koko de mizu o hojū dekimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-16T22:40:21.769220"
+    },
+    {
+      "english": "What time is the last train for this line?",
+      "japanese": "この路線の終電は何時ですか。",
+      "romaji": "Kono rosen no shūden wa nanji desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-16T22:40:21.769222"
     }
   ],
-  "last_updated": "2026-09-16T18:47:47.908731"
+  "last_updated": "2026-09-16T22:40:21.769223"
 }
