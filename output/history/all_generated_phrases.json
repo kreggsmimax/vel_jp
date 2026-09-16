@@ -21335,7 +21335,42 @@
       "romaji": "Pasuwādo wa hakketsu desu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-09-16T05:34:21.880135"
+    },
+    {
+      "english": "It’s going to rain this afternoon.",
+      "japanese": "今日の午後、雨が降りそうです。",
+      "romaji": "Kyou no gogo, ame ga furi-sou desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-16T11:15:09.854141"
+    },
+    {
+      "english": "The wind is strong today, be careful.",
+      "japanese": "今日は風が強いので気をつけて。",
+      "romaji": "Kyou wa kaze ga tsuyoi node ki o tsukete.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-16T11:15:09.854153"
+    },
+    {
+      "english": "It’s snowing lightly right now.",
+      "japanese": "今、雪がちらちら降っています。",
+      "romaji": "Ima, yuki ga chirachira furatte imasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-16T11:15:09.854154"
+    },
+    {
+      "english": "The rainy season is starting soon.",
+      "japanese": "梅雨がもうすぐ始まります。",
+      "romaji": "Tsuyu ga mou sugu hajimarimasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-16T11:15:09.854155"
+    },
+    {
+      "english": "Autumn is finally getting cooler.",
+      "japanese": "秋になって、だんだん涼しくなってきました。",
+      "romaji": "Aki ni natte, dandan suzushiku natte kimas hta.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-16T11:15:09.854156"
     }
   ],
-  "last_updated": "2026-09-16T05:34:21.880137"
+  "last_updated": "2026-09-16T11:15:09.854158"
 }
