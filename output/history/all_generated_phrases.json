@@ -21405,7 +21405,42 @@
       "romaji": "mado-gawa no seki tte aiteru?",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-09-16T14:28:10.041094"
+    },
+    {
+      "english": "Excuse me, what time does this open?",
+      "japanese": "すみません、これは何時から開いてますか。",
+      "romaji": "Sumimasen, kore wa nanji kara hiraete imasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-16T18:47:47.908714"
+    },
+    {
+      "english": "Hey, what time does this open?",
+      "japanese": "ねえ、これは何時から開くの？",
+      "romaji": "Nee, kore wa nanji kara hiraku no?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-16T18:47:47.908725"
+    },
+    {
+      "english": "Is it okay if I pay with a card?",
+      "japanese": "カードでお支払いしても大丈夫ですか。",
+      "romaji": "Kādo de o-shiharai shite mo daijōbu desu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-16T18:47:47.908727"
+    },
+    {
+      "english": "Can I pay with a card, or no?",
+      "japanese": "カードで払っていい？",
+      "romaji": "Kādo de haratte ii?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-16T18:47:47.908728"
+    },
+    {
+      "english": "Sorry, could I have the bill, please?",
+      "japanese": "すみません、お会計お願いします。",
+      "romaji": "Sumimasen, o-kaikei onegaishimasu.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-16T18:47:47.908729"
     }
   ],
-  "last_updated": "2026-09-16T14:28:10.041095"
+  "last_updated": "2026-09-16T18:47:47.908731"
 }
