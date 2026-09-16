@@ -21370,7 +21370,42 @@
       "romaji": "Aki ni natte, dandan suzushiku natte kimas hta.",
       "category": "Weather & Seasons",
       "generated_at": "2026-09-16T11:15:09.854156"
+    },
+    {
+      "english": "Where’s the closest station exit for this route?",
+      "japanese": "このルートだと最寄りの駅の出口どこ？",
+      "romaji": "kono rūto da to moyori no eki no deguchi doko?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-16T14:28:10.041079"
+    },
+    {
+      "english": "Wait, I think this train is going the wrong way.",
+      "japanese": "ちょっと待って、これ逆方向じゃない？",
+      "romaji": "chotto matte, kore gyakuhōkō janai?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-16T14:28:10.041090"
+    },
+    {
+      "english": "Do you know where this street leads to?",
+      "japanese": "この道ってどこまで続いてるの？",
+      "romaji": "kono michi tte doko made tsuzuiteru no?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-16T14:28:10.041092"
+    },
+    {
+      "english": "Let’s grab food before it gets crowded.",
+      "japanese": "混む前にご飯いこ。",
+      "romaji": "komu mae ni gohan iko.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-16T14:28:10.041093"
+    },
+    {
+      "english": "Can we sit by the window, if possible?",
+      "japanese": "窓側の席って空いてる？",
+      "romaji": "mado-gawa no seki tte aiteru?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-16T14:28:10.041094"
     }
   ],
-  "last_updated": "2026-09-16T11:15:09.854158"
+  "last_updated": "2026-09-16T14:28:10.041095"
 }
