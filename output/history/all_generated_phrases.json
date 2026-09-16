@@ -21300,7 +21300,42 @@
       "romaji": "Otsukaresama, kyō wa nani shiteru no?",
       "category": "Greetings",
       "generated_at": "2026-09-15T22:43:54.051167"
+    },
+    {
+      "english": "I need two tickets, please.",
+      "japanese": "チケットを二枚ください。",
+      "romaji": "Chiketto o ni-mai kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-16T05:34:21.880120"
+    },
+    {
+      "english": "The total is 3,980 yen, right?",
+      "japanese": "合計は三千九百八十円で合ってますか。",
+      "romaji": "Gōkei wa sanzen kyūhyaku hachijū-en de atte imasuka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-16T05:34:21.880130"
+    },
+    {
+      "english": "We start at seven o'clock.",
+      "japanese": "七時から始まります。",
+      "romaji": "Shichi-ji kara hajimarimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-16T05:34:21.880132"
+    },
+    {
+      "english": "Can you say that again, number five?",
+      "japanese": "もう一回言ってください、五番です。",
+      "romaji": "Mō ikkai itte kudasai, go-ban desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-16T05:34:21.880134"
+    },
+    {
+      "english": "My password is eight digits.",
+      "japanese": "パスワードは八桁です。",
+      "romaji": "Pasuwādo wa hakketsu desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-16T05:34:21.880135"
     }
   ],
-  "last_updated": "2026-09-15T22:43:54.051169"
+  "last_updated": "2026-09-16T05:34:21.880137"
 }
