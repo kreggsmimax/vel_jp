@@ -21615,7 +21615,42 @@
       "romaji": "Netsu no kusuri wa arimasu ka.",
       "category": "Health & Body",
       "generated_at": "2026-09-17T18:55:07.898520"
+    },
+    {
+      "english": "Where are the fitting rooms?",
+      "japanese": "試着室はどこですか。",
+      "romaji": "Shichakushitsu wa doko desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-17T22:41:36.693341"
+    },
+    {
+      "english": "Do you have it in black or navy?",
+      "japanese": "黒かネイビーはありますか。",
+      "romaji": "Kuro ka neibii wa arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-17T22:41:36.693351"
+    },
+    {
+      "english": "How much is this, exactly?",
+      "japanese": "これ、いくらですか。",
+      "romaji": "Kore, ikura desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-17T22:41:36.693352"
+    },
+    {
+      "english": "Can I pay by credit card?",
+      "japanese": "クレジットカードで払えますか。",
+      "romaji": "Kurejitto kaado de haraemasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-17T22:41:36.693354"
+    },
+    {
+      "english": "Do you offer gift wrapping?",
+      "japanese": "ギフトラッピングできますか。",
+      "romaji": "Gifuto rappingu dekimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-17T22:41:36.693355"
     }
   ],
-  "last_updated": "2026-09-17T18:55:07.898521"
+  "last_updated": "2026-09-17T22:41:36.693356"
 }
