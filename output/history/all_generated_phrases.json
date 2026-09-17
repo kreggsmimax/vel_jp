@@ -21580,7 +21580,42 @@
       "romaji": "Kono tsukune oishii desu ne, mō hitotsu kudasai.",
       "category": "Izakaya & Nightlife",
       "generated_at": "2026-09-17T14:32:24.913951"
+    },
+    {
+      "english": "I have a headache, so I’m going home early.",
+      "japanese": "頭が痛いので、今日は早めに帰ります。",
+      "romaji": "Atama ga itai node, kyou wa hayame ni kaerimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-17T18:55:07.898502"
+    },
+    {
+      "english": "My throat hurts, I should wear a mask.",
+      "japanese": "のどが痛いので、マスクしたほうがいいです。",
+      "romaji": "Nodo ga itai node, masukushita hou ga ii desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-17T18:55:07.898516"
+    },
+    {
+      "english": "I feel nauseous, I might need to rest.",
+      "japanese": "気持ち悪いので、少し休みたいです。",
+      "romaji": "Kimochi warui node, sukoshi yasumitai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-17T18:55:07.898517"
+    },
+    {
+      "english": "I’m not feeling well, can we reschedule?",
+      "japanese": "体調が悪いので、日程を変えられますか。",
+      "romaji": "Taityou ga warui node, nittei o kaerarerimasu ka.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-17T18:55:07.898519"
+    },
+    {
+      "english": "Do you have fever medicine in stock?",
+      "japanese": "熱の薬はありますか。",
+      "romaji": "Netsu no kusuri wa arimasu ka.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-17T18:55:07.898520"
     }
   ],
-  "last_updated": "2026-09-17T14:32:24.913952"
+  "last_updated": "2026-09-17T18:55:07.898521"
 }
