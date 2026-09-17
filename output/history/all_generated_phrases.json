@@ -21545,7 +21545,42 @@
       "romaji": "Shodou o naratteru n desu kedo, igai to muzukashii desu.",
       "category": "Hobbies & Activities",
       "generated_at": "2026-09-17T11:23:19.554734"
+    },
+    {
+      "english": "Can I get one more karaage, please?",
+      "japanese": "もう一個、からあげお願いします。",
+      "romaji": "Mō ikko, karaage onegaishimasu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-17T14:32:24.913936"
+    },
+    {
+      "english": "What’s your most popular yakitori tonight?",
+      "japanese": "今日いちばん人気の焼き鳥って何ですか？",
+      "romaji": "Kyou ichiban ninki no yakitori tte nan desu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-17T14:32:24.913946"
+    },
+    {
+      "english": "Do you have beer in small sizes?",
+      "japanese": "ビール、小さいのってありますか？",
+      "romaji": "Bīru, chiisai no tte arimasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-17T14:32:24.913948"
+    },
+    {
+      "english": "I’ll take a highball, and a lemon sour too.",
+      "japanese": "ハイボールと、レモンサワーもお願いします。",
+      "romaji": "Haibōru to, remon-sawā mo onegaishimasu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-17T14:32:24.913949"
+    },
+    {
+      "english": "This tsukune is so good, I’ll order another.",
+      "japanese": "このつくねおいしいですね、もう一つください。",
+      "romaji": "Kono tsukune oishii desu ne, mō hitotsu kudasai.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-17T14:32:24.913951"
     }
   ],
-  "last_updated": "2026-09-17T11:23:19.554735"
+  "last_updated": "2026-09-17T14:32:24.913952"
 }
