@@ -21790,7 +21790,42 @@
       "romaji": "sukoshi dake enbun hikaeme ni dekimasu ka.",
       "category": "Food & Dining",
       "generated_at": "2026-09-18T18:14:36.043775"
+    },
+    {
+      "english": "Where can I buy a train ticket?",
+      "japanese": "電車の切符はどこで買えますか。",
+      "romaji": "Densha no kippu wa doko de kaemasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-18T22:20:02.084903"
+    },
+    {
+      "english": "What time does this train arrive?",
+      "japanese": "この電車、何時に着きますか。",
+      "romaji": "Kono densha, nanji ni tsukimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-18T22:20:02.084914"
+    },
+    {
+      "english": "Sorry, I don’t understand Japanese well.",
+      "japanese": "すみません、日本語があまりわかりません。",
+      "romaji": "Sumimasen, Nihongo ga amari wakarimasen.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-18T22:20:02.084916"
+    },
+    {
+      "english": "Please speak slowly, I’m learning.",
+      "japanese": "ゆっくり話してください、勉強中です。",
+      "romaji": "Yukkuri hanashite kudasai, benkyouchuu desu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-18T22:20:02.084917"
+    },
+    {
+      "english": "Thanks, have a good day.",
+      "japanese": "ありがとうございます、よい一日を。",
+      "romaji": "Arigatou gozaimasu, yoi ichinichi o.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-18T22:20:02.084918"
     }
   ],
-  "last_updated": "2026-09-18T18:14:36.043777"
+  "last_updated": "2026-09-18T22:20:02.084919"
 }
