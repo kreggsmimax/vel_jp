@@ -21755,7 +21755,42 @@
       "romaji": "Gohan, o-mori dekimasu ka.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-09-18T13:58:51.509031"
+    },
+    {
+      "english": "Can I get this dish without onions, please?",
+      "japanese": "この料理、玉ねぎ抜きでできますか。お願いします。",
+      "romaji": "kono ryouri, tamanegi nuki de dekimasu ka. onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-18T18:14:36.043757"
+    },
+    {
+      "english": "Is it okay if I substitute the sauce?",
+      "japanese": "ソースは変更できますか。",
+      "romaji": "so-su wa henkou dekimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-18T18:14:36.043770"
+    },
+    {
+      "english": "Do you have vegetarian options today?",
+      "japanese": "今日はベジタリアンのメニューありますか。",
+      "romaji": "kyou wa bejitarian no menyuu arimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-18T18:14:36.043772"
+    },
+    {
+      "english": "Is the milk in this drink dairy?",
+      "japanese": "この飲み物、ミルクは乳ですか。",
+      "romaji": "kono nomimono, miruku wa nyuu desu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-18T18:14:36.043774"
+    },
+    {
+      "english": "Could I have it a little less salty?",
+      "japanese": "少しだけ塩分控えめにできますか。",
+      "romaji": "sukoshi dake enbun hikaeme ni dekimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-18T18:14:36.043775"
     }
   ],
-  "last_updated": "2026-09-18T13:58:51.509033"
+  "last_updated": "2026-09-18T18:14:36.043777"
 }
