@@ -21720,7 +21720,42 @@
       "romaji": "Jiko desu. Keisatsu o yonde kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-09-18T10:57:31.900564"
+    },
+    {
+      "english": "Excuse me, is this table taken?",
+      "japanese": "すみません、この席は空いてますか。",
+      "romaji": "Sumimasen, kono seki wa aite masu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-18T13:58:51.509018"
+    },
+    {
+      "english": "Could we get the menu, please?",
+      "japanese": "メニューをください。",
+      "romaji": "Menyuu o kudasai.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-18T13:58:51.509027"
+    },
+    {
+      "english": "Do you have this without spicy sauce?",
+      "japanese": "これは辛くないソースにできますか。",
+      "romaji": "Kore wa karakunai soosu ni dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-18T13:58:51.509029"
+    },
+    {
+      "english": "I’ll have the set meal, please.",
+      "japanese": "定食をお願いします。",
+      "romaji": "Teishoku o onegai shimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-18T13:58:51.509030"
+    },
+    {
+      "english": "Can I get extra rice, please?",
+      "japanese": "ご飯、大盛りできますか。",
+      "romaji": "Gohan, o-mori dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-18T13:58:51.509031"
     }
   ],
-  "last_updated": "2026-09-18T10:57:31.900566"
+  "last_updated": "2026-09-18T13:58:51.509033"
 }
