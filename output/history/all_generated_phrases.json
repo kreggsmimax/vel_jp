@@ -21685,7 +21685,42 @@
       "romaji": "kokoro ga soretara, ochitsuite modoseba ii yo",
       "category": "Zen Wisdom",
       "generated_at": "2026-09-18T05:28:20.633262"
+    },
+    {
+      "english": "I need help right now, please.",
+      "japanese": "今すぐ助けてください。",
+      "romaji": "Ima sugu tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-18T10:57:31.900551"
+    },
+    {
+      "english": "Please call an ambulance immediately.",
+      "japanese": "救急車を今すぐ呼んでください。",
+      "romaji": "Kyūkyūsha o ima sugu yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-18T10:57:31.900560"
+    },
+    {
+      "english": "Call 119, it’s an emergency.",
+      "japanese": "119番にかけてください。緊急です。",
+      "romaji": "Hyaku jū kyū-ban ni kakete kudasai. Kinkyū desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-18T10:57:31.900561"
+    },
+    {
+      "english": "I’m bleeding a lot, please.",
+      "japanese": "すごく出血しています。お願いします。",
+      "romaji": "Suguoku shukketsu shite imasu. Onegaishimasu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-18T10:57:31.900563"
+    },
+    {
+      "english": "There’s been an accident, call the police.",
+      "japanese": "事故です。警察を呼んでください。",
+      "romaji": "Jiko desu. Keisatsu o yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-18T10:57:31.900564"
     }
   ],
-  "last_updated": "2026-09-18T05:28:20.633263"
+  "last_updated": "2026-09-18T10:57:31.900566"
 }
