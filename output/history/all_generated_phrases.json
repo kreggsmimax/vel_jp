@@ -21825,7 +21825,42 @@
       "romaji": "Arigatou gozaimasu, yoi ichinichi o.",
       "category": "Basic Phrases",
       "generated_at": "2026-09-18T22:20:02.084918"
+    },
+    {
+      "english": "Good morning, how are you?",
+      "japanese": "おはようございます。お元気ですか。",
+      "romaji": "Ohayou gozaimasu. Ogenki desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-19T05:24:14.244585"
+    },
+    {
+      "english": "Hello, nice to meet you.",
+      "japanese": "こんにちは、はじめまして。",
+      "romaji": "Konnichiwa, hajimemashite.",
+      "category": "Greetings",
+      "generated_at": "2026-09-19T05:24:14.244593"
+    },
+    {
+      "english": "Hi, long time no see!",
+      "japanese": "こんにちは、久しぶり！",
+      "romaji": "Konnichiwa, hisashiburi!",
+      "category": "Greetings",
+      "generated_at": "2026-09-19T05:24:14.244595"
+    },
+    {
+      "english": "Excuse me, good evening.",
+      "japanese": "すみません、こんばんは。",
+      "romaji": "Sumimasen, konbanwa.",
+      "category": "Greetings",
+      "generated_at": "2026-09-19T05:24:14.244596"
+    },
+    {
+      "english": "Good afternoon, have a moment?",
+      "japanese": "こんにちは、お時間ありますか。",
+      "romaji": "Konnichiwa, ojikan arimasu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-09-19T05:24:14.244597"
     }
   ],
-  "last_updated": "2026-09-18T22:20:02.084919"
+  "last_updated": "2026-09-19T05:24:14.244599"
 }
