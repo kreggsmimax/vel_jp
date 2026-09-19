@@ -21895,7 +21895,42 @@
       "romaji": "Yasappoi tte iu yori, shisso na kanji.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-09-19T10:40:17.126580"
+    },
+    {
+      "english": "What time should I arrive?",
+      "japanese": "何時に来ればいいですか。",
+      "romaji": "Nanji ni koreba ii desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-19T13:34:38.109520"
+    },
+    {
+      "english": "Could you check the opening hours?",
+      "japanese": "営業時間、確認してもらえますか。",
+      "romaji": "Eigyou jikan, kakunin shite moraemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-19T13:34:38.109530"
+    },
+    {
+      "english": "Is there a train in about 20 minutes?",
+      "japanese": "20分くらいで電車ありますか。",
+      "romaji": "Nijuppun kurai de densha arimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-19T13:34:38.109532"
+    },
+    {
+      "english": "Which platform does it depart from?",
+      "japanese": "何番線から出発ですか。",
+      "romaji": "Nanban-sen kara shuppatsu desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-19T13:34:38.109533"
+    },
+    {
+      "english": "Does it stop at Shibuya station?",
+      "japanese": "渋谷に止まりますか。",
+      "romaji": "Shibuya ni tomarimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-19T13:34:38.109535"
     }
   ],
-  "last_updated": "2026-09-19T10:40:17.126582"
+  "last_updated": "2026-09-19T13:34:38.109536"
 }
