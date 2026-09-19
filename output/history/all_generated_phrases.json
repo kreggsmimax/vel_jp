@@ -21860,7 +21860,42 @@
       "romaji": "Konnichiwa, ojikan arimasu ka.",
       "category": "Greetings",
       "generated_at": "2026-09-19T05:24:14.244597"
+    },
+    {
+      "english": "It’s that soft, nostalgic feeling, you know?",
+      "japanese": "なんか、胸がちょっとキュッとなる感じでさ。",
+      "romaji": "Nanka, mune ga chotto kyun to naru kanji de sa.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-09-19T10:40:17.126566"
+    },
+    {
+      "english": "We’ll go later, no rush, it’s fine.",
+      "japanese": "まあ、あとでいいよ。急がなくて大丈夫。",
+      "romaji": "Maa, atode ii yo. Iso-gana kutte daijoubu.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-09-19T10:40:17.126576"
+    },
+    {
+      "english": "That silence at the end says everything.",
+      "japanese": "最後のしーんとした空気が、全部だよね。",
+      "romaji": "Saigo no shi-in to shita kuuki ga, zenbu dayo ne.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-09-19T10:40:17.126577"
+    },
+    {
+      "english": "I finally felt it—this is my place.",
+      "japanese": "やっとしっくりきた、ここが居場所。",
+      "romaji": "Yatto shikkuri kita, koko ga izub a.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-09-19T10:40:17.126579"
+    },
+    {
+      "english": "It’s not trashy, just quietly cheap-looking.",
+      "japanese": "安っぽいっていうより、質素な感じ。",
+      "romaji": "Yasappoi tte iu yori, shisso na kanji.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-09-19T10:40:17.126580"
     }
   ],
-  "last_updated": "2026-09-19T05:24:14.244599"
+  "last_updated": "2026-09-19T10:40:17.126582"
 }
