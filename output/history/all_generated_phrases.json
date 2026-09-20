@@ -22070,7 +22070,42 @@
       "romaji": "Sofubo wa uchi no chikaku ni sunde imasu.",
       "category": "Family Terms",
       "generated_at": "2026-09-20T11:02:51.280509"
+    },
+    {
+      "english": "I’ll send it to you right after this meeting.",
+      "japanese": "この会議のあと、すぐ送ります。",
+      "romaji": "kono kaigi no ato, sugu okurimasu",
+      "category": "Work & Business",
+      "generated_at": "2026-09-20T13:49:05.200417"
+    },
+    {
+      "english": "Could you email me the agenda, please?",
+      "japanese": "議題をメールで送っていただけますか。",
+      "romaji": "gidai o meeru de okutte itadakemasu ka",
+      "category": "Work & Business",
+      "generated_at": "2026-09-20T13:49:05.200428"
+    },
+    {
+      "english": "I’m running late, sorry for the delay.",
+      "japanese": "遅れます、すみません。",
+      "romaji": "okuremasu, sumimasen",
+      "category": "Work & Business",
+      "generated_at": "2026-09-20T13:49:05.200430"
+    },
+    {
+      "english": "I’ll be available from 2 p.m. onward.",
+      "japanese": "午後2時から空いています。",
+      "romaji": "gogo ni-ji kara aiteimasu",
+      "category": "Work & Business",
+      "generated_at": "2026-09-20T13:49:05.200431"
+    },
+    {
+      "english": "Please review it and let me know your thoughts.",
+      "japanese": "確認して、感想を教えてください。",
+      "romaji": "kakunin shite, kansou o oshiete kudasai",
+      "category": "Work & Business",
+      "generated_at": "2026-09-20T13:49:05.200432"
     }
   ],
-  "last_updated": "2026-09-20T11:02:51.280511"
+  "last_updated": "2026-09-20T13:49:05.200434"
 }
