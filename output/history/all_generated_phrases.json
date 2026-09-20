@@ -22035,7 +22035,42 @@
       "romaji": "socchi no mittsu-me desu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-09-20T05:37:04.316796"
+    },
+    {
+      "english": "My mom is really strict, but kind.",
+      "japanese": "うちの母はけっこう厳しいけど、優しいです。",
+      "romaji": "Uchi no haha wa kekkō kibishii kedo, yasashii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-20T11:02:51.280483"
+    },
+    {
+      "english": "My dad works late, so I worry.",
+      "japanese": "父はいつも遅くまで働くので、心配です。",
+      "romaji": "Chichi wa itsumo osoku made hataraku node, shinpai desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-20T11:02:51.280505"
+    },
+    {
+      "english": "My older sister always gives good advice.",
+      "japanese": "姉はいつもいいこと言うんです。",
+      "romaji": "Ane wa itsumo ii koto iu n desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-20T11:02:51.280507"
+    },
+    {
+      "english": "My younger brother is still really playful.",
+      "japanese": "弟はまだまだ元気で、よくふざけます。",
+      "romaji": "Otōto wa mada mada genki de, yoku fuzakeshimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-20T11:02:51.280508"
+    },
+    {
+      "english": "My grandparents live near us.",
+      "japanese": "祖父母はうちの近くに住んでいます。",
+      "romaji": "Sofubo wa uchi no chikaku ni sunde imasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-20T11:02:51.280509"
     }
   ],
-  "last_updated": "2026-09-20T05:37:04.316798"
+  "last_updated": "2026-09-20T11:02:51.280511"
 }
