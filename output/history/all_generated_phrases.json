@@ -22000,7 +22000,42 @@
       "romaji": "Sore, kanpeki de kawaii!",
       "category": "Kawaii Japanese",
       "generated_at": "2026-09-19T22:08:13.892401"
+    },
+    {
+      "english": "I’ll pay 1,000 yen, please.",
+      "japanese": "千円でお願いします。",
+      "romaji": "sen'en de onegaishimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-20T05:37:04.316781"
+    },
+    {
+      "english": "My phone number is 090-1234-5678.",
+      "japanese": "私の電話番号は090-1234-5678です。",
+      "romaji": "watashi no denwa bangou wa zero kyuu maru sen ni sen yon maru go sen roku nan a hachi desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-20T05:37:04.316792"
+    },
+    {
+      "english": "Could I get 2 tickets, please?",
+      "japanese": "チケット2枚ください。",
+      "romaji": "chiketto ni-mai kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-20T05:37:04.316794"
+    },
+    {
+      "english": "I have 3 minutes, that’s all.",
+      "japanese": "3分しかありません。",
+      "romaji": "san-fun shika arimasen.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-20T05:37:04.316795"
+    },
+    {
+      "english": "This is the third one over there.",
+      "japanese": "そっちの3つ目です。",
+      "romaji": "socchi no mittsu-me desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-20T05:37:04.316796"
     }
   ],
-  "last_updated": "2026-09-19T22:08:13.892404"
+  "last_updated": "2026-09-20T05:37:04.316798"
 }
