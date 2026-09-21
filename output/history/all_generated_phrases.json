@@ -22315,7 +22315,42 @@
       "romaji": "ima ni shūchū shimasu, kako mo mirai mo oite",
       "category": "Zen Wisdom",
       "generated_at": "2026-09-21T19:56:20.336936"
+    },
+    {
+      "english": "No worries, it’s fine like this.",
+      "japanese": "大丈夫、大丈夫、これでいいよ。",
+      "romaji": "daijōbu, daijōbu, kore de ii yo.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-21T23:01:30.557579"
+    },
+    {
+      "english": "Could you tell me the train platform?",
+      "japanese": "電車のホーム、どこですか？",
+      "romaji": "densha no hōmu, doko desu ka?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-21T23:01:30.557589"
+    },
+    {
+      "english": "Hey, what time are we meeting?",
+      "japanese": "ねえ、何時に集合するの？",
+      "romaji": "nē, nanji ni shūgō suru no?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-21T23:01:30.557591"
+    },
+    {
+      "english": "Sorry, I’m late, I’m on my way.",
+      "japanese": "ごめん、遅れた、今向かってる。",
+      "romaji": "gomen, okureta, ima mukatteru.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-21T23:01:30.557592"
+    },
+    {
+      "english": "Please wait a moment, I’ll check.",
+      "japanese": "少々お待ちください、確認します。",
+      "romaji": "shōshō omachi kudasai, kakunin shimasu.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-21T23:01:30.557593"
     }
   ],
-  "last_updated": "2026-09-21T19:56:20.336937"
+  "last_updated": "2026-09-21T23:01:30.557595"
 }
