@@ -22350,7 +22350,42 @@
       "romaji": "shōshō omachi kudasai, kakunin shimasu.",
       "category": "Polite vs Casual",
       "generated_at": "2026-09-21T23:01:30.557593"
+    },
+    {
+      "english": "It’s cold today, so bring a jacket.",
+      "japanese": "今日は寒いから、上着を持ってきてください。",
+      "romaji": "Kyou wa samui kara, uwagi o motte kite kudasai.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-22T05:44:02.318788"
+    },
+    {
+      "english": "The rain stopped, but it still feels damp.",
+      "japanese": "雨はやんだのに、まだじめっとします。",
+      "romaji": "Ame wa yanda noni, mada jimetto shimasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-22T05:44:02.318800"
+    },
+    {
+      "english": "The forecast says it will snow this evening.",
+      "japanese": "今夜、雪が降るって予報です。",
+      "romaji": "Konyuu, yuki ga furu tte yohou desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-22T05:44:02.318802"
+    },
+    {
+      "english": "It’s windy today, so don’t forget your umbrella.",
+      "japanese": "今日は風が強いから、傘を忘れないでください。",
+      "romaji": "Kyou wa kaze ga tsuyoi kara, kasa o wasurenaide kudasai.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-22T05:44:02.318803"
+    },
+    {
+      "english": "It’s getting warmer, so I’m opening the window.",
+      "japanese": "だんだん暖かくなってきたので、窓を開けます。",
+      "romaji": "Dandan atatakaku natte kita node, mado o akemasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-09-22T05:44:02.318805"
     }
   ],
-  "last_updated": "2026-09-21T23:01:30.557595"
+  "last_updated": "2026-09-22T05:44:02.318807"
 }
