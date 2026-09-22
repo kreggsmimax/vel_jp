@@ -22420,7 +22420,42 @@
       "romaji": "kore, shouhizei komi de ikura desu ka",
       "category": "Travel Japanese",
       "generated_at": "2026-09-22T11:19:06.500008"
+    },
+    {
+      "english": "Can I sit here, just for a bit?",
+      "japanese": "ここ、ちょっと座ってもいいですか？",
+      "romaji": "Koko, chotto suwatte mo ii desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-22T14:16:01.547529"
+    },
+    {
+      "english": "What station is this, like which one?",
+      "japanese": "ここ、どこの駅ですか？",
+      "romaji": "Koko, doko no eki desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-22T14:16:01.547539"
+    },
+    {
+      "english": "Is this the right way to Shibuya?",
+      "japanese": "これ、渋谷に合ってますか？",
+      "romaji": "Kore, Shibuya ni attemasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-22T14:16:01.547540"
+    },
+    {
+      "english": "That store is closed, it looks like.",
+      "japanese": "あそこの店、閉まってますね。",
+      "romaji": "Asoko no mise, shimatte masu ne.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-22T14:16:01.547542"
+    },
+    {
+      "english": "Can I try it on right now?",
+      "japanese": "今、試着してもいいですか？",
+      "romaji": "Ima, shichaku shite mo ii desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-22T14:16:01.547543"
     }
   ],
-  "last_updated": "2026-09-22T11:19:06.500010"
+  "last_updated": "2026-09-22T14:16:01.547544"
 }
