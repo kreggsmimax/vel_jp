@@ -22455,7 +22455,42 @@
       "romaji": "Ima, shichaku shite mo ii desu ka?",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-09-22T14:16:01.547543"
+    },
+    {
+      "english": "I need an ambulance, please. Now.",
+      "japanese": "救急車をお願いします。今すぐ。",
+      "romaji": "kyuukyuusha o onegaishimasu. imasugu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-22T18:41:07.431203"
+    },
+    {
+      "english": "Please call the police. There’s danger.",
+      "japanese": "警察を呼んでください。危険です。",
+      "romaji": "keisatsu o yonde kudasai. kiken desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-22T18:41:07.431213"
+    },
+    {
+      "english": "Someone fainted, please send help.",
+      "japanese": "人が倒れました。助けてください。",
+      "romaji": "hito ga taore mashita. tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-22T18:41:07.431215"
+    },
+    {
+      "english": "I’m choking. I can’t breathe.",
+      "japanese": "息ができません。助けてください。",
+      "romaji": "iki ga dekimasen. tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-22T18:41:07.431216"
+    },
+    {
+      "english": "I’m having chest pain. Please help.",
+      "japanese": "胸が痛いです。助けてください。",
+      "romaji": "mune ga itai desu. tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-22T18:41:07.431217"
     }
   ],
-  "last_updated": "2026-09-22T14:16:01.547544"
+  "last_updated": "2026-09-22T18:41:07.431219"
 }
