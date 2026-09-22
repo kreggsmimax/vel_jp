@@ -22490,7 +22490,42 @@
       "romaji": "mune ga itai desu. tasukete kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-09-22T18:41:07.431217"
+    },
+    {
+      "english": "What time does the shop open?",
+      "japanese": "お店は何時に開きますか。",
+      "romaji": "Omise wa nanji ni akimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-22T22:45:47.660001"
+    },
+    {
+      "english": "Is it open until 8 today?",
+      "japanese": "今日、8時までやってますか。",
+      "romaji": "Kyō, hachiji made yatte masu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-22T22:45:47.660012"
+    },
+    {
+      "english": "Sorry, what time is it now?",
+      "japanese": "すみません、今何時ですか。",
+      "romaji": "Sumimasen, ima nanji desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-22T22:45:47.660014"
+    },
+    {
+      "english": "The meeting starts at 3, right?",
+      "japanese": "会議は3時からで合ってますか。",
+      "romaji": "Kaigi wa sanji kara de attte masu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-22T22:45:47.660015"
+    },
+    {
+      "english": "Could I change the appointment time?",
+      "japanese": "予約の時間、変更できますか。",
+      "romaji": "Yoyaku no jikan, henkō dekimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-22T22:45:47.660015"
     }
   ],
-  "last_updated": "2026-09-22T18:41:07.431219"
+  "last_updated": "2026-09-22T22:45:47.660017"
 }
