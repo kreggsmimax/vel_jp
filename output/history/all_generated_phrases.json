@@ -22385,7 +22385,42 @@
       "romaji": "Dandan atatakaku natte kita node, mado o akemasu.",
       "category": "Weather & Seasons",
       "generated_at": "2026-09-22T05:44:02.318805"
+    },
+    {
+      "english": "Where is the nearest ATM, please?",
+      "japanese": "いちばん近いATMはどこですか。",
+      "romaji": "ichiban chikai ATM wa doko desu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-22T11:19:06.499995"
+    },
+    {
+      "english": "Do you have a cheaper day pass?",
+      "japanese": "もっと安い一日乗車券はありますか。",
+      "romaji": "motto yasui ichinichi joushash ken wa arimasu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-22T11:19:06.500003"
+    },
+    {
+      "english": "Does this train stop at Shibuya?",
+      "japanese": "この電車は渋谷に止まりますか。",
+      "romaji": "kono densha wa shibuya ni tomarimasu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-22T11:19:06.500005"
+    },
+    {
+      "english": "One ticket, please, to Tokyo Station.",
+      "japanese": "東京駅までお願いします、切符1枚です。",
+      "romaji": "toukyou-eki made onegaishimasu, kippu ichi-mai desu",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-22T11:19:06.500007"
+    },
+    {
+      "english": "How much is this, including tax?",
+      "japanese": "これ、消費税込みでいくらですか。",
+      "romaji": "kore, shouhizei komi de ikura desu ka",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-22T11:19:06.500008"
     }
   ],
-  "last_updated": "2026-09-22T05:44:02.318807"
+  "last_updated": "2026-09-22T11:19:06.500010"
 }
