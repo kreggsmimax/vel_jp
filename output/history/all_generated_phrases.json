@@ -22630,7 +22630,42 @@
       "romaji": "Kowakunai, iku shika nai daro!",
       "category": "Anime Quotes",
       "generated_at": "2026-09-23T14:32:32.211926"
+    },
+    {
+      "english": "I’m not feeling well, I think I’m getting sick.",
+      "japanese": "気分があまり良くなくて、風邪をひきそうです。",
+      "romaji": "Kibun ga amari yoku nakute, kaze o hikisou desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-23T18:57:06.899217"
+    },
+    {
+      "english": "I have a sore throat since last night.",
+      "japanese": "昨夜から喉が痛いです。",
+      "romaji": "Sakuya kara nodo ga itai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-23T18:57:06.899229"
+    },
+    {
+      "english": "My stomach hurts, I think I need medicine.",
+      "japanese": "お腹が痛くて、薬をもらいたいです。",
+      "romaji": "Onaka ga itakute, kusuri o moraitai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-23T18:57:06.899231"
+    },
+    {
+      "english": "I have a headache, it won’t go away.",
+      "japanese": "頭が痛くて、ずっと治らないです。",
+      "romaji": "Atama ga itakute, zutto naoranai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-09-23T18:57:06.899233"
+    },
+    {
+      "english": "Do you have something for allergies?",
+      "japanese": "花粉症の薬、ありますか？",
+      "romaji": "Kafunshō no kusuri, arimasu ka?",
+      "category": "Health & Body",
+      "generated_at": "2026-09-23T18:57:06.899234"
     }
   ],
-  "last_updated": "2026-09-23T14:32:32.211927"
+  "last_updated": "2026-09-23T18:57:06.899236"
 }
