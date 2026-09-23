@@ -22665,7 +22665,42 @@
       "romaji": "Kafunshō no kusuri, arimasu ka?",
       "category": "Health & Body",
       "generated_at": "2026-09-23T18:57:06.899234"
+    },
+    {
+      "english": "Can I see the allergen information?",
+      "japanese": "アレルギー情報を見せてもらえますか。",
+      "romaji": "Arerugī jōhō o misete moraemasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-23T22:42:26.625441"
+    },
+    {
+      "english": "I’m allergic to peanuts, is it included?",
+      "japanese": "ピーナッツがアレルギーなんですが、入っていますか。",
+      "romaji": "Pīnattsu ga arerugī nan desu ga, haatte imasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-23T22:42:26.625455"
+    },
+    {
+      "english": "Could I have this without mayonnaise?",
+      "japanese": "マヨネーズ抜きでできますか。",
+      "romaji": "Mayonēzu nuki de dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-23T22:42:26.625457"
+    },
+    {
+      "english": "Can I get it spicy, but not too spicy?",
+      "japanese": "辛さは少しだけにできますか。",
+      "romaji": "Karasa wa sukoshi dake ni dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-23T22:42:26.625459"
+    },
+    {
+      "english": "Do you offer refills for water?",
+      "japanese": "お水はお代わりできますか。",
+      "romaji": "Omizu wa o-kawari dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-23T22:42:26.625460"
     }
   ],
-  "last_updated": "2026-09-23T18:57:06.899236"
+  "last_updated": "2026-09-23T22:42:26.625462"
 }
