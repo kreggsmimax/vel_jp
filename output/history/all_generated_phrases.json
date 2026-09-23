@@ -22560,7 +22560,42 @@
       "romaji": "Sono keshiki, mijikukute mo utsukushii.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-09-23T05:26:26.546789"
+    },
+    {
+      "english": "That’s actually kinda fire, for real.",
+      "japanese": "それ、マジで結構ヤバいよ。",
+      "romaji": "Sore, maji de kekkō yabai yo.",
+      "category": "Native Slang",
+      "generated_at": "2026-09-23T11:13:03.086425"
+    },
+    {
+      "english": "I’m gonna pass, it’s not my vibe.",
+      "japanese": "ごめん、それはちょっと無理。",
+      "romaji": "Gomen, sore wa chotto muri.",
+      "category": "Native Slang",
+      "generated_at": "2026-09-23T11:13:03.086439"
+    },
+    {
+      "english": "No way, that’s insane.",
+      "japanese": "え、まじで無理それ。ありえん。",
+      "romaji": "E, maji de muri sore. Arien.",
+      "category": "Native Slang",
+      "generated_at": "2026-09-23T11:13:03.086441"
+    },
+    {
+      "english": "Today’s forecast is basically hell.",
+      "japanese": "今日、天気ヤバいわ。",
+      "romaji": "Kyō, tenki yabai wa.",
+      "category": "Native Slang",
+      "generated_at": "2026-09-23T11:13:03.086442"
+    },
+    {
+      "english": "I’m running late, wait for me.",
+      "japanese": "遅れる、ちょい待って。",
+      "romaji": "Okureru, chōi matte.",
+      "category": "Native Slang",
+      "generated_at": "2026-09-23T11:13:03.086444"
     }
   ],
-  "last_updated": "2026-09-23T05:26:26.546790"
+  "last_updated": "2026-09-23T11:13:03.086446"
 }
