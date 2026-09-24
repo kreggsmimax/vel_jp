@@ -22735,7 +22735,42 @@
       "romaji": "Bangou wa go hyaku nijusan desu, yonde kudasai.",
       "category": "Numbers Japanese",
       "generated_at": "2026-09-24T05:45:21.068739"
+    },
+    {
+      "english": "Can I warm it up for me, please?",
+      "japanese": "温めてもらえますか。",
+      "romaji": "Atamete moraemasu ka.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-24T11:28:39.616516"
+    },
+    {
+      "english": "Can you make the coffee less sweet?",
+      "japanese": "コーヒー、甘さ控えめにできますか。",
+      "romaji": "Kōhī, amasa hikaeme ni dekimasu ka.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-24T11:28:39.616526"
+    },
+    {
+      "english": "I’ll pay with a QR code, please.",
+      "japanese": "QRコードで支払います。",
+      "romaji": "QR kōdo de shiharai shimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-24T11:28:39.616527"
+    },
+    {
+      "english": "Do you have a fork, napkin, and chopsticks?",
+      "japanese": "フォークとおしぼりと箸ありますか。",
+      "romaji": "Fōku to oshibori to hashi arimasu ka.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-24T11:28:39.616528"
+    },
+    {
+      "english": "Is this rice fresh, or already made today?",
+      "japanese": "このおにぎり、今日作ったやつですか。",
+      "romaji": "Kono onigiri, kyō tsukutta yatsu desu ka.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-24T11:28:39.616529"
     }
   ],
-  "last_updated": "2026-09-24T05:45:21.068741"
+  "last_updated": "2026-09-24T11:28:39.616531"
 }
