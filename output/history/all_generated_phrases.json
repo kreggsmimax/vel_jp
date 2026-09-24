@@ -22700,7 +22700,42 @@
       "romaji": "Omizu wa o-kawari dekimasu ka.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-09-23T22:42:26.625460"
+    },
+    {
+      "english": "What time does it start, at 7:30?",
+      "japanese": "何時に始まりますか、7時30分ですか。",
+      "romaji": "Nanji ni hajimarimasu ka, shichiji sanjuppun desu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-24T05:45:21.068721"
+    },
+    {
+      "english": "I’ll take two tickets for tomorrow, please.",
+      "japanese": "明日、チケットを2枚お願いします。",
+      "romaji": "Ashita, chiketto o ni-mai onegaishimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-24T05:45:21.068735"
+    },
+    {
+      "english": "How much is this? Is it 1,200 yen?",
+      "japanese": "これはいくらですか、1,200円ですか。",
+      "romaji": "Kore wa ikura desu ka, sennihyaku-en desu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-24T05:45:21.068737"
+    },
+    {
+      "english": "Do you have size M, in 28 waist?",
+      "japanese": "ウエスト28で、Mサイズはありますか。",
+      "romaji": "Uesuto nijuhachi de, emu-saizu wa arimasu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-24T05:45:21.068738"
+    },
+    {
+      "english": "My number is 523, please call me.",
+      "japanese": "番号は523です、呼んでください。",
+      "romaji": "Bangou wa go hyaku nijusan desu, yonde kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-24T05:45:21.068739"
     }
   ],
-  "last_updated": "2026-09-23T22:42:26.625462"
+  "last_updated": "2026-09-24T05:45:21.068741"
 }
