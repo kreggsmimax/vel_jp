@@ -22805,7 +22805,42 @@
       "romaji": "Sore, meccha niau! kawaii!",
       "category": "Kawaii Japanese",
       "generated_at": "2026-09-24T18:57:18.864546"
+    },
+    {
+      "english": "Excuse me, where is the nearest station?",
+      "japanese": "すみません、いちばん近い駅はどこですか。",
+      "romaji": "Sumimasen, ichiban chikai eki wa doko desu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-24T23:01:35.576295"
+    },
+    {
+      "english": "Thank you, I’ll be back soon.",
+      "japanese": "ありがとうございます、すぐ戻ります。",
+      "romaji": "Arigatou gozaimasu, sugu modorimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-24T23:01:35.576306"
+    },
+    {
+      "english": "Sorry, I’m late, please go ahead.",
+      "japanese": "すみません、遅れてしまいました。先にお願いします。",
+      "romaji": "Sumimasen, okurete shimaimashita. Saki ni onegaishimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-24T23:01:35.576308"
+    },
+    {
+      "english": "Where can I pay?",
+      "japanese": "お会計はどこですか。",
+      "romaji": "Okaikei wa doko desu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-24T23:01:35.576309"
+    },
+    {
+      "english": "I don’t understand, can you say it again?",
+      "japanese": "わかりません。もう一度言ってください。",
+      "romaji": "Wakarimasen. Mou ichido itte kudasai.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-24T23:01:35.576310"
     }
   ],
-  "last_updated": "2026-09-24T18:57:18.864547"
+  "last_updated": "2026-09-24T23:01:35.576312"
 }
