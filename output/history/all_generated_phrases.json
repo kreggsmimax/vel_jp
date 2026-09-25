@@ -22875,7 +22875,42 @@
       "romaji": "O-mizu de onegaishimasu.",
       "category": "Food & Dining",
       "generated_at": "2026-09-25T05:41:58.752313"
+    },
+    {
+      "english": "My little sister is in junior high.",
+      "japanese": "妹は中学生です。",
+      "romaji": "Imouto wa chuu gakusei desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-25T11:34:34.497548"
+    },
+    {
+      "english": "My wife wants to go shopping tomorrow.",
+      "japanese": "明日、妻は買い物に行きたいです。",
+      "romaji": "Ashita, tsuma wa kaimono ni ikitai desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-25T11:34:34.497561"
+    },
+    {
+      "english": "My husband is taking care of the kids.",
+      "japanese": "夫は子どもを見てくれてます。",
+      "romaji": "Otto wa kodomo o mite kuretemasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-25T11:34:34.497563"
+    },
+    {
+      "english": "My parents live in Osaka.",
+      "japanese": "両親は大阪に住んでます。",
+      "romaji": "Ryoushin wa Oosaka ni sunde imasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-25T11:34:34.497565"
+    },
+    {
+      "english": "I call my grandma every Sunday.",
+      "japanese": "私は毎週日曜、祖母に電話します。",
+      "romaji": "Watashi wa maishuu nichiyou, sobo ni denwa shimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-25T11:34:34.497566"
     }
   ],
-  "last_updated": "2026-09-25T05:41:58.752316"
+  "last_updated": "2026-09-25T11:34:34.497568"
 }
