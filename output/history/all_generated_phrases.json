@@ -22840,7 +22840,42 @@
       "romaji": "Wakarimasen. Mou ichido itte kudasai.",
       "category": "Basic Phrases",
       "generated_at": "2026-09-24T23:01:35.576310"
+    },
+    {
+      "english": "Is there anything vegetarian here?",
+      "japanese": "ここ、ベジタリアンありますか？",
+      "romaji": "Koko, bejitarian arimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-25T05:41:58.752295"
+    },
+    {
+      "english": "Do you have a table for two?",
+      "japanese": "二人でテーブルありますか？",
+      "romaji": "Futari de teeburu arimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-25T05:41:58.752308"
+    },
+    {
+      "english": "I’ll do the set menu, please.",
+      "japanese": "セットでお願いします。",
+      "romaji": "Setto de onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-25T05:41:58.752310"
+    },
+    {
+      "english": "Can I get it without onions?",
+      "japanese": "玉ねぎ抜きでお願いします。",
+      "romaji": "Tamanegi nuki de onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-25T05:41:58.752312"
+    },
+    {
+      "english": "Please bring water, not tea.",
+      "japanese": "お水でお願いします。",
+      "romaji": "O-mizu de onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-25T05:41:58.752313"
     }
   ],
-  "last_updated": "2026-09-24T23:01:35.576312"
+  "last_updated": "2026-09-25T05:41:58.752316"
 }
