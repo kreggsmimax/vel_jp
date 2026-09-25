@@ -22910,7 +22910,42 @@
       "romaji": "Watashi wa maishuu nichiyou, sobo ni denwa shimasu.",
       "category": "Family Terms",
       "generated_at": "2026-09-25T11:34:34.497566"
+    },
+    {
+      "english": "Hi, do you have a minute?",
+      "japanese": "こんにちは、ちょっといいですか。",
+      "romaji": "Konnichiwa, chotto ii desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-25T14:52:02.626001"
+    },
+    {
+      "english": "Thanks, that really helps.",
+      "japanese": "ありがとう、助かります。",
+      "romaji": "Arigatou, tasukarimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-25T14:52:02.626008"
+    },
+    {
+      "english": "I’m sorry, I didn’t notice.",
+      "japanese": "すみません、気づかなかったです。",
+      "romaji": "Sumimasen, kizukanakatta desu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-25T14:52:02.626009"
+    },
+    {
+      "english": "Can you say that more slowly?",
+      "japanese": "もう少しゆっくりお願いします。",
+      "romaji": "Mou sukoshi yukkuri onegaishimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-25T14:52:02.626010"
+    },
+    {
+      "english": "What do you recommend here?",
+      "japanese": "ここで何がおすすめですか。",
+      "romaji": "Koko de nani ga osusume desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-09-25T14:52:02.626010"
     }
   ],
-  "last_updated": "2026-09-25T11:34:34.497568"
+  "last_updated": "2026-09-25T14:52:02.626011"
 }
