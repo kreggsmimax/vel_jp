@@ -23120,7 +23120,42 @@
       "romaji": "Chikatetsu no nori-kae guchi wa doko desu ka.",
       "category": "Directions & Transit",
       "generated_at": "2026-09-26T13:57:57.532848"
+    },
+    {
+      "english": "What time do you start work, usually?",
+      "japanese": "だいたい何時に仕事始めますか。",
+      "romaji": "Daita i nanji ni shigoto hajimemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-26T18:28:00.475125"
+    },
+    {
+      "english": "I have a meeting at three, okay?",
+      "japanese": "3時に打ち合わせなんで、お願いします。",
+      "romaji": "Sanji ni uchiawase nan de, onegaishimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-26T18:28:00.475135"
+    },
+    {
+      "english": "Sorry, I’m running late, what time?",
+      "japanese": "すみません、遅れそうです。何時ですか。",
+      "romaji": "Sumimasen, okure sō desu. Nanji desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-26T18:28:00.475136"
+    },
+    {
+      "english": "The last train is at midnight, right?",
+      "japanese": "終電って、何時ですか。",
+      "romaji": "Shūden tte, nanji desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-26T18:28:00.475137"
+    },
+    {
+      "english": "How long does it take from here?",
+      "japanese": "ここからどれくらいかかりますか。",
+      "romaji": "Koko kara dore kurai kakarimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-26T18:28:00.475138"
     }
   ],
-  "last_updated": "2026-09-26T13:57:57.532850"
+  "last_updated": "2026-09-26T18:28:00.475140"
 }
