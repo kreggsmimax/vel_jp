@@ -23085,7 +23085,42 @@
       "romaji": "saifu ga nusumaremashita, tasukete kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-09-26T11:08:47.121083"
+    },
+    {
+      "english": "Excuse me, which way is JR Shinjuku Station?",
+      "japanese": "すみません、ＪＲ新宿駅はどっちですか。",
+      "romaji": "Sumimasen, JR Shinjuku-eki wa docchi desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-26T13:57:57.532834"
+    },
+    {
+      "english": "Is this the right platform for the Chuo Line?",
+      "japanese": "中央線はこのホームで合っていますか。",
+      "romaji": "Chuo-sen wa kono hoomu de atte imasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-26T13:57:57.532844"
+    },
+    {
+      "english": "How many stops until Tokyo Station, sorry?",
+      "japanese": "東京駅まで何駅ですか。すみません。",
+      "romaji": "Tokyo-eki made n-ekki desu ka. Sumimasen.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-26T13:57:57.532846"
+    },
+    {
+      "english": "Can I take this route to Asakusa?",
+      "japanese": "この道で浅草に行けますか。",
+      "romaji": "Kono michi de Asakusa ni ikemasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-26T13:57:57.532847"
+    },
+    {
+      "english": "Where is the exit for the subway transfer?",
+      "japanese": "地下鉄の乗り換え口はどこですか。",
+      "romaji": "Chikatetsu no nori-kae guchi wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-26T13:57:57.532848"
     }
   ],
-  "last_updated": "2026-09-26T11:08:47.121085"
+  "last_updated": "2026-09-26T13:57:57.532850"
 }
