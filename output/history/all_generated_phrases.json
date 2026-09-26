@@ -23050,7 +23050,42 @@
       "romaji": "Kyō, nanji made desu ka?",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-09-26T05:45:02.626653"
+    },
+    {
+      "english": "Help! I think I got hurt.",
+      "japanese": "助けて！けがをしたみたいです。",
+      "romaji": "tasukete! kega wo shita mitai desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-26T11:08:47.121071"
+    },
+    {
+      "english": "I feel sick, I need to see a doctor.",
+      "japanese": "気分が悪いです、病院に行きたいです。",
+      "romaji": "kibun ga warui desu, byouin ni iki-tai desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-26T11:08:47.121079"
+    },
+    {
+      "english": "Where is the nearest pharmacy?",
+      "japanese": "近くの薬局はどこですか？",
+      "romaji": "chikaku no yakkyoku wa doko desu ka?",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-26T11:08:47.121081"
+    },
+    {
+      "english": "Fire! Please get everyone out.",
+      "japanese": "火事です！みんなを外へ出してください。",
+      "romaji": "kaji desu! minna wo soto e dashite kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-26T11:08:47.121082"
+    },
+    {
+      "english": "My wallet was stolen, I need help.",
+      "japanese": "財布が盗まれました、助けてください。",
+      "romaji": "saifu ga nusumaremashita, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-09-26T11:08:47.121083"
     }
   ],
-  "last_updated": "2026-09-26T05:45:02.626654"
+  "last_updated": "2026-09-26T11:08:47.121085"
 }
