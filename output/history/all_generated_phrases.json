@@ -23015,7 +23015,42 @@
       "romaji": "Iigo ai wa yamete, jibun no kangae o miru.",
       "category": "Zen Wisdom",
       "generated_at": "2026-09-25T23:06:27.545233"
+    },
+    {
+      "english": "Is this train going to Tokyo Station?",
+      "japanese": "これ、東京駅まで行きますか？",
+      "romaji": "Kore, Tōkyō-eki made ikimasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-26T05:45:02.626637"
+    },
+    {
+      "english": "Sorry, where do I buy an IC card?",
+      "japanese": "すみません、ICカードどこで買えますか？",
+      "romaji": "Sumimasen, IC kādo doko de kaemasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-26T05:45:02.626648"
+    },
+    {
+      "english": "Do you have seats for two people?",
+      "japanese": "二人なんですけど、席ありますか？",
+      "romaji": "Futari nan desu kedo, seki arimasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-26T05:45:02.626650"
+    },
+    {
+      "english": "Can I get this to go, please?",
+      "japanese": "これ、持ち帰りできますか？",
+      "romaji": "Kore, mochi-kaeri dekimasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-26T05:45:02.626651"
+    },
+    {
+      "english": "What time does it close today?",
+      "japanese": "今日、何時までですか？",
+      "romaji": "Kyō, nanji made desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-09-26T05:45:02.626653"
     }
   ],
-  "last_updated": "2026-09-25T23:06:27.545235"
+  "last_updated": "2026-09-26T05:45:02.626654"
 }
