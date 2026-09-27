@@ -23295,7 +23295,42 @@
       "romaji": "Sorosoro shitsurei shimasu. Arigatō gozaimashita.",
       "category": "Polite vs Casual",
       "generated_at": "2026-09-27T14:55:08.791939"
+    },
+    {
+      "english": "Does this bus stop near my hotel?",
+      "japanese": "このバスはホテルの近くに止まりますか。",
+      "romaji": "Kono basu wa hoteru no chikaku ni tomarimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-27T18:58:01.022066"
+    },
+    {
+      "english": "How much is it from here to Kyoto?",
+      "japanese": "ここから京都までいくらですか。",
+      "romaji": "Koko kara Kyoto made ikura desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-27T18:58:01.022076"
+    },
+    {
+      "english": "I’d like this ticket for tomorrow.",
+      "japanese": "明日のこのチケットをお願いします。",
+      "romaji": "Ashita no kono chiketto o onegaishimasu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-27T18:58:01.022077"
+    },
+    {
+      "english": "Do I need a reservation for this?",
+      "japanese": "これ、予約は必要ですか。",
+      "romaji": "Kore, yoyaku wa hitsuyou desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-27T18:58:01.022079"
+    },
+    {
+      "english": "What time does it open, exactly?",
+      "japanese": "何時に開きますか。",
+      "romaji": "Nanji ni akimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-09-27T18:58:01.022080"
     }
   ],
-  "last_updated": "2026-09-27T14:55:08.791941"
+  "last_updated": "2026-09-27T18:58:01.022082"
 }
