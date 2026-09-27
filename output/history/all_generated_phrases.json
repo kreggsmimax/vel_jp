@@ -23225,7 +23225,42 @@
       "romaji": "konbanwa, ima ojikan arimasu ka?",
       "category": "Greetings",
       "generated_at": "2026-09-27T06:04:41.139764"
+    },
+    {
+      "english": "Can I get a receipt, please?",
+      "japanese": "領収書をいただけますか。",
+      "romaji": "Ryōshūsho o itadakemasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-27T11:47:15.466210"
+    },
+    {
+      "english": "Where do I submit this form?",
+      "japanese": "この書類はどこに提出しますか。",
+      "romaji": "Kono shorui wa doko ni teishutsu shimasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-27T11:47:15.466224"
+    },
+    {
+      "english": "Could you send it to my email?",
+      "japanese": "メールで送っていただけますか。",
+      "romaji": "Mēru de okutte itadakemasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-27T11:47:15.466225"
+    },
+    {
+      "english": "Please CC me on this thread.",
+      "japanese": "このスレッドにCCしてください。",
+      "romaji": "Kono sureddo ni shīshī o shite kudasai.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-27T11:47:15.466225"
+    },
+    {
+      "english": "I’ll review it and get back to you.",
+      "japanese": "確認して、折り返しご連絡します。",
+      "romaji": "Kakunin shite, orikaeshi go-renraku shimasu.",
+      "category": "Work & Business",
+      "generated_at": "2026-09-27T11:47:15.466226"
     }
   ],
-  "last_updated": "2026-09-27T06:04:41.139765"
+  "last_updated": "2026-09-27T11:47:15.466227"
 }
