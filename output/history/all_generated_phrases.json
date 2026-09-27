@@ -23260,7 +23260,42 @@
       "romaji": "Kakunin shite, orikaeshi go-renraku shimasu.",
       "category": "Work & Business",
       "generated_at": "2026-09-27T11:47:15.466226"
+    },
+    {
+      "english": "Could you show me where it is?",
+      "japanese": "そこ、どこか教えてもらえますか。",
+      "romaji": "Soko, doko ka oshiete moraemasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-27T14:55:08.791923"
+    },
+    {
+      "english": "Tell me where it is, real quick.",
+      "japanese": "そこ、どこか教えて。",
+      "romaji": "Soko, doko ka oshiete.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-27T14:55:08.791934"
+    },
+    {
+      "english": "Would you mind repeating that, please?",
+      "japanese": "もう一度、お願いします。",
+      "romaji": "Mō ichido, onegaishimasu.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-27T14:55:08.791936"
+    },
+    {
+      "english": "Say it again, please.",
+      "japanese": "もう一回言って。",
+      "romaji": "Mō ikkai itte.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-27T14:55:08.791938"
+    },
+    {
+      "english": "I’ll get going now, thank you.",
+      "japanese": "そろそろ失礼します。ありがとうございました。",
+      "romaji": "Sorosoro shitsurei shimasu. Arigatō gozaimashita.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-09-27T14:55:08.791939"
     }
   ],
-  "last_updated": "2026-09-27T11:47:15.466227"
+  "last_updated": "2026-09-27T14:55:08.791941"
 }
