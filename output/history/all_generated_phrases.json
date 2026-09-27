@@ -23330,7 +23330,42 @@
       "romaji": "Nanji ni akimasu ka.",
       "category": "Travel Japanese",
       "generated_at": "2026-09-27T18:58:01.022080"
+    },
+    {
+      "english": "Hi, do you have English menus?",
+      "japanese": "すみません、英語のメニューありますか？",
+      "romaji": "Sumimasen, eigo no menyuu arimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-27T22:50:10.352603"
+    },
+    {
+      "english": "Can I get water, please, no ice?",
+      "japanese": "お水ください、氷なしでお願いします。",
+      "romaji": "Omizu kudasai, koori nashi de onegaishimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-27T22:50:10.352616"
+    },
+    {
+      "english": "Is this spicy level, like, mild?",
+      "japanese": "これ、辛さは普通ですか？",
+      "romaji": "Kore, karasa wa futsuu desu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-27T22:50:10.352618"
+    },
+    {
+      "english": "Do you have soy sauce on the table?",
+      "japanese": "醤油って、テーブルにありますか？",
+      "romaji": "Shouyu tte, teeburu ni arimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-27T22:50:10.352619"
+    },
+    {
+      "english": "What comes with the set meal?",
+      "japanese": "この定食には何がつきますか？",
+      "romaji": "Kono teishoku ni wa nani ga tsukimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-09-27T22:50:10.352620"
     }
   ],
-  "last_updated": "2026-09-27T18:58:01.022082"
+  "last_updated": "2026-09-27T22:50:10.352622"
 }
