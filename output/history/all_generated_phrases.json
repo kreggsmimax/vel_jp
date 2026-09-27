@@ -23190,7 +23190,42 @@
       "romaji": "Mō ii yo. Kore ijō wa muri.",
       "category": "Anime Quotes",
       "generated_at": "2026-09-26T22:23:47.311031"
+    },
+    {
+      "english": "Hi, how are you doing today?",
+      "japanese": "こんにちは、今日はどうですか？",
+      "romaji": "konnichiwa, kyou wa dou desu ka?",
+      "category": "Greetings",
+      "generated_at": "2026-09-27T06:04:41.139750"
+    },
+    {
+      "english": "Good morning, see you later.",
+      "japanese": "おはようございます、またあとで。",
+      "romaji": "ohayou gozaimasu, mata ato de.",
+      "category": "Greetings",
+      "generated_at": "2026-09-27T06:04:41.139759"
+    },
+    {
+      "english": "Nice to meet you, I’m a new student.",
+      "japanese": "はじめまして、留学生の者です。",
+      "romaji": "hajimemashite, ryuuugakusei no mono desu.",
+      "category": "Greetings",
+      "generated_at": "2026-09-27T06:04:41.139761"
+    },
+    {
+      "english": "How’s it going? I’m doing okay, thanks.",
+      "japanese": "調子どう？まあまあだよ、ありがとう。",
+      "romaji": "choushi dou? maa maa da yo, arigatou.",
+      "category": "Greetings",
+      "generated_at": "2026-09-27T06:04:41.139763"
+    },
+    {
+      "english": "Good evening, what time are you free?",
+      "japanese": "こんばんは、今お時間ありますか？",
+      "romaji": "konbanwa, ima ojikan arimasu ka?",
+      "category": "Greetings",
+      "generated_at": "2026-09-27T06:04:41.139764"
     }
   ],
-  "last_updated": "2026-09-26T22:23:47.311033"
+  "last_updated": "2026-09-27T06:04:41.139765"
 }
