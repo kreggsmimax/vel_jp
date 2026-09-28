@@ -23400,7 +23400,42 @@
       "romaji": "Zannen da na, motto ii to omotteta.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-09-28T06:13:40.923059"
+    },
+    {
+      "english": "Is this seat available, by any chance?",
+      "japanese": "こちらの席、空いてますか？",
+      "romaji": "Kochira no seki, aitemasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-28T13:28:24.442325"
+    },
+    {
+      "english": "Can I get the set meal, please?",
+      "japanese": "セットでお願いします。",
+      "romaji": "Setto de onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-28T13:28:24.442339"
+    },
+    {
+      "english": "Could I have it without onions?",
+      "japanese": "玉ねぎ抜きでお願いします。",
+      "romaji": "Tamanegi nuki de onegaishimasu.",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-28T13:28:24.442340"
+    },
+    {
+      "english": "Is there a wait for this ramen?",
+      "japanese": "このラーメン、並びますか？",
+      "romaji": "Kono rāmen, narabimasu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-28T13:28:24.442342"
+    },
+    {
+      "english": "What’s the spiciest option here?",
+      "japanese": "ここで一番辛いのは何ですか？",
+      "romaji": "Koko de ichiban karai no wa nan desu ka?",
+      "category": "Food & Dining",
+      "generated_at": "2026-09-28T13:28:24.442343"
     }
   ],
-  "last_updated": "2026-09-28T06:13:40.923061"
+  "last_updated": "2026-09-28T13:28:24.442345"
 }
