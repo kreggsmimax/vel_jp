@@ -23365,7 +23365,42 @@
       "romaji": "Kono teishoku ni wa nani ga tsukimasu ka?",
       "category": "Restaurant Japanese",
       "generated_at": "2026-09-27T22:50:10.352620"
+    },
+    {
+      "english": "I’m really nervous about the interview tomorrow.",
+      "japanese": "明日の面接、めっちゃ緊張してる。",
+      "romaji": "Ashita no mensetsu, meccha kinchou shiteru.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-28T06:13:40.923044"
+    },
+    {
+      "english": "I’m so relieved, it worked out!",
+      "japanese": "よかった、うまくいって安心した。",
+      "romaji": "Yokatta, umaku itte anshin shita.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-28T06:13:40.923055"
+    },
+    {
+      "english": "I’m excited to see you.",
+      "japanese": "会えるの楽しみにしてる。",
+      "romaji": "Aeru no tanoshimi ni shiteru.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-28T06:13:40.923056"
+    },
+    {
+      "english": "I feel embarrassed, I said the wrong thing.",
+      "japanese": "恥ずかしい、さっき変なこと言った。",
+      "romaji": "Hazukashii, sakki hen na koto itta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-28T06:13:40.923058"
+    },
+    {
+      "english": "I’m disappointed. I thought it would be better.",
+      "japanese": "残念だな、もっと良いと思ってた。",
+      "romaji": "Zannen da na, motto ii to omotteta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-09-28T06:13:40.923059"
     }
   ],
-  "last_updated": "2026-09-27T22:50:10.352622"
+  "last_updated": "2026-09-28T06:13:40.923061"
 }
