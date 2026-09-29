@@ -23540,7 +23540,42 @@
       "romaji": "shōmi kigen mite, ichiban atarashii no erabimasu.",
       "category": "Convenience Store Hacks",
       "generated_at": "2026-09-29T00:12:53.925143"
+    },
+    {
+      "english": "I have two tickets, please.",
+      "japanese": "チケットは二枚あります。",
+      "romaji": "Chiketto wa ni-mai arimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-29T06:30:34.019238"
+    },
+    {
+      "english": "Give me one more, please.",
+      "japanese": "もう一つください。",
+      "romaji": "Mou hitotsu kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-29T06:30:34.019246"
+    },
+    {
+      "english": "How much is 500 yen?",
+      "japanese": "五百円っていくらですか。",
+      "romaji": "Gohyaku-en tte ikura desu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-29T06:30:34.019247"
+    },
+    {
+      "english": "It costs 3,200 yen, total.",
+      "japanese": "合計で三千二百円です。",
+      "romaji": "Goukei de sanzen nihyaku-en desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-29T06:30:34.019248"
+    },
+    {
+      "english": "The train leaves at 7:20 exactly.",
+      "japanese": "電車は7時20分に出ます。",
+      "romaji": "Densha wa shichiji nijuppun ni demasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-09-29T06:30:34.019249"
     }
   ],
-  "last_updated": "2026-09-29T00:12:53.925145"
+  "last_updated": "2026-09-29T06:30:34.019250"
 }
