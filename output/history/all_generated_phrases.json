@@ -23575,7 +23575,42 @@
       "romaji": "Densha wa shichiji nijuppun ni demasu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-09-29T06:30:34.019249"
+    },
+    {
+      "english": "My mom is picking me up today.",
+      "japanese": "お母さんが今日迎えに来てくれる。",
+      "romaji": "Okaasan ga kyou mukae ni kuru.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-29T12:32:04.973505"
+    },
+    {
+      "english": "Dad said he’ll be late from work.",
+      "japanese": "お父さん、仕事で遅くなるって言ってた。",
+      "romaji": "Otousan, shigoto de osoku naru tte itte tatta.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-29T12:32:04.973518"
+    },
+    {
+      "english": "My sister borrowed my jacket again.",
+      "japanese": "姉がまた私のジャケット借りた。",
+      "romaji": "Ane ga mata watashi no jaketto karita.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-29T12:32:04.973520"
+    },
+    {
+      "english": "My brother called me on my way home.",
+      "japanese": "弟から帰り道に電話来た。",
+      "romaji": "Otouto kara kaerimichi ni denwa kita.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-29T12:32:04.973521"
+    },
+    {
+      "english": "My grandma’s cooking is so good.",
+      "japanese": "おばあちゃんの料理、ほんとおいしい。",
+      "romaji": "Obaa-chan no ryouri, honto oishii.",
+      "category": "Family Terms",
+      "generated_at": "2026-09-29T12:32:04.973522"
     }
   ],
-  "last_updated": "2026-09-29T06:30:34.019250"
+  "last_updated": "2026-09-29T12:32:04.973524"
 }
