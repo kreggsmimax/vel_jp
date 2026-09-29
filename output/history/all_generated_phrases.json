@@ -23645,7 +23645,42 @@
       "romaji": "Arigatou gozaimasu, kore de daijoubu desu.",
       "category": "Basic Phrases",
       "generated_at": "2026-09-29T16:14:24.325011"
+    },
+    {
+      "english": "Which platform does the train to Kyoto leave from?",
+      "japanese": "京都行きの電車は何番ホームですか。",
+      "romaji": "Kyoto-yuki no densha wa nanban homu desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-29T19:54:24.049808"
+    },
+    {
+      "english": "Where is the nearest subway entrance?",
+      "japanese": "いちばん近い地下鉄の入口はどこですか。",
+      "romaji": "Ichiban chikai chikatetsu no iriguchi wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-29T19:54:24.049820"
+    },
+    {
+      "english": "What exit should I take for this address?",
+      "japanese": "この住所へは何番出口がいいですか。",
+      "romaji": "Kono jūsho e wa nanban deguchi ga ii desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-29T19:54:24.049822"
+    },
+    {
+      "english": "How do I transfer to the next train?",
+      "japanese": "次の電車に乗り換えるにはどう行きますか。",
+      "romaji": "Tsugi no densha ni nori-kaeru ni wa dō ikimasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-29T19:54:24.049823"
+    },
+    {
+      "english": "Is the elevator working at this station?",
+      "japanese": "この駅のエレベーターは使えますか。",
+      "romaji": "Kono eki no erebētā wa tsukaemasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-09-29T19:54:24.049824"
     }
   ],
-  "last_updated": "2026-09-29T16:14:24.325013"
+  "last_updated": "2026-09-29T19:54:24.049826"
 }
