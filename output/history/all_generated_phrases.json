@@ -23610,7 +23610,42 @@
       "romaji": "Obaa-chan no ryouri, honto oishii.",
       "category": "Family Terms",
       "generated_at": "2026-09-29T12:32:04.973522"
+    },
+    {
+      "english": "How do I get to Shibuya Station?",
+      "japanese": "渋谷駅までどうやって行きますか。",
+      "romaji": "Shibuya-eki made dou yatte ikimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T16:14:24.324997"
+    },
+    {
+      "english": "Is there a convenience store near here?",
+      "japanese": "この近くにコンビニありますか。",
+      "romaji": "Kono chiku ni konbini arimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T16:14:24.325007"
+    },
+    {
+      "english": "Where is the restroom, please?",
+      "japanese": "すみません、トイレはどこですか。",
+      "romaji": "Sumimasen, toile wa doko desu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T16:14:24.325009"
+    },
+    {
+      "english": "I’d like a coffee, hot please.",
+      "japanese": "コーヒーをお願いします、温かいやつで。",
+      "romaji": "Koohii o onegaishimasu, atakai yatsu de.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T16:14:24.325010"
+    },
+    {
+      "english": "Thanks, that’s everything I needed.",
+      "japanese": "ありがとうございます、これで大丈夫です。",
+      "romaji": "Arigatou gozaimasu, kore de daijoubu desu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-09-29T16:14:24.325011"
     }
   ],
-  "last_updated": "2026-09-29T12:32:04.973524"
+  "last_updated": "2026-09-29T16:14:24.325013"
 }
