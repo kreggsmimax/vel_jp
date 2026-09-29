@@ -23505,7 +23505,42 @@
       "romaji": "Kataku naranakute daijōbu da yo.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-09-28T21:10:10.861664"
+    },
+    {
+      "english": "I buy the onigiri, then add extra soy sauce.",
+      "japanese": "おにぎり買って、醤油ちょい足しします。",
+      "romaji": "onigiri katte, shoyu chio-tashi shimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-29T00:12:53.925128"
+    },
+    {
+      "english": "I grab ice first, then pour the drink slowly.",
+      "japanese": "氷先に入れて、飲み物はゆっくり注ぎます。",
+      "romaji": "kōri saki ni irete, nomimono wa yukkuri sosogimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-29T00:12:53.925138"
+    },
+    {
+      "english": "For warm coffee, I ask them to microwave it.",
+      "japanese": "温かいコーヒーは、レンジで温めてもらいます。",
+      "romaji": "atatakai kōhii wa, renji de atatamete moraimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-29T00:12:53.925140"
+    },
+    {
+      "english": "I switch to the oat milk, it tastes way better.",
+      "japanese": "オーツミルクにすると、全然おいしいです。",
+      "romaji": "ōtsu miruku ni suru to, zenzen oishii desu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-29T00:12:53.925142"
+    },
+    {
+      "english": "I check the best-before date, then pick the freshest.",
+      "japanese": "賞味期限見て、一番新しいの選びます。",
+      "romaji": "shōmi kigen mite, ichiban atarashii no erabimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-09-29T00:12:53.925143"
     }
   ],
-  "last_updated": "2026-09-28T21:10:10.861665"
+  "last_updated": "2026-09-29T00:12:53.925145"
 }
