@@ -23715,7 +23715,42 @@
       "romaji": "Kimochi to kenka shinai de, tada kizuite.",
       "category": "Zen Wisdom",
       "generated_at": "2026-09-29T23:27:41.457695"
+    },
+    {
+      "english": "What time does the train leave?",
+      "japanese": "電車は何時に出ますか。",
+      "romaji": "Densha wa nan-ji ni demasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-30T06:15:20.470006"
+    },
+    {
+      "english": "It’s already past five, isn’t it?",
+      "japanese": "もう5時すぎですよね。",
+      "romaji": "Mou go-ji sugi desu yo ne.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-30T06:15:20.470019"
+    },
+    {
+      "english": "Can we meet at 7:30?",
+      "japanese": "7時半に会えますか。",
+      "romaji": "Shichi-ji han ni aemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-30T06:15:20.470021"
+    },
+    {
+      "english": "The appointment starts in ten minutes.",
+      "japanese": "予約は10分後に始まります。",
+      "romaji": "Yoyaku wa jippun go ni hajimarimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-30T06:15:20.470022"
+    },
+    {
+      "english": "Do you have time this evening?",
+      "japanese": "今夜、時間ありますか。",
+      "romaji": "Kon'ya, jikan arimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-09-30T06:15:20.470024"
     }
   ],
-  "last_updated": "2026-09-29T23:27:41.457696"
+  "last_updated": "2026-09-30T06:15:20.470025"
 }
