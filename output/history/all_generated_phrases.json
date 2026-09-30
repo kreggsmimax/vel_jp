@@ -23820,7 +23820,42 @@
       "romaji": "Gitā wa daitai ichi jikan kurai renshū shimasu.",
       "category": "Hobbies & Activities",
       "generated_at": "2026-09-30T19:55:15.077496"
+    },
+    {
+      "english": "Do you accept credit cards here?",
+      "japanese": "クレジットカード使えますか？",
+      "romaji": "Kurejitto kādo tsukaemasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-30T23:30:20.552025"
+    },
+    {
+      "english": "How much is this exactly?",
+      "japanese": "これ、いくらですか？",
+      "romaji": "Kore, ikura desu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-30T23:30:20.552039"
+    },
+    {
+      "english": "Does it come in black or navy?",
+      "japanese": "黒かネイビーはありますか？",
+      "romaji": "Kuro ka neibī wa arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-30T23:30:20.552040"
+    },
+    {
+      "english": "Do you have this in stock right now?",
+      "japanese": "在庫はありますか？",
+      "romaji": "Zaiko wa arimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-30T23:30:20.552041"
+    },
+    {
+      "english": "Can I pay at the register?",
+      "japanese": "レジでお会計できますか？",
+      "romaji": "Reji de okaikei dekimasu ka?",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-09-30T23:30:20.552041"
     }
   ],
-  "last_updated": "2026-09-30T19:55:15.077498"
+  "last_updated": "2026-09-30T23:30:20.552043"
 }
