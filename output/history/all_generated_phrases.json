@@ -23785,7 +23785,42 @@
       "romaji": "Sumimasen, nama biiru ni shite moraemasu ka.",
       "category": "Izakaya & Nightlife",
       "generated_at": "2026-09-30T16:11:01.219190"
+    },
+    {
+      "english": "I go cycling early on Saturdays.",
+      "japanese": "土曜日は早起きして、自転車に乗りに行きます。",
+      "romaji": "Doyoubi wa hayaoki shite, jitensha ni nori ni ikimasu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-30T19:55:15.077479"
+    },
+    {
+      "english": "I’m trying a new ramen shop tonight.",
+      "japanese": "今夜、新しいラーメン屋さんに行ってみます。",
+      "romaji": "Kon'ya, atarashii rāmen-ya san ni itte mimasu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-30T19:55:15.077491"
+    },
+    {
+      "english": "Do you want to watch a movie together?",
+      "japanese": "一緒に映画見に行きませんか。",
+      "romaji": "Issho ni eiga mi ni ikimasen ka.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-30T19:55:15.077493"
+    },
+    {
+      "english": "I’m going to karaoke after work.",
+      "japanese": "仕事のあと、カラオケ行きます。",
+      "romaji": "Shigoto no ato, karaoke iki masu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-30T19:55:15.077495"
+    },
+    {
+      "english": "I practice guitar for about an hour.",
+      "japanese": "ギターはだいたい一時間くらい練習します。",
+      "romaji": "Gitā wa daitai ichi jikan kurai renshū shimasu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-09-30T19:55:15.077496"
     }
   ],
-  "last_updated": "2026-09-30T16:11:01.219192"
+  "last_updated": "2026-09-30T19:55:15.077498"
 }
