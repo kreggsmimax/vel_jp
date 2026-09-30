@@ -23750,7 +23750,42 @@
       "romaji": "Kon'ya, jikan arimasu ka.",
       "category": "Time Japanese",
       "generated_at": "2026-09-30T06:15:20.470024"
+    },
+    {
+      "english": "This beer is super cold, wow, it’s perfect.",
+      "japanese": "このビール、めっちゃ冷えてて最高ですね。",
+      "romaji": "Kono biiru, meccha hietete saikou desu ne.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-30T16:11:01.219170"
+    },
+    {
+      "english": "Let’s order more skewers, I’m not full.",
+      "japanese": "串、もう一個ずつ頼もうよ。まだいける。",
+      "romaji": "Kushi, mou ikko-zutsu imiyou yo. Mada ikeru.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-30T16:11:01.219186"
+    },
+    {
+      "english": "Cheers! Tonight we’re really celebrating.",
+      "japanese": "乾杯！今夜はマジで飲み会だね。",
+      "romaji": "Kanpai! Kon'ya wa maji de nomikai da ne.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-30T16:11:01.219187"
+    },
+    {
+      "english": "That sashimi looks insane, I have to try.",
+      "japanese": "その刺身、やばいね。絶対頼む。",
+      "romaji": "Sono sashimi, yabai ne. Zettai tanomu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-30T16:11:01.219189"
+    },
+    {
+      "english": "Sorry, can we switch to draft beer?",
+      "japanese": "すみません、生ビールにしてもらえますか。",
+      "romaji": "Sumimasen, nama biiru ni shite moraemasu ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-09-30T16:11:01.219190"
     }
   ],
-  "last_updated": "2026-09-30T06:15:20.470025"
+  "last_updated": "2026-09-30T16:11:01.219192"
 }
