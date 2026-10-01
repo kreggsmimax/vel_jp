@@ -23890,7 +23890,42 @@
       "romaji": "Shichaku shite mo ii desu ka.",
       "category": "Common Expressions",
       "generated_at": "2026-10-01T06:45:03.196679"
+    },
+    {
+      "english": "Help me, I’m lost, where is the station?",
+      "japanese": "すみません、道に迷いました、駅はどこですか。",
+      "romaji": "Sumimasen, michi ni mayoi mashita, eki wa doko desu ka.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-01T12:52:36.272540"
+    },
+    {
+      "english": "Call an ambulance, it’s an emergency, please.",
+      "japanese": "救急車を呼んでください、緊急です。",
+      "romaji": "Kyūkyūsha o yonde kudasai, kinkyū desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-01T12:52:36.272550"
+    },
+    {
+      "english": "I think I swallowed something, please help.",
+      "japanese": "何か飲み込んだかもしれません、助けてください。",
+      "romaji": "Nani ka nomi konda kamoshiremasen, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-01T12:52:36.272552"
+    },
+    {
+      "english": "I have chest pain, please call a doctor.",
+      "japanese": "胸が痛いです、医者を呼んでください。",
+      "romaji": "Mune ga itai desu, isha o yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-01T12:52:36.272553"
+    },
+    {
+      "english": "I’m bleeding, please help me stop it.",
+      "japanese": "血が出ています、止めてください。",
+      "romaji": "Chi ga dete imasu, tomete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-01T12:52:36.272554"
     }
   ],
-  "last_updated": "2026-10-01T06:45:03.196681"
+  "last_updated": "2026-10-01T12:52:36.272556"
 }
