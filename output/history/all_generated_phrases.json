@@ -23855,7 +23855,42 @@
       "romaji": "Reji de okaikei dekimasu ka?",
       "category": "Shopping Japanese",
       "generated_at": "2026-09-30T23:30:20.552041"
+    },
+    {
+      "english": "Sorry, could you say that again, please?",
+      "japanese": "すみません、もう一回言っていただけますか。",
+      "romaji": "Sumimasen, mō ikkai itte itadakemasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-01T06:45:03.196663"
+    },
+    {
+      "english": "I’m just looking, thank you.",
+      "japanese": "見ているだけです、ありがとうございます。",
+      "romaji": "Mite iru dake desu, arigatō gozaimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-01T06:45:03.196675"
+    },
+    {
+      "english": "Which one should I choose for this?",
+      "japanese": "これ、どれを選べばいいですか。",
+      "romaji": "Kore, dore o erabeba ii desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-01T06:45:03.196677"
+    },
+    {
+      "english": "Do you have the smaller size?",
+      "japanese": "小さいサイズはありますか。",
+      "romaji": "Chiisai saizu wa arimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-01T06:45:03.196678"
+    },
+    {
+      "english": "Is it okay if I try it on?",
+      "japanese": "試着してもいいですか。",
+      "romaji": "Shichaku shite mo ii desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-01T06:45:03.196679"
     }
   ],
-  "last_updated": "2026-09-30T23:30:20.552043"
+  "last_updated": "2026-10-01T06:45:03.196681"
 }
