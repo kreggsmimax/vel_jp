@@ -23925,7 +23925,42 @@
       "romaji": "Chi ga dete imasu, tomete kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-10-01T12:52:36.272554"
+    },
+    {
+      "english": "Where’s the nearest station, like, entrance B?",
+      "japanese": "いちばん近い駅、入口Bどこですか？",
+      "romaji": "Ichiban chikai eki, iriguchi B doko desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-01T16:48:19.299546"
+    },
+    {
+      "english": "Hey, can you take a picture of me?",
+      "japanese": "ねえ、写真撮ってくれない？",
+      "romaji": "Nee, shashin totte kurenai?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-01T16:48:19.299557"
+    },
+    {
+      "english": "This train’s delayed again, seriously.",
+      "japanese": "この電車、また遅れてるらしいよ。",
+      "romaji": "Kono densha, mata okureteru rashii yo.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-01T16:48:19.299558"
+    },
+    {
+      "english": "Let’s grab a quick bite after this.",
+      "japanese": "これ終わったら、ちょいご飯行こ。",
+      "romaji": "Kore owattara, chōi gohan ikō.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-01T16:48:19.299560"
+    },
+    {
+      "english": "I’m heading out, see you in ten minutes.",
+      "japanese": "今出るね、十分後にまたね。",
+      "romaji": "Ima deru ne, jūppun-go ni mata ne.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-01T16:48:19.299560"
     }
   ],
-  "last_updated": "2026-10-01T12:52:36.272556"
+  "last_updated": "2026-10-01T16:48:19.299562"
 }
