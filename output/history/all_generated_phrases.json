@@ -24065,7 +24065,42 @@
       "romaji": "Sore, iu no chotto kizumajii desu.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-10-02T06:33:16.915440"
+    },
+    {
+      "english": "Is this spicy, or is it mild?",
+      "japanese": "これは辛いですか、それともあっさりですか。",
+      "romaji": "Kore wa karai desu ka, soretomo assari desu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-02T12:14:59.267017"
+    },
+    {
+      "english": "Do you have it without onions?",
+      "japanese": "玉ねぎ抜きでできますか。",
+      "romaji": "Tamanegi nuki de dekimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-02T12:14:59.267029"
+    },
+    {
+      "english": "Can I have extra sauce, please?",
+      "japanese": "ソースを多めにしてもらえますか。",
+      "romaji": "Sōsu o Ōme ni shite moraemasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-02T12:14:59.267030"
+    },
+    {
+      "english": "Is there a vegetarian option?",
+      "japanese": "ベジタリアンのメニューありますか。",
+      "romaji": "Bejitarian no menyū arimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-02T12:14:59.267031"
+    },
+    {
+      "english": "Do you have any gluten-free items?",
+      "japanese": "グルテンフリーありますか。",
+      "romaji": "Guruten furī ga arimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-02T12:14:59.267031"
     }
   ],
-  "last_updated": "2026-10-02T06:33:16.915442"
+  "last_updated": "2026-10-02T12:14:59.267033"
 }
