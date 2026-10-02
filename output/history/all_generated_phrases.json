@@ -24170,7 +24170,42 @@
       "romaji": "Kurejitto kādo wa tsukaemasu ka.",
       "category": "Travel Japanese",
       "generated_at": "2026-10-02T19:55:47.471911"
+    },
+    {
+      "english": "Do you have a set meal for one person?",
+      "japanese": "1人用の定食はありますか。",
+      "romaji": "Hitori-yō no teishoku wa arimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-02T23:34:23.907016"
+    },
+    {
+      "english": "Could I get the menu in English?",
+      "japanese": "メニューは英語でもありますか。",
+      "romaji": "Menyū wa eigo demo arimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-02T23:34:23.907024"
+    },
+    {
+      "english": "Is it okay if I eat here?",
+      "japanese": "こちらで食べても大丈夫ですか。",
+      "romaji": "Kochira de tabete mo daijōbu desu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-02T23:34:23.907026"
+    },
+    {
+      "english": "Can I make it less spicy, please?",
+      "japanese": "辛さは控えめにできますか。",
+      "romaji": "Karasa wa hikaeme ni dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-02T23:34:23.907027"
+    },
+    {
+      "english": "Could I get a glass of water, please?",
+      "japanese": "お水を1杯いただけますか。",
+      "romaji": "O-mizu o ippai itadakemasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-02T23:34:23.907028"
     }
   ],
-  "last_updated": "2026-10-02T19:55:47.471913"
+  "last_updated": "2026-10-02T23:34:23.907030"
 }
