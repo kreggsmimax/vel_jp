@@ -24100,7 +24100,42 @@
       "romaji": "Guruten furī ga arimasu ka.",
       "category": "Food & Dining",
       "generated_at": "2026-10-02T12:14:59.267031"
+    },
+    {
+      "english": "I’m trying to drink more water.",
+      "japanese": "水をもっと飲むようにしてます。",
+      "romaji": "Mizu o motto nomu yō ni shitemasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-02T16:01:47.309087"
+    },
+    {
+      "english": "My back hurts, so I’ll go home early.",
+      "japanese": "腰が痛いので、今日は早めに帰ります。",
+      "romaji": "Koshi ga itai node, kyō wa hayame ni kaerimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-02T16:01:47.309099"
+    },
+    {
+      "english": "I feel dizzy, I need to sit down.",
+      "japanese": "めまいがするので、ちょっと座ります。",
+      "romaji": "Memaiga suru node, chotto suwarimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-02T16:01:47.309101"
+    },
+    {
+      "english": "I have a fever, should I see a doctor?",
+      "japanese": "熱があるんですけど、病院に行ったほうがいいですか。",
+      "romaji": "Netsu ga arun desu kedo, byōin ni itta hō ga ii desu ka.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-02T16:01:47.309102"
+    },
+    {
+      "english": "I’m going to the pharmacy for cold medicine.",
+      "japanese": "風邪薬をもらいに薬局に行きます。",
+      "romaji": "Kaze kusuri o morai ni yakkyoku ni ikimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-02T16:01:47.309104"
     }
   ],
-  "last_updated": "2026-10-02T12:14:59.267033"
+  "last_updated": "2026-10-02T16:01:47.309105"
 }
