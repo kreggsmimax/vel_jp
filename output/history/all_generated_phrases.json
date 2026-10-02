@@ -24135,7 +24135,42 @@
       "romaji": "Kaze kusuri o morai ni yakkyoku ni ikimasu.",
       "category": "Health & Body",
       "generated_at": "2026-10-02T16:01:47.309104"
+    },
+    {
+      "english": "Does this bus go to Shinjuku?",
+      "japanese": "このバスは新宿に行きますか。",
+      "romaji": "Kono basu wa Shinjuku ni ikimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-02T19:55:47.471901"
+    },
+    {
+      "english": "How much is a ticket to Kyoto?",
+      "japanese": "京都までの切符はいくらですか。",
+      "romaji": "Kyōto made no kippu wa ikura desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-02T19:55:47.471907"
+    },
+    {
+      "english": "Where can I buy a subway card?",
+      "japanese": "地下鉄のカードはどこで買えますか。",
+      "romaji": "Chikatetsu no kādo wa doko de kaemasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-02T19:55:47.471909"
+    },
+    {
+      "english": "Is there a locker available for my bag?",
+      "japanese": "荷物を預けるロッカーありますか。",
+      "romaji": "Nimotsu o azukeru rokkā ga arimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-02T19:55:47.471910"
+    },
+    {
+      "english": "Could I pay by credit card, please?",
+      "japanese": "クレジットカードは使えますか。",
+      "romaji": "Kurejitto kādo wa tsukaemasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-02T19:55:47.471911"
     }
   ],
-  "last_updated": "2026-10-02T16:01:47.309105"
+  "last_updated": "2026-10-02T19:55:47.471913"
 }
