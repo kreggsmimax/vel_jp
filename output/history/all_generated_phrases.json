@@ -24345,7 +24345,42 @@
       "romaji": "Sumimasen, ima o-isogashii desu ka.",
       "category": "Greetings",
       "generated_at": "2026-10-03T18:37:15.041777"
+    },
+    {
+      "english": "I’d like this one, please.",
+      "japanese": "これをお願いします。",
+      "romaji": "Kore o onegai shimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-10-03T22:42:33.902875"
+    },
+    {
+      "english": "Can I pay by card here?",
+      "japanese": "ここでカード払いできますか。",
+      "romaji": "Koko de kaado-barai dekimasu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-10-03T22:42:33.902884"
+    },
+    {
+      "english": "I’m allergic to shrimp, please be careful.",
+      "japanese": "エビがアレルギーなので、気をつけてください。",
+      "romaji": "Ebi ga arerugii na node, ki o tsukete kudasai.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-10-03T22:42:33.902886"
+    },
+    {
+      "english": "What’s good here? Any recommendations?",
+      "japanese": "ここのおすすめは何ですか。",
+      "romaji": "Koko no osusume wa nan desu ka.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-10-03T22:42:33.902888"
+    },
+    {
+      "english": "I have a reservation under this name.",
+      "japanese": "予約はこの名前でしています。",
+      "romaji": "Yoyaku wa kono namae de shite imasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-10-03T22:42:33.902889"
     }
   ],
-  "last_updated": "2026-10-03T18:37:15.041778"
+  "last_updated": "2026-10-03T22:42:33.902891"
 }
