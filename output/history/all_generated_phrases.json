@@ -24205,7 +24205,42 @@
       "romaji": "O-mizu o ippai itadakemasu ka.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-10-02T23:34:23.907028"
+    },
+    {
+      "english": "It’s cloudy today, so it might rain.",
+      "japanese": "今日は曇りで、雨が降りそうです。",
+      "romaji": "kyou wa kumori de, ame ga furisou desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-03T05:58:21.354528"
+    },
+    {
+      "english": "The weather’s nice, let’s go for a walk.",
+      "japanese": "天気がいいので、散歩しませんか。",
+      "romaji": "tenki ga ii node, sanpo shimasen ka.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-03T05:58:21.354540"
+    },
+    {
+      "english": "It’s raining pretty hard right now.",
+      "japanese": "今、かなり雨が降っています。",
+      "romaji": "ima, kanari ame ga futte imasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-03T05:58:21.354542"
+    },
+    {
+      "english": "The temperature dropped this morning.",
+      "japanese": "今朝、気温が下がりました。",
+      "romaji": "kesa, ki-on ga sagarimashita.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-03T05:58:21.354543"
+    },
+    {
+      "english": "It’s too hot today, I can’t stand it.",
+      "japanese": "今日は暑すぎて、きついです。",
+      "romaji": "kyou wa atsusugite, tsurai desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-03T05:58:21.354545"
     }
   ],
-  "last_updated": "2026-10-02T23:34:23.907030"
+  "last_updated": "2026-10-03T05:58:21.354548"
 }
