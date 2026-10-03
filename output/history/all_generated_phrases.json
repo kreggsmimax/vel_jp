@@ -24310,7 +24310,42 @@
       "romaji": "Nanji ni machiawase shimasu ka.",
       "category": "Time Japanese",
       "generated_at": "2026-10-03T14:28:35.498910"
+    },
+    {
+      "english": "Hello, how are you today?",
+      "japanese": "こんにちは、今日はお元気ですか。",
+      "romaji": "Konnichiwa, kyou wa o-genki desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-10-03T18:37:15.041762"
+    },
+    {
+      "english": "Good evening, how was your day?",
+      "japanese": "こんばんは、今日はいかがでしたか。",
+      "romaji": "Konbanwa, kyou wa ikaga deshita ka.",
+      "category": "Greetings",
+      "generated_at": "2026-10-03T18:37:15.041772"
+    },
+    {
+      "english": "Nice to meet you, I’m from abroad.",
+      "japanese": "はじめまして、海外から来ました。",
+      "romaji": "Hajimemashite, kaigai kara kimashita.",
+      "category": "Greetings",
+      "generated_at": "2026-10-03T18:37:15.041774"
+    },
+    {
+      "english": "Thank you, please take care of me.",
+      "japanese": "よろしくお願いします。",
+      "romaji": "Yoroshiku onegaishimasu.",
+      "category": "Greetings",
+      "generated_at": "2026-10-03T18:37:15.041775"
+    },
+    {
+      "english": "Excuse me, are you busy right now?",
+      "japanese": "すみません、今お忙しいですか。",
+      "romaji": "Sumimasen, ima o-isogashii desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-10-03T18:37:15.041777"
     }
   ],
-  "last_updated": "2026-10-03T14:28:35.498912"
+  "last_updated": "2026-10-03T18:37:15.041778"
 }
