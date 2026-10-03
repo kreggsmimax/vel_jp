@@ -24275,7 +24275,42 @@
       "romaji": "Iraira shitemo, yasashiku henji shimasu.",
       "category": "Zen Wisdom",
       "generated_at": "2026-10-03T11:25:48.688704"
+    },
+    {
+      "english": "It starts at nine, so please be ready.",
+      "japanese": "9時からですので、準備お願いします。",
+      "romaji": "Ku-ji kara desu node, junbi onegaishimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-03T14:28:35.498898"
+    },
+    {
+      "english": "How late can it be, by the deadline?",
+      "japanese": "締め切りまで、どれくらい遅れても大丈夫ですか。",
+      "romaji": "Shimekiri made, dorekurai okuretemo daijoubu desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-03T14:28:35.498906"
+    },
+    {
+      "english": "Sorry, I’m running late right now.",
+      "japanese": "すみません、今ちょっと遅れてます。",
+      "romaji": "Sumimasen, ima chotto okureteimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-03T14:28:35.498908"
+    },
+    {
+      "english": "I’ll be there in about twenty minutes.",
+      "japanese": "だいたい20分で着きます。",
+      "romaji": "Daitai nijuppun de tsukimasu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-03T14:28:35.498909"
+    },
+    {
+      "english": "What time should we meet?",
+      "japanese": "何時に待ち合わせしますか。",
+      "romaji": "Nanji ni machiawase shimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-03T14:28:35.498910"
     }
   ],
-  "last_updated": "2026-10-03T11:25:48.688705"
+  "last_updated": "2026-10-03T14:28:35.498912"
 }
