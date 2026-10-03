@@ -24240,7 +24240,42 @@
       "romaji": "kyou wa atsusugite, tsurai desu.",
       "category": "Weather & Seasons",
       "generated_at": "2026-10-03T05:58:21.354545"
+    },
+    {
+      "english": "Before speaking, I pause and breathe once.",
+      "japanese": "話す前に、いったん止めて、息を一回する。",
+      "romaji": "Hanasu mae ni, ittan tomete, iki o ikkai suru.",
+      "category": "Zen Wisdom",
+      "generated_at": "2026-10-03T11:25:48.688689"
+    },
+    {
+      "english": "When I notice thoughts, I let them pass.",
+      "japanese": "考えに気づいたら、そのまま流します。",
+      "romaji": "Kangae ni kidzuitara, sono mama nagashimasu.",
+      "category": "Zen Wisdom",
+      "generated_at": "2026-10-03T11:25:48.688700"
+    },
+    {
+      "english": "Right now matters, so I focus on this.",
+      "japanese": "今が大事だから、これに集中します。",
+      "romaji": "Ima ga daiji dakara, kore ni shūchū shimasu.",
+      "category": "Zen Wisdom",
+      "generated_at": "2026-10-03T11:25:48.688701"
+    },
+    {
+      "english": "I wash the cup slowly, like a meditation.",
+      "japanese": "コップをゆっくり洗うの、瞑想みたいにしてる。",
+      "romaji": "Koppu o yukkuri arau no, meisō mitai ni shiteru.",
+      "category": "Zen Wisdom",
+      "generated_at": "2026-10-03T11:25:48.688703"
+    },
+    {
+      "english": "I answer gently, even when I'm annoyed.",
+      "japanese": "イライラしてても、やさしく返事します。",
+      "romaji": "Iraira shitemo, yasashiku henji shimasu.",
+      "category": "Zen Wisdom",
+      "generated_at": "2026-10-03T11:25:48.688704"
     }
   ],
-  "last_updated": "2026-10-03T05:58:21.354548"
+  "last_updated": "2026-10-03T11:25:48.688705"
 }
