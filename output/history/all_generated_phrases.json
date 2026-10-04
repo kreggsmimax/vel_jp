@@ -24520,7 +24520,42 @@
       "romaji": "Shichaku-shitsu wa doko desu ka.",
       "category": "Shopping Japanese",
       "generated_at": "2026-10-04T18:35:18.651108"
+    },
+    {
+      "english": "Where’s the nearest convenience store, like, right now?",
+      "japanese": "いちばん近いコンビニって、どこですか？",
+      "romaji": "ichiban chikai konbini tte, doko desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-04T22:46:24.585881"
+    },
+    {
+      "english": "Sorry, which platform is the train for Shinjuku?",
+      "japanese": "すみません、新宿行きって何番線ですか？",
+      "romaji": "sumimasen, shinjuku y tte nanban-sen desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-04T22:46:24.585892"
+    },
+    {
+      "english": "I’m running late, can we meet at the station?",
+      "japanese": "遅れそうなんだけど、駅で待ち合わせしよ。",
+      "romaji": "okuresō nan dakedo, eki de machiawase shiyo.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-04T22:46:24.585894"
+    },
+    {
+      "english": "Do you know a good ramen place around here?",
+      "japanese": "このへんでおすすめのラーメン屋ある？",
+      "romaji": "kono hen de osusume no rāmen-ya aru?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-04T22:46:24.585895"
+    },
+    {
+      "english": "Let’s split the bill, like, no worries.",
+      "japanese": "会計割りでいいよ、気にしないで。",
+      "romaji": "kaikei wari de ii yo, ki ni shinaide.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-04T22:46:24.585896"
     }
   ],
-  "last_updated": "2026-10-04T18:35:18.651109"
+  "last_updated": "2026-10-04T22:46:24.585898"
 }
