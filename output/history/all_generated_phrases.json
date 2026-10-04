@@ -24415,7 +24415,42 @@
       "romaji": "jibun o semenaide, soba ni iru yo.",
       "category": "Deep Encouragement",
       "generated_at": "2026-10-04T06:34:44.747481"
+    },
+    {
+      "english": "Which train line should I take for Tokyo Station?",
+      "japanese": "東京駅に行くには、どの路線に乗ればいいですか。",
+      "romaji": "Tōkyō-eki ni iku ni wa, dono rosen ni noreba ii desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-04T12:07:06.464146"
+    },
+    {
+      "english": "When is the next train to Kyoto?",
+      "japanese": "京都行きの次の電車はいつ来ますか。",
+      "romaji": "Kyōto yuki no tsugi no densha wa itsu kimasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-04T12:07:06.464156"
+    },
+    {
+      "english": "How many stops until I get off for Akihabara?",
+      "japanese": "秋葉原までは、何駅ですか。",
+      "romaji": "Akihabara made wa, nan-eki desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-04T12:07:06.464158"
+    },
+    {
+      "english": "Where is the ticket gate for the local train?",
+      "japanese": "各停の改札はどこですか。",
+      "romaji": "Kakutē no kaisatsu wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-04T12:07:06.464159"
+    },
+    {
+      "english": "Do I transfer here, or next station?",
+      "japanese": "乗り換えはここですか、それとも次の駅ですか。",
+      "romaji": "Nori kae wa koko desu ka, soretomo tsugi no eki desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-04T12:07:06.464160"
     }
   ],
-  "last_updated": "2026-10-04T06:34:44.747482"
+  "last_updated": "2026-10-04T12:07:06.464161"
 }
