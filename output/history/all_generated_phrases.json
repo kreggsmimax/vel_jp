@@ -24380,7 +24380,42 @@
       "romaji": "Yoyaku wa kono namae de shite imasu.",
       "category": "Basic Phrases",
       "generated_at": "2026-10-03T22:42:33.902889"
+    },
+    {
+      "english": "It’s okay to struggle, you’re not alone.",
+      "japanese": "つらくても大丈夫、ひとりじゃないよ。",
+      "romaji": "tsurakutemo daijōbu, hitori janai yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-04T06:34:44.747465"
+    },
+    {
+      "english": "Take it slow, your pace is enough.",
+      "japanese": "ゆっくりでいいよ、あなたのペースで大丈夫。",
+      "romaji": "yukkuri de ii yo, anata no pēsu de daijōbu.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-04T06:34:44.747476"
+    },
+    {
+      "english": "You’re doing your best, that counts.",
+      "japanese": "精一杯やってるよ、それで十分。",
+      "romaji": "seiippai yatteru yo, sore de jūbun.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-04T06:34:44.747478"
+    },
+    {
+      "english": "Even if you fail, you can start again.",
+      "japanese": "失敗してもいい、また始めればいい。",
+      "romaji": "shippai shite mo ii, mata hajime reba ii.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-04T06:34:44.747479"
+    },
+    {
+      "english": "Don’t be hard on yourself, I’m here.",
+      "japanese": "自分を責めないで、そばにいるよ。",
+      "romaji": "jibun o semenaide, soba ni iru yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-04T06:34:44.747481"
     }
   ],
-  "last_updated": "2026-10-03T22:42:33.902891"
+  "last_updated": "2026-10-04T06:34:44.747482"
 }
