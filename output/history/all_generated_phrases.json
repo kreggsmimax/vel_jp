@@ -24485,7 +24485,42 @@
       "romaji": "Kitsuen seki ga arimasu ka, soretomo kin'en desu ka.",
       "category": "Izakaya & Nightlife",
       "generated_at": "2026-10-04T15:02:39.948432"
+    },
+    {
+      "english": "Do you have this in a larger size?",
+      "japanese": "こちら、もう少し大きいサイズはありますか。",
+      "romaji": "Kochira, mou sukoshi ookii saizu wa arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-04T18:35:18.651093"
+    },
+    {
+      "english": "Is there a discount if I buy two?",
+      "japanese": "2つ買うと割引ありますか。",
+      "romaji": "Futatsu kau to waribiki arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-04T18:35:18.651103"
+    },
+    {
+      "english": "Do you have this in black, by any chance?",
+      "japanese": "これ、黒もありますか。",
+      "romaji": "Kore, kuro mo arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-04T18:35:18.651105"
+    },
+    {
+      "english": "What’s the price, tax included?",
+      "japanese": "税込みでいくらですか。",
+      "romaji": "Zeikomi de ikura desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-04T18:35:18.651106"
+    },
+    {
+      "english": "Where is the fitting room, please?",
+      "japanese": "試着室はどこですか。",
+      "romaji": "Shichaku-shitsu wa doko desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-04T18:35:18.651108"
     }
   ],
-  "last_updated": "2026-10-04T15:02:39.948434"
+  "last_updated": "2026-10-04T18:35:18.651109"
 }
