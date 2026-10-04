@@ -24450,7 +24450,42 @@
       "romaji": "Nori kae wa koko desu ka, soretomo tsugi no eki desu ka.",
       "category": "Directions & Transit",
       "generated_at": "2026-10-04T12:07:06.464160"
+    },
+    {
+      "english": "Can I get another round of drinks?",
+      "japanese": "もう一杯、おかわりできますか。",
+      "romaji": "Mō ippai, okawari dekimasu ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-04T15:02:39.948418"
+    },
+    {
+      "english": "Does this place have draft beer on tap?",
+      "japanese": "生ビール、ありますか。",
+      "romaji": "Nama biiru, arimasu ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-04T15:02:39.948428"
+    },
+    {
+      "english": "What kind of izakaya snacks are popular tonight?",
+      "japanese": "今日おすすめのつまみって何ですか。",
+      "romaji": "Kyou osusume no tsumami tte nan desu ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-04T15:02:39.948430"
+    },
+    {
+      "english": "Could we share a couple of small plates?",
+      "japanese": "つまみ、二つくらいで分けます。",
+      "romaji": "Tsumami, futatsu kurai de wake masu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-04T15:02:39.948431"
+    },
+    {
+      "english": "Is there a smoking area, or no smoking?",
+      "japanese": "喫煙席ありますか、それとも禁煙ですか。",
+      "romaji": "Kitsuen seki ga arimasu ka, soretomo kin'en desu ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-04T15:02:39.948432"
     }
   ],
-  "last_updated": "2026-10-04T12:07:06.464161"
+  "last_updated": "2026-10-04T15:02:39.948434"
 }
