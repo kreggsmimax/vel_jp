@@ -24590,7 +24590,42 @@
       "romaji": "Obāchan, maitoshi tanjōbi oboeteru.",
       "category": "Family Terms",
       "generated_at": "2026-10-05T06:29:45.287010"
+    },
+    {
+      "english": "Please call an ambulance right now, I’m hurt.",
+      "japanese": "今すぐ救急車を呼んでください、けがをしました。",
+      "romaji": "Ima sugu kyūkyūsha o yonde kudasai, kega o shimashita.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-05T14:11:55.137978"
+    },
+    {
+      "english": "I think I’m having a heart attack, please help.",
+      "japanese": "心臓が苦しいみたいです、助けてください。",
+      "romaji": "Shinzō ga kurushii mitai desu, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-05T14:11:55.137989"
+    },
+    {
+      "english": "Is there a doctor nearby? It’s urgent.",
+      "japanese": "近くにお医者さんはいますか、緊急なんです。",
+      "romaji": "Chikaku ni o-ishasan wa imasu ka, kinkyū nan desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-05T14:11:55.137990"
+    },
+    {
+      "english": "There’s a fire! Please call the fire department!",
+      "japanese": "火事です！消防を呼んでください！",
+      "romaji": "Kaji desu! Shōbō o yonde kudasai!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-05T14:11:55.137992"
+    },
+    {
+      "english": "Help, I’ve been robbed! Call the police!",
+      "japanese": "助けてください、盗まれました！警察を呼んで！",
+      "romaji": "Tasukete kudasai, nusumaremashita! Keisatsu o yonde!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-05T14:11:55.137993"
     }
   ],
-  "last_updated": "2026-10-05T06:29:45.287013"
+  "last_updated": "2026-10-05T14:11:55.137995"
 }
