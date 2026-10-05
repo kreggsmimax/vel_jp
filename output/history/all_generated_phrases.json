@@ -24625,7 +24625,42 @@
       "romaji": "Tasukete kudasai, nusumaremashita! Keisatsu o yonde!",
       "category": "Emergency Japanese",
       "generated_at": "2026-10-05T14:11:55.137993"
+    },
+    {
+      "english": "Could you send me that file, please?",
+      "japanese": "そのファイル、送ってもらえますか。",
+      "romaji": "Sono fairu, okutte moraemasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-10-05T18:57:52.607191"
+    },
+    {
+      "english": "What time is the meeting scheduled?",
+      "japanese": "会議は何時に始まりますか。",
+      "romaji": "Kaigi wa nanji ni hajimarimasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-10-05T18:57:52.607199"
+    },
+    {
+      "english": "Sorry, I’m running behind, just a bit.",
+      "japanese": "すみません、少し遅れます。",
+      "romaji": "Sumimasen, sukoshi okuremasu.",
+      "category": "Work & Business",
+      "generated_at": "2026-10-05T18:57:52.607201"
+    },
+    {
+      "english": "Please reply to this email today.",
+      "japanese": "今日中に、このメールに返信してください。",
+      "romaji": "Kyoujuu ni, kono meeru ni hensei shite kudasai.",
+      "category": "Work & Business",
+      "generated_at": "2026-10-05T18:57:52.607202"
+    },
+    {
+      "english": "Can you summarize the key points?",
+      "japanese": "要点だけ、まとめてもらえますか。",
+      "romaji": "Youten dake, matome te moraemasu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-10-05T18:57:52.607203"
     }
   ],
-  "last_updated": "2026-10-05T14:11:55.137995"
+  "last_updated": "2026-10-05T18:57:52.607205"
 }
