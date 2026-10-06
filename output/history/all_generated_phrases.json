@@ -24730,7 +24730,42 @@
       "romaji": "Iku kedo, okureru kamoshirenai.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-10-06T01:08:26.760391"
+    },
+    {
+      "english": "At the register, ask for split payment right away.",
+      "japanese": "レジで、会計を分けてくださいって言ってください。",
+      "romaji": "Reji de, kaikei o wakete kudasai tte itte kudasai.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-06T07:05:10.673256"
+    },
+    {
+      "english": "Say you want points, then tap your card.",
+      "japanese": "ポイント付けて、カードをタッチしてください。",
+      "romaji": "Pointo tsukete, kaado o tacchi shite kudasai.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-06T07:05:10.673268"
+    },
+    {
+      "english": "Ask for hot coffee, and specify less sugar.",
+      "japanese": "ホットコーヒーで、砂糖少なめでお願いします。",
+      "romaji": "Hotto koohii de, satou sukuname de onegaishimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-06T07:05:10.673270"
+    },
+    {
+      "english": "Want a quick meal? Heat it up at the machine.",
+      "japanese": "温めますか、って聞かれたらお願いします。",
+      "romaji": "Atatamemasu ka, tte kikaretara onegaishimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-06T07:05:10.673272"
+    },
+    {
+      "english": "Check the microwave time, then grab your tray.",
+      "japanese": "レンジの時間確認して、トレー持っていきます。",
+      "romaji": "Renji no jikan kakunin shite, toreii motte ikimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-06T07:05:10.673273"
     }
   ],
-  "last_updated": "2026-10-06T01:08:26.760393"
+  "last_updated": "2026-10-06T07:05:10.673275"
 }
