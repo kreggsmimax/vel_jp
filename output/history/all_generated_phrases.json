@@ -24870,7 +24870,42 @@
       "romaji": "Kowakatta kedo, icchatta.",
       "category": "Heartfelt Romance",
       "generated_at": "2026-10-06T20:07:35.789750"
+    },
+    {
+      "english": "The weather’s cool today, finally.",
+      "japanese": "今日はやっと涼しくなりましたね。",
+      "romaji": "Kyou wa yatto suzushiku narimashita ne.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-06T23:35:16.991429"
+    },
+    {
+      "english": "It’s windy today, so bring a coat.",
+      "japanese": "今日は風が強いので、上着を持ってきてください。",
+      "romaji": "Kyou wa kaze ga tsuyoi node, uwagi o motte kite kudasai.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-06T23:35:16.991442"
+    },
+    {
+      "english": "The air is dry because it’s winter.",
+      "japanese": "冬だから、空気が乾燥しています。",
+      "romaji": "Fuyu dakara, kuuki ga kansou shiteimasu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-06T23:35:16.991443"
+    },
+    {
+      "english": "It’s hot today, don’t forget water.",
+      "japanese": "今日は暑いので、水を忘れないでください。",
+      "romaji": "Kyou wa atsui node, mizu o wasurenaide kudasai.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-06T23:35:16.991445"
+    },
+    {
+      "english": "Autumn is my favorite season.",
+      "japanese": "秋が一番好きな季節です。",
+      "romaji": "Aki ga ichiban suki na kisetsu desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-06T23:35:16.991446"
     }
   ],
-  "last_updated": "2026-10-06T20:07:35.789751"
+  "last_updated": "2026-10-06T23:35:16.991447"
 }
