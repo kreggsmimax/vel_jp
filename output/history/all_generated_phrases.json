@@ -24975,7 +24975,42 @@
       "romaji": "Nodo ga kawaiteru node, mizu nomimasu.",
       "category": "Health & Body",
       "generated_at": "2026-10-07T13:03:03.488843"
+    },
+    {
+      "english": "Sorry, I’m late. Traffic was bad.",
+      "japanese": "すみません、遅れました。ちょっと渋滞で。",
+      "romaji": "Sumimasen, okuremashita. Chotto jūtai de.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-07T17:05:38.920183"
+    },
+    {
+      "english": "I’ll take it. How much is it?",
+      "japanese": "これください。おいくらですか。",
+      "romaji": "Kore kudasai. O-ikura desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-07T17:05:38.920193"
+    },
+    {
+      "english": "What time does it start?",
+      "japanese": "何時からですか。",
+      "romaji": "Nanji kara desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-07T17:05:38.920195"
+    },
+    {
+      "english": "Is it okay to take photos here?",
+      "japanese": "ここで写真撮ってもいいですか。",
+      "romaji": "Koko de shashin totte mo ii desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-07T17:05:38.920196"
+    },
+    {
+      "english": "Do you have any recommendations?",
+      "japanese": "おすすめありますか。",
+      "romaji": "Osusume arimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-07T17:05:38.920198"
     }
   ],
-  "last_updated": "2026-10-07T13:03:03.488845"
+  "last_updated": "2026-10-07T17:05:38.920199"
 }
