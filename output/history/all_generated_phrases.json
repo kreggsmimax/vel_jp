@@ -24940,7 +24940,42 @@
       "romaji": "Kuyashii, zurui yo.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-10-07T06:47:03.390998"
+    },
+    {
+      "english": "I’m feeling a little sick today.",
+      "japanese": "今日はちょっと体調が悪いです。",
+      "romaji": "Kyou wa chotto taichou ga warui desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-07T13:03:03.488826"
+    },
+    {
+      "english": "My stomach hurts, so I can’t eat yet.",
+      "japanese": "お腹が痛くて、まだ食べられないです。",
+      "romaji": "Onaka ga itakute, mada taberarenai desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-07T13:03:03.488840"
+    },
+    {
+      "english": "I have a headache, do you have medicine?",
+      "japanese": "頭が痛いんですが、薬ありますか？",
+      "romaji": "Atama ga itain desu ga, kusuri arimasu ka?",
+      "category": "Health & Body",
+      "generated_at": "2026-10-07T13:03:03.488841"
+    },
+    {
+      "english": "I’m trying to sleep more tonight.",
+      "japanese": "今夜はしっかり寝ようと思ってます。",
+      "romaji": "Kon'ya wa shikkari neyō to omottemasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-07T13:03:03.488842"
+    },
+    {
+      "english": "I’ll drink water, my mouth is dry.",
+      "japanese": "喉が渇いてるので、水飲みます。",
+      "romaji": "Nodo ga kawaiteru node, mizu nomimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-07T13:03:03.488843"
     }
   ],
-  "last_updated": "2026-10-07T06:47:03.391000"
+  "last_updated": "2026-10-07T13:03:03.488845"
 }
