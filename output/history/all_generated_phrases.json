@@ -24905,7 +24905,42 @@
       "romaji": "Aki ga ichiban suki na kisetsu desu.",
       "category": "Weather & Seasons",
       "generated_at": "2026-10-06T23:35:16.991446"
+    },
+    {
+      "english": "I’m nervous, I might mess up.",
+      "japanese": "緊張して、やらかしそう。",
+      "romaji": "Kincho shite, yarakashi sō.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-07T06:47:03.390983"
+    },
+    {
+      "english": "That makes me really happy.",
+      "japanese": "それ、めっちゃ嬉しい。",
+      "romaji": "Sore, meccha ureshii.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-07T06:47:03.390993"
+    },
+    {
+      "english": "I can’t stop thinking about it.",
+      "japanese": "そればっかで頭から離れない。",
+      "romaji": "Sore bakka de atama kara hanarenai.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-07T06:47:03.390995"
+    },
+    {
+      "english": "I feel relieved, finally.",
+      "japanese": "やっと安心した。",
+      "romaji": "Yatto anshin shita.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-07T06:47:03.390997"
+    },
+    {
+      "english": "I’m jealous, it’s not fair.",
+      "japanese": "悔しい、ずるいよ。",
+      "romaji": "Kuyashii, zurui yo.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-07T06:47:03.390998"
     }
   ],
-  "last_updated": "2026-10-06T23:35:16.991447"
+  "last_updated": "2026-10-07T06:47:03.391000"
 }
