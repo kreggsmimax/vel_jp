@@ -25010,7 +25010,42 @@
       "romaji": "Osusume arimasu ka.",
       "category": "Common Expressions",
       "generated_at": "2026-10-07T17:05:38.920198"
+    },
+    {
+      "english": "Can I get this without onions, please?",
+      "japanese": "玉ねぎ抜きでできますか。",
+      "romaji": "Tamanegi nuki de dekimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-07T20:38:15.766696"
+    },
+    {
+      "english": "Is there a lunch set around 1,000 yen?",
+      "japanese": "ランチセットは一,千円くらいありますか。",
+      "romaji": "Ranchi setto wa ichi sen en kurai arimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-07T20:38:15.766707"
+    },
+    {
+      "english": "Does this come with rice or bread?",
+      "japanese": "これ、ご飯かパン付きですか。",
+      "romaji": "Kore, gohan ka pan tsuki desu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-07T20:38:15.766710"
+    },
+    {
+      "english": "Could I have it less spicy, please?",
+      "japanese": "辛さ控えめにできますか。",
+      "romaji": "Karasa hikaeme ni dekimasu ka.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-07T20:38:15.766711"
+    },
+    {
+      "english": "I’ll take the same one as last time.",
+      "japanese": "前と同じのください。",
+      "romaji": "Mae to onaji no kudasai.",
+      "category": "Food & Dining",
+      "generated_at": "2026-10-07T20:38:15.766713"
     }
   ],
-  "last_updated": "2026-10-07T17:05:38.920199"
+  "last_updated": "2026-10-07T20:38:15.766715"
 }
