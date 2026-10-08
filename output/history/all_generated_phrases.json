@@ -25185,7 +25185,42 @@
       "romaji": "Ichiban chikai byōin wa doko desu ka.",
       "category": "Emergency Japanese",
       "generated_at": "2026-10-08T17:05:12.884809"
+    },
+    {
+      "english": "Can you show me on the map?",
+      "japanese": "地図でここ、見せてもらえる？",
+      "romaji": "Chizu de koko, misete moraeru?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-08T20:37:18.010285"
+    },
+    {
+      "english": "I’m just looking, thanks.",
+      "japanese": "見てるだけです、ありがとう。",
+      "romaji": "Miteru dake desu, arigatou.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-08T20:37:18.010294"
+    },
+    {
+      "english": "How much is it, like total?",
+      "japanese": "これ、合計いくら？",
+      "romaji": "Kore, gōkei ikura?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-08T20:37:18.010295"
+    },
+    {
+      "english": "Any discount if I buy two?",
+      "japanese": "二つ買ったら安くなる？",
+      "romaji": "Futatsu katta ra yasuku naru?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-08T20:37:18.010296"
+    },
+    {
+      "english": "That train, it’s going east, right?",
+      "japanese": "この電車、東方面だよね？",
+      "romaji": "Kono densha, higashi hōmen da yo ne?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-08T20:37:18.010296"
     }
   ],
-  "last_updated": "2026-10-08T17:05:12.884811"
+  "last_updated": "2026-10-08T20:37:18.010298"
 }
