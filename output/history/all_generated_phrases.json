@@ -25115,7 +25115,42 @@
       "romaji": "Kaori ga saikō, mō ippo ikitai.",
       "category": "Foodie Reactions",
       "generated_at": "2026-10-08T06:56:05.720775"
+    },
+    {
+      "english": "One more beer, please, and a quick snack.",
+      "japanese": "ビールもう一杯と、つまみ少しお願いします。",
+      "romaji": "Biiru mou ippai to, tsumami sukoshi onegaishimasu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-08T13:10:12.833992"
+    },
+    {
+      "english": "Let’s do o-kawari, what do you recommend?",
+      "japanese": "おかわりしようか、何がおすすめ？",
+      "romaji": "Okawari shiyou ka, nani ga osusume?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-08T13:10:12.834003"
+    },
+    {
+      "english": "Can we get a menu for the drinks?",
+      "japanese": "ドリンクのメニュー、ありますか？",
+      "romaji": "Dorinku no menyuu, arimasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-08T13:10:12.834005"
+    },
+    {
+      "english": "Shochu highball, please. Straight is fine too.",
+      "japanese": "焼酎ハイボールでお願いします、ストレートもいいです。",
+      "romaji": "Shōchū haibōru de onegaishimasu, sutoreēto mo ii desu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-08T13:10:12.834006"
+    },
+    {
+      "english": "Is there a seat near the wall?",
+      "japanese": "壁側の席って空いてますか？",
+      "romaji": "Kabe-gawa no seki tte aiteimasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-08T13:10:12.834007"
     }
   ],
-  "last_updated": "2026-10-08T06:56:05.720776"
+  "last_updated": "2026-10-08T13:10:12.834008"
 }
