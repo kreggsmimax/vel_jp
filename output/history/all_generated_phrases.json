@@ -25150,7 +25150,42 @@
       "romaji": "Kabe-gawa no seki tte aiteimasu ka?",
       "category": "Izakaya & Nightlife",
       "generated_at": "2026-10-08T13:10:12.834007"
+    },
+    {
+      "english": "Please call an ambulance, I’m not feeling well.",
+      "japanese": "救急車を呼んでください、具合が悪いです。",
+      "romaji": "Kyūkyūsha o yonde kudasai, guai ga warui desu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-08T17:05:12.884793"
+    },
+    {
+      "english": "My phone is dead, can I use yours?",
+      "japanese": "携帯がないんです、電話貸してもらえますか。",
+      "romaji": "Keitai ga na in desu, denwa kashite moraemasu ka.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-08T17:05:12.884806"
+    },
+    {
+      "english": "Please stop, my belongings are being stolen.",
+      "japanese": "止めてください、荷物を取られています。",
+      "romaji": "Tomete kudasai, nimotsu o torarete imasu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-08T17:05:12.884807"
+    },
+    {
+      "english": "I’m in trouble, please call the police.",
+      "japanese": "困っています、警察を呼んでください。",
+      "romaji": "Komatte imasu, keisatsu o yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-08T17:05:12.884808"
+    },
+    {
+      "english": "Where is the nearest hospital, please?",
+      "japanese": "いちばん近い病院はどこですか。",
+      "romaji": "Ichiban chikai byōin wa doko desu ka.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-08T17:05:12.884809"
     }
   ],
-  "last_updated": "2026-10-08T13:10:12.834008"
+  "last_updated": "2026-10-08T17:05:12.884811"
 }
