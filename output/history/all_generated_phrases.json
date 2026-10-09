@@ -25360,7 +25360,42 @@
       "romaji": "Kyaa, chitchai! Kawayasugite torkeru!",
       "category": "Kawaii Japanese",
       "generated_at": "2026-10-09T16:43:14.680623"
+    },
+    {
+      "english": "Hi, a table for two, please.",
+      "japanese": "すみません、テーブルを二人でお願いします。",
+      "romaji": "Sumimasen, tēburu o futari de onegaishimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-09T20:03:44.913879"
+    },
+    {
+      "english": "Can I have the spicy level lower?",
+      "japanese": "辛さは少なめにできますか。",
+      "romaji": "Karasa wa sukuname ni dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-09T20:03:44.913892"
+    },
+    {
+      "english": "No onions, please. Is that okay?",
+      "japanese": "玉ねぎは抜きでお願いします。大丈夫ですか。",
+      "romaji": "Tamanegi wa nuki de onegaishimasu. Daijōbu desu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-09T20:03:44.913893"
+    },
+    {
+      "english": "Can we get separate checks, please?",
+      "japanese": "会計を別々にできますか。",
+      "romaji": "Kaikei o betsubetsu ni dekimasu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-09T20:03:44.913894"
+    },
+    {
+      "english": "How long will the wait be?",
+      "japanese": "お待ち時間はどれくらいですか。",
+      "romaji": "Omachi jikan wa dorekurai desu ka.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-09T20:03:44.913895"
     }
   ],
-  "last_updated": "2026-10-09T16:43:14.680625"
+  "last_updated": "2026-10-09T20:03:44.913896"
 }
