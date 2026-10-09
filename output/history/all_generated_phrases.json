@@ -25255,7 +25255,42 @@
       "romaji": "Ikari ga kitatara, naka de ichirei shite chikara o nuki masu.",
       "category": "Zen Wisdom",
       "generated_at": "2026-10-09T00:09:16.682056"
+    },
+    {
+      "english": "Hey, where’s the restroom, like?",
+      "japanese": "トイレどこ？",
+      "romaji": "Toire doko?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-09T07:05:01.805157"
+    },
+    {
+      "english": "Could you speak a little slower, please?",
+      "japanese": "もう少しゆっくり話していただけますか。",
+      "romaji": "Mou sukoshi yukkuri hanashite itadakemasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-09T07:05:01.805168"
+    },
+    {
+      "english": "Can you say it slower, please?",
+      "japanese": "もうちょいゆっくり言って。",
+      "romaji": "Mou choi yukkuri itte.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-09T07:05:01.805169"
+    },
+    {
+      "english": "Repeat it, I didn’t catch that.",
+      "japanese": "もう一回言って、聞こえなかった。",
+      "romaji": "Mou ikka i itte, kikoenakatta.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-09T07:05:01.805170"
+    },
+    {
+      "english": "Sorry, I don’t understand.",
+      "japanese": "すみません、わかりません。",
+      "romaji": "Sumimasen, wakarimasen.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-09T07:05:01.805171"
     }
   ],
-  "last_updated": "2026-10-09T00:09:16.682057"
+  "last_updated": "2026-10-09T07:05:01.805173"
 }
