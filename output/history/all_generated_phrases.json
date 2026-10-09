@@ -25395,7 +25395,42 @@
       "romaji": "Omachi jikan wa dorekurai desu ka.",
       "category": "Restaurant Japanese",
       "generated_at": "2026-10-09T20:03:44.913895"
+    },
+    {
+      "english": "Does this train stop at Shinjuku?",
+      "japanese": "この電車は新宿に止まりますか。",
+      "romaji": "Kono densha wa Shinjuku ni tomarimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-09T23:50:10.234235"
+    },
+    {
+      "english": "Could you tell me the address in Japanese?",
+      "japanese": "住所を日本語で教えてください。",
+      "romaji": "Jusho o nihongo de oshiete kudasai.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-09T23:50:10.234247"
+    },
+    {
+      "english": "Is there a coin locker near here?",
+      "japanese": "この近くにコインロッカーはありますか。",
+      "romaji": "Kono chikaku ni koin rokkā wa arimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-09T23:50:10.234250"
+    },
+    {
+      "english": "I’d like to buy a day pass, please.",
+      "japanese": "一日乗車券を買いたいです。",
+      "romaji": "Ichinichi jōshaken o kaitai desu.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-09T23:50:10.234251"
+    },
+    {
+      "english": "How much is it, and how do I pay?",
+      "japanese": "いくらですか。お支払いはどうしますか。",
+      "romaji": "Ikura desu ka. O-shiharai wa dō shimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-09T23:50:10.234252"
     }
   ],
-  "last_updated": "2026-10-09T20:03:44.913896"
+  "last_updated": "2026-10-09T23:50:10.234254"
 }
