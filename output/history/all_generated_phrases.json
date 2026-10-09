@@ -25290,7 +25290,42 @@
       "romaji": "Sumimasen, wakarimasen.",
       "category": "Polite vs Casual",
       "generated_at": "2026-10-09T07:05:01.805171"
+    },
+    {
+      "english": "I like watching baseball on weekends.",
+      "japanese": "週末は野球を見るのが好きです。",
+      "romaji": "Shuumatsu wa yakyuu o miru no ga suki desu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-10-09T12:56:45.502224"
+    },
+    {
+      "english": "Do you want to grab coffee after karaoke?",
+      "japanese": "カラオケのあと、コーヒー行きませんか？",
+      "romaji": "Karaoke no ato, koohii ikimasen ka?",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-10-09T12:56:45.502237"
+    },
+    {
+      "english": "I started cooking, it’s getting fun.",
+      "japanese": "料理を始めたんですけど、けっこう楽しいです。",
+      "romaji": "Ryouri o hajimeta n desu kedo, kekkoo tanoshii desu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-10-09T12:56:45.502239"
+    },
+    {
+      "english": "I’m into anime, especially mystery ones.",
+      "japanese": "アニメが好きで、特にミステリーが好きです。",
+      "romaji": "Anime ga suki de, toni misuterii ga suki desu.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-10-09T12:56:45.502241"
+    },
+    {
+      "english": "Let’s go to a live show this week.",
+      "japanese": "今週、生のライブ行きましょう。",
+      "romaji": "Konnshuu, nama no raibu ikimashou.",
+      "category": "Hobbies & Activities",
+      "generated_at": "2026-10-09T12:56:45.502242"
     }
   ],
-  "last_updated": "2026-10-09T07:05:01.805173"
+  "last_updated": "2026-10-09T12:56:45.502245"
 }
