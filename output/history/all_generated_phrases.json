@@ -25535,7 +25535,42 @@
       "romaji": "konbanwa, kyou wa kite kurete arigatou gozaimasu.",
       "category": "Greetings",
       "generated_at": "2026-10-10T15:38:32.037891"
+    },
+    {
+      "english": "I have a headache, I can’t focus.",
+      "japanese": "頭が痛くて、集中できないです。",
+      "romaji": "Atama ga itakute, shūchū dekinaidesu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-10T19:13:10.271602"
+    },
+    {
+      "english": "My throat hurts, so I’ll wear a mask.",
+      "japanese": "喉が痛いので、マスクします。",
+      "romaji": "Nodo ga itai node, masuku shimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-10T19:13:10.271614"
+    },
+    {
+      "english": "I think I’m coming down with something.",
+      "japanese": "風邪をひきそうです。",
+      "romaji": "Kaze o hikisō desu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-10T19:13:10.271617"
+    },
+    {
+      "english": "I can’t sleep well, so I’ll rest tonight.",
+      "japanese": "あまり眠れないので、今夜は休みます。",
+      "romaji": "Amari nemurenai node, kon'ya wa yasumimasu.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-10T19:13:10.271618"
+    },
+    {
+      "english": "I have a stomachache, please wait a sec.",
+      "japanese": "お腹が痛いので、ちょっと待ってください。",
+      "romaji": "Onaka ga itai node, chotto matte kudasai.",
+      "category": "Health & Body",
+      "generated_at": "2026-10-10T19:13:10.271619"
     }
   ],
-  "last_updated": "2026-10-10T15:38:32.037893"
+  "last_updated": "2026-10-10T19:13:10.271621"
 }
