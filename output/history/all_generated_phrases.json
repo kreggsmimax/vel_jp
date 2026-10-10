@@ -25570,7 +25570,42 @@
       "romaji": "Onaka ga itai node, chotto matte kudasai.",
       "category": "Health & Body",
       "generated_at": "2026-10-10T19:13:10.271619"
+    },
+    {
+      "english": "It’s raining pretty hard today, I’m staying in.",
+      "japanese": "今日はけっこう雨が降ってるから、家にいる。",
+      "romaji": "Kyou wa kekkou ame ga futte ru kara, ie ni iru.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-10T23:15:37.211143"
+    },
+    {
+      "english": "Is it going to snow tonight, do you know?",
+      "japanese": "今夜雪降りますかね、分かりますか。",
+      "romaji": "Kon'ya yuki furimasu ka ne, wakarimasu ka.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-10T23:15:37.211151"
+    },
+    {
+      "english": "It’s getting cold, so I’ll wear a coat.",
+      "japanese": "寒くなってきたから、コート着るね。",
+      "romaji": "Samuku natte kita kara, kooto kiru ne.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-10T23:15:37.211153"
+    },
+    {
+      "english": "The wind is strong today, watch your umbrella.",
+      "japanese": "今日は風が強いから、傘気をつけて。",
+      "romaji": "Kyou wa kaze ga tsuyoi kara, kasa ki o tsukete.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-10T23:15:37.211155"
+    },
+    {
+      "english": "It feels humid, summer is already here.",
+      "japanese": "じめじめしてる、もう夏だね。",
+      "romaji": "Jimijime shiteru, mou natsu da ne.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-10-10T23:15:37.211156"
     }
   ],
-  "last_updated": "2026-10-10T19:13:10.271621"
+  "last_updated": "2026-10-10T23:15:37.211157"
 }
