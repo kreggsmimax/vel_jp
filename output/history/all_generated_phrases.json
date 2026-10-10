@@ -25500,7 +25500,42 @@
       "romaji": "sono kaigi, raishū ni enki dekimasu ka.",
       "category": "Work & Business",
       "generated_at": "2026-10-10T12:14:20.868920"
+    },
+    {
+      "english": "Good morning, have a nice day.",
+      "japanese": "おはようございます、良い一日を。",
+      "romaji": "ohayou gozaimasu, yoi ichinichi o.",
+      "category": "Greetings",
+      "generated_at": "2026-10-10T15:38:32.037878"
+    },
+    {
+      "english": "Hi, what’s up, how are you?",
+      "japanese": "こんにちは、元気？",
+      "romaji": "konnichiwa, genki?",
+      "category": "Greetings",
+      "generated_at": "2026-10-10T15:38:32.037887"
+    },
+    {
+      "english": "Excuse me, is it okay to ask?",
+      "japanese": "すみません、聞いてもいいですか。",
+      "romaji": "sumimasen, kiitemo ii desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-10-10T15:38:32.037889"
+    },
+    {
+      "english": "Hello, welcome in. How can I help?",
+      "japanese": "いらっしゃいませ、何かお探しですか。",
+      "romaji": "irasshaimase, nanika osagashi desu ka.",
+      "category": "Greetings",
+      "generated_at": "2026-10-10T15:38:32.037890"
+    },
+    {
+      "english": "Good evening, thanks for coming today.",
+      "japanese": "こんばんは、今日は来てくれてありがとうございます。",
+      "romaji": "konbanwa, kyou wa kite kurete arigatou gozaimasu.",
+      "category": "Greetings",
+      "generated_at": "2026-10-10T15:38:32.037891"
     }
   ],
-  "last_updated": "2026-10-10T12:14:20.868921"
+  "last_updated": "2026-10-10T15:38:32.037893"
 }
