@@ -25430,7 +25430,42 @@
       "romaji": "Ikura desu ka. O-shiharai wa dō shimasu ka.",
       "category": "Travel Japanese",
       "generated_at": "2026-10-09T23:50:10.234252"
+    },
+    {
+      "english": "Ask for extra ice, they usually can do it.",
+      "japanese": "氷多めってできますか。だいたいできますよね。",
+      "romaji": "Kōri Ōme tte dekimasu ka. Daitai dekimasu yo ne.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-10T06:36:21.589911"
+    },
+    {
+      "english": "Get hot drinks first, then pour your own.",
+      "japanese": "温かいやつ、先にください。あと自分で入れます。",
+      "romaji": "Atataka yi tsu, saki ni kudasai. Ato jibun de irremasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-10T06:36:21.589921"
+    },
+    {
+      "english": "For bentos, request sauce on the side, please.",
+      "japanese": "お弁当、タレ別でお願いします。",
+      "romaji": "Obentō, tare betsu de onegaishimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-10T06:36:21.589923"
+    },
+    {
+      "english": "Check the label, then scan the QR for points.",
+      "japanese": "シール見て、ポイントはQRで読み取りできます。",
+      "romaji": "Shīru mite, pointo wa QR de yomitori dekimasu.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-10T06:36:21.589924"
+    },
+    {
+      "english": "Choose a discounted lunch by looking at the time sticker.",
+      "japanese": "お昼の値引きシール、時間書いてありますよ。",
+      "romaji": "Ohiru no nebitki shīru, jikan kaite arimasu yo.",
+      "category": "Convenience Store Hacks",
+      "generated_at": "2026-10-10T06:36:21.589926"
     }
   ],
-  "last_updated": "2026-10-09T23:50:10.234254"
+  "last_updated": "2026-10-10T06:36:21.589927"
 }
