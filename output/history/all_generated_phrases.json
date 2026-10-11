@@ -25710,7 +25710,42 @@
       "romaji": "Ojisan wa nandemo naosemasu.",
       "category": "Family Terms",
       "generated_at": "2026-10-11T16:03:41.652254"
+    },
+    {
+      "english": "I’ll take two, please, and that’s it.",
+      "japanese": "それ、2つください、以上です。",
+      "romaji": "Sore, futatsu kudasai, ijō desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-11T19:27:03.937399"
+    },
+    {
+      "english": "How much is one ticket, total?",
+      "japanese": "チケットは1枚いくらですか、合計で。",
+      "romaji": "Chiketto wa ichimai ikura desu ka, gōkei de.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-11T19:27:03.937411"
+    },
+    {
+      "english": "This is the third time today.",
+      "japanese": "これ、今日3回目です。",
+      "romaji": "Kore, kyō 3-kai desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-11T19:27:03.937413"
+    },
+    {
+      "english": "I have four, so I’m good.",
+      "japanese": "4個ありますから、大丈夫です。",
+      "romaji": "Yon-kko arimasu kara, daijōbu desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-11T19:27:03.937414"
+    },
+    {
+      "english": "The store closes at seven, right?",
+      "japanese": "お店は7時に閉まりますよね。",
+      "romaji": "O-mise wa shichiji ni shim arimasu yo ne.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-11T19:27:03.937414"
     }
   ],
-  "last_updated": "2026-10-11T16:03:41.652256"
+  "last_updated": "2026-10-11T19:27:03.937416"
 }
