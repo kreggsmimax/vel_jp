@@ -25675,7 +25675,42 @@
       "romaji": "jibun o semenaide, chanto ganbatte ru yo.",
       "category": "Deep Encouragement",
       "generated_at": "2026-10-11T12:29:10.407357"
+    },
+    {
+      "english": "I’m going to call my sister later.",
+      "japanese": "あとで姉に電話します。",
+      "romaji": "Ato de ane ni denwa shimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-11T16:03:41.652237"
+    },
+    {
+      "english": "My grandma’s cooking is the best.",
+      "japanese": "おばあちゃんの料理が一番おいしいです。",
+      "romaji": "Obāchan no ryōri ga ichiban oishii desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-11T16:03:41.652249"
+    },
+    {
+      "english": "Grandpa watches TV after dinner.",
+      "japanese": "おじいちゃんは夕飯のあとテレビを見ます。",
+      "romaji": "Ojīchan wa yūhan no ato terebi o mimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-11T16:03:41.652251"
+    },
+    {
+      "english": "We’re visiting my aunt this weekend.",
+      "japanese": "今週末、叔母に会いに行きます。",
+      "romaji": "Konnshūmatsu, oba ni ai ni ikimasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-11T16:03:41.652252"
+    },
+    {
+      "english": "My uncle is good at fixing things.",
+      "japanese": "おじさんは何でも直せます。",
+      "romaji": "Ojisan wa nandemo naosemasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-11T16:03:41.652254"
     }
   ],
-  "last_updated": "2026-10-11T12:29:10.407359"
+  "last_updated": "2026-10-11T16:03:41.652256"
 }
