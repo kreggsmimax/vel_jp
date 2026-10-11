@@ -25605,7 +25605,42 @@
       "romaji": "Jimijime shiteru, mou natsu da ne.",
       "category": "Weather & Seasons",
       "generated_at": "2026-10-10T23:15:37.211156"
+    },
+    {
+      "english": "Thanks, I’ll take it, please.",
+      "japanese": "ありがとうございます、これをお願いします。",
+      "romaji": "Arigatou gozaimasu, kore o onegaishimasu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-11T06:43:49.831694"
+    },
+    {
+      "english": "How much is it altogether?",
+      "japanese": "全部でいくらですか。",
+      "romaji": "Zenbu de ikura desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-11T06:43:49.831706"
+    },
+    {
+      "english": "Could I get this to go?",
+      "japanese": "これ、持ち帰りできますか。",
+      "romaji": "Kore, mochikaeri dekimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-11T06:43:49.831708"
+    },
+    {
+      "english": "Wait a minute, I’m almost ready.",
+      "japanese": "ちょっと待って、もうすぐです。",
+      "romaji": "Chotto matte, mou sugu desu.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-11T06:43:49.831709"
+    },
+    {
+      "english": "Where is the nearest station?",
+      "japanese": "一番近い駅はどこですか。",
+      "romaji": "Ichiban chikai eki wa doko desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-11T06:43:49.831711"
     }
   ],
-  "last_updated": "2026-10-10T23:15:37.211157"
+  "last_updated": "2026-10-11T06:43:49.831712"
 }
