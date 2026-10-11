@@ -25640,7 +25640,42 @@
       "romaji": "Ichiban chikai eki wa doko desu ka.",
       "category": "Common Expressions",
       "generated_at": "2026-10-11T06:43:49.831711"
+    },
+    {
+      "english": "You’re doing fine, even if you feel stuck.",
+      "japanese": "動けない日でも、大丈夫だよ。",
+      "romaji": "ugokenai hi demo, daijōbu da yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-11T12:29:10.407343"
+    },
+    {
+      "english": "It’s okay to take your time, really.",
+      "japanese": "急がなくて大丈夫です。",
+      "romaji": "isoganakute daijōbu desu.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-11T12:29:10.407353"
+    },
+    {
+      "english": "One small step is still progress.",
+      "japanese": "小さくても、一歩進んでますよ。",
+      "romaji": "chīsakute mo, ippo susunde masu yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-11T12:29:10.407355"
+    },
+    {
+      "english": "Breathe, you can handle this.",
+      "japanese": "深呼吸して、なんとかなるよ。",
+      "romaji": "shinkokyū shite, nantoka naru yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-11T12:29:10.407356"
+    },
+    {
+      "english": "Don’t blame yourself, you’re trying.",
+      "japanese": "自分を責めないで、ちゃんと頑張ってるよ。",
+      "romaji": "jibun o semenaide, chanto ganbatte ru yo.",
+      "category": "Deep Encouragement",
+      "generated_at": "2026-10-11T12:29:10.407357"
     }
   ],
-  "last_updated": "2026-10-11T06:43:49.831712"
+  "last_updated": "2026-10-11T12:29:10.407359"
 }
