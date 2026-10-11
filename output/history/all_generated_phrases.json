@@ -25745,7 +25745,42 @@
       "romaji": "O-mise wa shichiji ni shim arimasu yo ne.",
       "category": "Numbers Japanese",
       "generated_at": "2026-10-11T19:27:03.937414"
+    },
+    {
+      "english": "This is unbelievably delicious, wow.",
+      "japanese": "これ、めちゃくちゃおいしい、うそでしょ。",
+      "romaji": "Kore, mechakucha oishii, uso desho.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-10-11T23:28:28.544442"
+    },
+    {
+      "english": "The aroma is incredible, I’m obsessed.",
+      "japanese": "この香り、たまらない、ハマりそう。",
+      "romaji": "Kono kaori, tamaranai, hamarisou.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-10-11T23:28:28.544451"
+    },
+    {
+      "english": "That first bite, perfect balance of flavors.",
+      "japanese": "一口目、味のバランス最高。",
+      "romaji": "Hitokuchime, aji no baransu saikou.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-10-11T23:28:28.544453"
+    },
+    {
+      "english": "The texture is so satisfying, it’s addictive.",
+      "japanese": "この食感、たまらない、また食べたい。",
+      "romaji": "Kono shokkan, tamaranai, mata tabetai.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-10-11T23:28:28.544454"
+    },
+    {
+      "english": "It’s rich and smooth, like it melts.",
+      "japanese": "濃厚でなめらか、口の中でとける。",
+      "romaji": "Noukou de nameraka, kuchi no naka de torokeru.",
+      "category": "Foodie Reactions",
+      "generated_at": "2026-10-11T23:28:28.544455"
     }
   ],
-  "last_updated": "2026-10-11T19:27:03.937416"
+  "last_updated": "2026-10-11T23:28:28.544457"
 }
