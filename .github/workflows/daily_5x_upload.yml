@@ -3,11 +3,9 @@ name: Velocity Japanese - Daily 5x Upload
 on:
   # Schedule 5 posts per day (American EST/EDT time)
  schedule:
-    - cron: '0 10 * * *'  # 5:00 AM EST
-    - cron: '0 15 * * *'  # 10:00 AM EST
+
     - cron: '0 20 * * *'  # 3:00 PM EST
-    - cron: '0 1 * * *'   # 8:00 PM EST
-    - cron: '0 6 * * *'   # 1:00 AM EST
+
  # Allow manual trigger for testing
  workflow_dispatch:
 
