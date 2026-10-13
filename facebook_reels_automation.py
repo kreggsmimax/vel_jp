@@ -748,21 +748,52 @@ def get_fresh_fallback_phrases(category: str, num_phrases: int) -> list:
 
 # ============== AUDIO GENERATION ==============
 
+def configure_edge_tts():
+    """Ensure edge_tts connects to Microsoft's active endpoint to avoid 403 on cloud runners."""
+    try:
+        import edge_tts.constants
+        import edge_tts.communicate
+        token = getattr(edge_tts.constants, "TRUSTED_CLIENT_TOKEN", "6A5AA1D4EAFF4E9FB37E23D68491D6F4")
+        new_url = (
+            "wss://api.msedgeservices.com/tts/cognitiveservices/websocket/v1"
+            f"?Ocp-Apim-Subscription-Key={token}"
+        )
+        edge_tts.constants.WSS_URL = new_url
+        edge_tts.communicate.WSS_URL = new_url
+    except Exception:
+        pass
+
+
 async def generate_single_audio(text: str, voice: str, output_path: str) -> bool:
-    """Generate audio using Edge TTS with strict verification"""
+    """Generate audio using Edge TTS with strict verification and active endpoint"""
     if not text or not text.strip():
         return False
+    configure_edge_tts()
+    for attempt in range(3):
+        try:
+            import edge_tts
+            communicate = edge_tts.Communicate(text.strip(), voice)
+            await communicate.save(output_path)
+            out = Path(output_path)
+            if out.exists() and out.stat().st_size > 500:
+                return True
+        except Exception as e:
+            print(f"    TTS attempt {attempt + 1} error: {e}")
+            await asyncio.sleep(1)
+
     try:
-        import edge_tts
-        communicate = edge_tts.Communicate(text.strip(), voice)
-        await communicate.save(output_path)
+        from gtts import gTTS
+        lang = "ja" if "ja" in voice.lower() or "japanese" in voice.lower() else "en"
+        tts = gTTS(text=text.strip(), lang=lang)
+        tts.save(output_path)
         out = Path(output_path)
         if out.exists() and out.stat().st_size > 500:
+            print(f"    ✓ gTTS fallback succeeded for: {output_path}")
             return True
-        return False
-    except Exception as e:
-        print(f"    TTS error: {e}")
-        return False
+    except Exception:
+        pass
+
+    return False
 
 
 def generate_all_audio(phrases: list, output_dir: str):
