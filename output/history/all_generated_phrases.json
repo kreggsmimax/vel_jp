@@ -25850,7 +25850,42 @@
       "romaji": "Kore, totemo ninki ga arimasu ne.",
       "category": "Basic Phrases",
       "generated_at": "2026-10-13T23:37:28.380560"
+    },
+    {
+      "english": "Is the train delayed right now?",
+      "japanese": "電車、いま遅れてますか。",
+      "romaji": "Densha, ima okuretemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-14T22:59:40.002846"
+    },
+    {
+      "english": "I’ll arrive around seven, is that okay?",
+      "japanese": "7時ごろ着きますが、大丈夫ですか。",
+      "romaji": "Shichi-ji goro tsukimasu ga, daijoubu desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-14T22:59:40.002858"
+    },
+    {
+      "english": "Sorry, I’m going to be late.",
+      "japanese": "すみません、遅れそうです。",
+      "romaji": "Sumimasen, okure-sou desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-14T22:59:40.002860"
+    },
+    {
+      "english": "What time do you close today?",
+      "japanese": "今日は何時まで開いてますか。",
+      "romaji": "Kyou wa nanji made araitemasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-14T22:59:40.002861"
+    },
+    {
+      "english": "Can I reschedule for tomorrow afternoon?",
+      "japanese": "明日の午後に変更できますか。",
+      "romaji": "Ashita no gogo ni henkou dekimasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-14T22:59:40.002863"
     }
   ],
-  "last_updated": "2026-10-13T23:37:28.380562"
+  "last_updated": "2026-10-14T22:59:40.002865"
 }
