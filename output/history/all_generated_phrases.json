@@ -25885,7 +25885,42 @@
       "romaji": "Ashita no gogo ni henkou dekimasu ka.",
       "category": "Time Japanese",
       "generated_at": "2026-10-14T22:59:40.002863"
+    },
+    {
+      "english": "Where’s the nearest station from here?",
+      "japanese": "ここから一番近い駅ってどこですか？",
+      "romaji": "Koko kara ichiban chikai eki tte doko desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-15T22:54:33.947202"
+    },
+    {
+      "english": "Sorry, can I cut in line quickly?",
+      "japanese": "すみません、ちょっとだけ割り込みしていいですか？",
+      "romaji": "Sumimasen, chotto dake warikomi shite ii desu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-15T22:54:33.947213"
+    },
+    {
+      "english": "Do you have change for a thousand yen?",
+      "japanese": "千円でおつりって出ますか？",
+      "romaji": "Sen'en de otsuri tte demasu ka?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-15T22:54:33.947215"
+    },
+    {
+      "english": "That store’s cashless only, right?",
+      "japanese": "あのお店、キャッシュレスだけなんだよね？",
+      "romaji": "Ano omise, kyasshuresu dake nanda yo ne?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-15T22:54:33.947216"
+    },
+    {
+      "english": "Wait, your phone is on silent, right?",
+      "japanese": "ちょっと待って、スマホマナーモード入ってない？",
+      "romaji": "Chotto matte, sumaho mānā mōdo haittenai?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-10-15T22:54:33.947218"
     }
   ],
-  "last_updated": "2026-10-14T22:59:40.002865"
+  "last_updated": "2026-10-15T22:54:33.947219"
 }
