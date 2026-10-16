@@ -25920,7 +25920,42 @@
       "romaji": "Chotto matte, sumaho mānā mōdo haittenai?",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-10-15T22:54:33.947218"
+    },
+    {
+      "english": "I’m really disappointed, honestly.",
+      "japanese": "正直、すごくがっかりした。",
+      "romaji": "Shōjiki, sugoku gakkari shita.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-16T22:33:58.229796"
+    },
+    {
+      "english": "I’m happy you came, thank you.",
+      "japanese": "来てくれて嬉しい、ありがとう。",
+      "romaji": "Kite kurete ureshii, arigatō.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-16T22:33:58.229808"
+    },
+    {
+      "english": "I’m a bit lonely today.",
+      "japanese": "今日はちょっと寂しい。",
+      "romaji": "Kyō wa chotto sabishii.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-16T22:33:58.229810"
+    },
+    {
+      "english": "I’m so angry, I can’t calm down.",
+      "japanese": "ムカムカして、落ち着けない。",
+      "romaji": "Mukamuka shite, ochitsukenai.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-16T22:33:58.229811"
+    },
+    {
+      "english": "I’m embarrassed, please don’t look.",
+      "japanese": "恥ずかしいから、見ないで。",
+      "romaji": "Hazukashii kara, minaide.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-10-16T22:33:58.229812"
     }
   ],
-  "last_updated": "2026-10-15T22:54:33.947219"
+  "last_updated": "2026-10-16T22:33:58.229814"
 }
