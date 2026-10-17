@@ -25955,7 +25955,42 @@
       "romaji": "Hazukashii kara, minaide.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-10-16T22:33:58.229812"
+    },
+    {
+      "english": "Help! I’ve lost my wallet, please.",
+      "japanese": "助けてください、財布をなくしました。",
+      "romaji": "tasukete kudasai, saifu o nakushimashita.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-17T21:58:59.573647"
+    },
+    {
+      "english": "I need an ambulance, now.",
+      "japanese": "救急車をお願いします、今すぐ。",
+      "romaji": "kyuukusha o onegaishimasu, ima sugu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-17T21:58:59.573657"
+    },
+    {
+      "english": "Call the police, please.",
+      "japanese": "警察を呼んでください。",
+      "romaji": "keisatsu o yonde kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-17T21:58:59.573659"
+    },
+    {
+      "english": "I can’t breathe, please call emergency.",
+      "japanese": "息ができません、救急をお願いします。",
+      "romaji": "iki ga dekimasen, kyuukyu o onegaishimasu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-17T21:58:59.573661"
+    },
+    {
+      "english": "I’m having severe pain, please help.",
+      "japanese": "すごく痛いです、助けてください。",
+      "romaji": "sugoku itai desu, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-10-17T21:58:59.573662"
     }
   ],
-  "last_updated": "2026-10-16T22:33:58.229814"
+  "last_updated": "2026-10-17T21:58:59.573663"
 }
