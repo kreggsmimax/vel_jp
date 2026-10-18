@@ -25990,7 +25990,42 @@
       "romaji": "sugoku itai desu, tasukete kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-10-17T21:58:59.573662"
+    },
+    {
+      "english": "Where is platform number three, please?",
+      "japanese": "3番ホームはどこですか。",
+      "romaji": "San-ban hōmu wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-18T22:14:21.912953"
+    },
+    {
+      "english": "Is this the train to Shinjuku?",
+      "japanese": "これは新宿行きですか。",
+      "romaji": "Kore wa Shinjuku-yuki desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-18T22:14:21.912963"
+    },
+    {
+      "english": "Does this line go through Ginza?",
+      "japanese": "この線は銀座を通りますか。",
+      "romaji": "Kono sen wa Ginza o toorimasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-18T22:14:21.912965"
+    },
+    {
+      "english": "Can I transfer here to the subway?",
+      "japanese": "ここで地下鉄に乗り換えられますか。",
+      "romaji": "Koko de chikatetsu ni nori kaeraremasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-18T22:14:21.912966"
+    },
+    {
+      "english": "Which exit should I take for the station?",
+      "japanese": "駅はどの出口から出ればいいですか。",
+      "romaji": "Eki wa dono deguchi kara de reba ii desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-10-18T22:14:21.912967"
     }
   ],
-  "last_updated": "2026-10-17T21:58:59.573663"
+  "last_updated": "2026-10-18T22:14:21.912969"
 }
