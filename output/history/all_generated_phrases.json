@@ -26095,7 +26095,42 @@
       "romaji": "Yū chūbu de gitā renshū shiteimasu.",
       "category": "Hobbies & Activities",
       "generated_at": "2026-10-20T22:56:50.196108"
+    },
+    {
+      "english": "Good morning, are you free this morning?",
+      "japanese": "おはよう、今日の午前ひま？",
+      "romaji": "Ohayō, kyō no gōzen hima?",
+      "category": "Greetings",
+      "generated_at": "2026-10-21T23:02:18.909633"
+    },
+    {
+      "english": "Good evening, what are you up to?",
+      "japanese": "こんばんは、今なにしてるの？",
+      "romaji": "Konbanwa, ima nani shiteru no?",
+      "category": "Greetings",
+      "generated_at": "2026-10-21T23:02:18.909644"
+    },
+    {
+      "english": "Nice to meet you, my name is Sarah.",
+      "japanese": "はじめまして、サラです。",
+      "romaji": "Hajimemashite, Sara desu.",
+      "category": "Greetings",
+      "generated_at": "2026-10-21T23:02:18.909646"
+    },
+    {
+      "english": "Excuse me, are you the manager?",
+      "japanese": "すみません、店長さんですか？",
+      "romaji": "Sumimasen, tenchō-san desu ka?",
+      "category": "Greetings",
+      "generated_at": "2026-10-21T23:02:18.909648"
+    },
+    {
+      "english": "Excuse me, can I ask a quick question?",
+      "japanese": "すみません、ちょっといいですか？",
+      "romaji": "Sumimasen, chotto ii desu ka?",
+      "category": "Greetings",
+      "generated_at": "2026-10-21T23:02:18.909649"
     }
   ],
-  "last_updated": "2026-10-20T22:56:50.196112"
+  "last_updated": "2026-10-21T23:02:18.909651"
 }
