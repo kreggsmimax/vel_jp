@@ -26165,7 +26165,42 @@
       "romaji": "Nee, mado akete.",
       "category": "Polite vs Casual",
       "generated_at": "2026-10-23T00:39:36.227406"
+    },
+    {
+      "english": "Sorry, can I get by here?",
+      "japanese": "すみません、ここ通ってもいいですか。",
+      "romaji": "Sumimasen, koko tottemoii desu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-23T22:55:01.182090"
+    },
+    {
+      "english": "Could I have a menu, please?",
+      "japanese": "メニューをいただけますか。",
+      "romaji": "Menyuu o itadakemasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-23T22:55:01.182103"
+    },
+    {
+      "english": "How long does it take to get there?",
+      "japanese": "そこまでどれくらいかかりますか。",
+      "romaji": "Soko made dorekurai kakarimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-23T22:55:01.182104"
+    },
+    {
+      "english": "One more thing, can I pay separately?",
+      "japanese": "もう一つ、別々にお会計できますか。",
+      "romaji": "Mou hitotsu, betsubetsu ni o-kaikei dekimasu ka.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-23T22:55:01.182104"
+    },
+    {
+      "english": "Thanks, that helps a lot!",
+      "japanese": "ありがとうございます、すごく助かりました。",
+      "romaji": "Arigatou gozaimasu, sugoku tasukarimashita.",
+      "category": "Common Expressions",
+      "generated_at": "2026-10-23T22:55:01.182105"
     }
   ],
-  "last_updated": "2026-10-23T00:39:36.227408"
+  "last_updated": "2026-10-23T22:55:01.182106"
 }
