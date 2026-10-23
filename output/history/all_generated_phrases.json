@@ -26130,7 +26130,42 @@
       "romaji": "Sumimasen, chotto ii desu ka?",
       "category": "Greetings",
       "generated_at": "2026-10-21T23:02:18.909649"
+    },
+    {
+      "english": "Excuse me, how much is this?",
+      "japanese": "すみません、これはいくらですか。",
+      "romaji": "Sumimasen, kore wa ikura desu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-23T00:39:36.227395"
+    },
+    {
+      "english": "Thanks, I’ll take this one.",
+      "japanese": "ありがとうございます、これください。",
+      "romaji": "Arigatou gozaimasu, kore kudasai.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-23T00:39:36.227404"
+    },
+    {
+      "english": "I’ll go, see you later!",
+      "japanese": "じゃあ、行くね。またね。",
+      "romaji": "Jaa, iku ne. Mata ne.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-23T00:39:36.227405"
+    },
+    {
+      "english": "Could you open the window, please?",
+      "japanese": "窓、開けてもらえますか。",
+      "romaji": "Mado, akete moraemasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-23T00:39:36.227406"
+    },
+    {
+      "english": "Hey, open the window for me.",
+      "japanese": "ねえ、窓開けて。",
+      "romaji": "Nee, mado akete.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-10-23T00:39:36.227406"
     }
   ],
-  "last_updated": "2026-10-21T23:02:18.909651"
+  "last_updated": "2026-10-23T00:39:36.227408"
 }
