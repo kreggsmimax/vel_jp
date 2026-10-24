@@ -26200,7 +26200,42 @@
       "romaji": "Arigatou gozaimasu, sugoku tasukarimashita.",
       "category": "Common Expressions",
       "generated_at": "2026-10-23T22:55:01.182105"
+    },
+    {
+      "english": "Can I try this on in a fitting room?",
+      "japanese": "これ、試着してもいいですか。試着室はどこですか。",
+      "romaji": "Kore, shichaku shite mo ii desu ka. Shichaku-shitsu wa doko desu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-24T22:16:08.289725"
+    },
+    {
+      "english": "Does this come in black, or other colors?",
+      "japanese": "これは黒もありますか。ほかの色もありますか。",
+      "romaji": "Kore wa kuro mo arimasu ka. Hoka no iro mo arimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-24T22:16:08.289737"
+    },
+    {
+      "english": "Is tax-free available for foreigners?",
+      "japanese": "外国人でも免税できますか。",
+      "romaji": "Gaikokujin demo menzei dekimasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-24T22:16:08.289738"
+    },
+    {
+      "english": "Can I pay with a credit card here?",
+      "japanese": "ここでクレジットカードは使えますか。",
+      "romaji": "Koko de kurejitto kādo wa tsukaemasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-24T22:16:08.289739"
+    },
+    {
+      "english": "Could you wrap it nicely, please?",
+      "japanese": "きれいに包んでいただけますか。",
+      "romaji": "Kirei ni tsutsunde itadakemasu ka.",
+      "category": "Shopping Japanese",
+      "generated_at": "2026-10-24T22:16:08.289740"
     }
   ],
-  "last_updated": "2026-10-23T22:55:01.182106"
+  "last_updated": "2026-10-24T22:16:08.289741"
 }
