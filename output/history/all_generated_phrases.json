@@ -26235,7 +26235,42 @@
       "romaji": "Kirei ni tsutsunde itadakemasu ka.",
       "category": "Shopping Japanese",
       "generated_at": "2026-10-24T22:16:08.289740"
+    },
+    {
+      "english": "My mom, can you call me later?",
+      "japanese": "お母さん、あとで電話してくれる？",
+      "romaji": "Okaasan, ato de denwa shite kureru?",
+      "category": "Family Terms",
+      "generated_at": "2026-10-25T22:19:18.842985"
+    },
+    {
+      "english": "My dad says it’s okay to use it.",
+      "japanese": "お父さんが使っていいって言ってた。",
+      "romaji": "Otousan ga tsukatte ii tte itte tta.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-25T22:19:18.842995"
+    },
+    {
+      "english": "My older sister takes care of me.",
+      "japanese": "姉が面倒見てくれる。",
+      "romaji": "Ane ga mendou mitte kureru.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-25T22:19:18.842997"
+    },
+    {
+      "english": "My younger brother is coming over tonight.",
+      "japanese": "弟が今夜うちに来るよ。",
+      "romaji": "Otouto ga konya uchi ni kuru yo.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-25T22:19:18.842999"
+    },
+    {
+      "english": "We live with my parents in Kyoto.",
+      "japanese": "京都で両親と一緒に暮らしてる。",
+      "romaji": "Kyoto de ryoushin to issho ni kurasiteru.",
+      "category": "Family Terms",
+      "generated_at": "2026-10-25T22:19:18.843000"
     }
   ],
-  "last_updated": "2026-10-24T22:16:08.289741"
+  "last_updated": "2026-10-25T22:19:18.843002"
 }
