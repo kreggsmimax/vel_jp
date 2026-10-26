@@ -9,15 +9,26 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-def _post_pinned_comment(video_id, description, access_token, page_id):
+def _post_pinned_comment(video_id, description, access_token, page_id, website=None):
     import time
-    website = "velocityjapanese.com"
+    if not website:
+        try:
+            import subprocess
+            remote = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], stderr=subprocess.DEVNULL).decode().strip().lower()
+            if "chin" in remote or "zh" in remote: website = "velocitychinese.com"
+            elif "jp" in remote or "ja" in remote or "jap" in remote: website = "velocityjapanese.com"
+            elif "heb" in remote: website = "velocityhebrew.com"
+            else: website = "velocitylanguages.com"
+        except Exception:
+            website = "velocitylanguages.com"
+
     pinned_message = (
-        f"{description}\n\n"
-        f"🌐 Learn more at our website: {website}\n"
-        f"Visit {website} for daily Japanese lessons!"
+        f"🚀 Master this language faster with free interactive guides & blog lessons!\n"
+        f"👉 Visit our website: https://{website}/\n"
+        f"📖 Read our latest articles: https://{website}/blog/\n"
+        f"🔔 Follow for daily lessons!"
     )
-    print(f"[facebook] Posting pinned comment with website ({website})...")
+    print(f"[facebook] Posting pinned comment with website (https://{website}/)...")
     max_retries = 5
     comment_id = None
     for attempt in range(max_retries):
@@ -25,7 +36,7 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
             comment_url = f"https://graph.facebook.com/v21.0/{video_id}/comments"
             comment_data = {'access_token': access_token, 'message': pinned_message}
             res_comment = requests.post(comment_url, data=comment_data, timeout=30)
-            if res_comment.status_code == 200:
+            if res_comment.status_code in [200, 201]:
                 resp = res_comment.json()
                 comment_id = resp.get('id')
                 if comment_id:
@@ -42,10 +53,11 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
             pin_url = f"https://graph.facebook.com/v21.0/{comment_id}"
             pin_data = {'access_token': access_token, 'is_pinned': 'true'}
             requests.post(pin_url, data=pin_data, timeout=15)
+            print("[facebook] Comment pinned successfully!")
         except Exception as e:
             print(f"[facebook] Pin error: {e}")
 
-def upload_to_facebook(video_path, description, title="VELOCITY JAPANESE"):
+def upload_to_facebook(video_path, description, title="Velocity Lesson"):
     print("\n" + "=" * 60)
     print("FACEBOOK UPLOAD")
     print("=" * 60)
@@ -70,7 +82,7 @@ def upload_to_facebook(video_path, description, title="VELOCITY JAPANESE"):
             res_transfer = requests.post(upload_url, headers=headers, data=f, timeout=600)
         if res_transfer.status_code != 200: raise Exception(f"Transfer failed: {res_transfer.text}")
         finish_url = f"https://graph.facebook.com/v21.0/{page_id}/video_reels"
-        finish_data = {'access_token': access_token, 'upload_phase': 'finish', 'video_id': video_id, 'description': description, 'video_state': 'PUBLISHED'}
+        finish_data = {'access_token': access_token, 'upload_phase': 'finish', 'video_id': video_id, 'title': title[:100] if title else 'Language Lesson', 'description': description, 'video_state': 'PUBLISHED'}
         res_finish = requests.post(finish_url, data=finish_data, timeout=60)
         if res_finish.status_code == 200 and res_finish.json().get('success'):
             _post_pinned_comment(video_id, description, access_token, page_id)

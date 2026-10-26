@@ -5,7 +5,7 @@ With Auto Payload Compression (<12MB) & Smart Container Processing Polling.
 """
 import os, sys, time, json, requests, pathlib, subprocess
 
-def upload_to_instagram(video_path, caption="", is_story=False):
+def upload_to_instagram(video_path, caption="", is_story=False, audio_name=None):
     media_type = 'STORIES' if is_story else 'REELS'
     print("\n" + "=" * 60)
     print(f"INSTAGRAM {media_type} UPLOAD (Direct Resumable v21.0 + Auto-Compress)")
@@ -82,6 +82,8 @@ def upload_to_instagram(video_path, caption="", is_story=False):
         }
         if not is_story:
             c_params['share_to_feed'] = False
+            if audio_name:
+                c_params['audio_name'] = audio_name[:100]
 
         c_res = requests.post(f"{api_base}/{user_id}/media", params=c_params, timeout=30)
         if c_res.status_code not in (200, 201):
@@ -137,6 +139,22 @@ def upload_to_instagram(video_path, caption="", is_story=False):
             media_id = pub_res.json().get('id', container_id)
             print(f"[instagram] ? SUCCESS! Media ID: {media_id} (waited {waited}s)")
             print(f"INSTAGRAM: SUCCESS (ID: {media_id})")
+            try:
+                import subprocess
+                remote = subprocess.check_output(["git", "config", "--get", "remote.origin.url"], stderr=subprocess.DEVNULL).decode().strip().lower()
+                if "chin" in remote or "zh" in remote: site = "velocitychinese.com"
+                elif "jp" in remote or "ja" in remote or "jap" in remote: site = "velocityjapanese.com"
+                elif "heb" in remote: site = "velocityhebrew.com"
+                else: site = "velocitylanguages.com"
+            except Exception:
+                site = "velocitylanguages.com"
+            try:
+                print(f"[instagram] Posting comment linking to https://{site}...")
+                c_res = requests.post(f"{api_base}/{media_id}/comments", data={'access_token': access_token, 'message': f"🚀 Practice interactive lessons & free study guides at https://{site}/ (Link in bio!)"}, timeout=20)
+                if c_res.status_code in (200, 201):
+                    print(f"[instagram] Comment posted! ID: {c_res.json().get('id')}")
+            except Exception as ce:
+                print(f"[instagram] Notice on comment: {ce}")
             return {'status': 'success', 'id': media_id, 'platform': 'instagram', 'wait_s': waited}
         else:
             err = pub_res.json().get('error', {}).get('message', pub_res.text)

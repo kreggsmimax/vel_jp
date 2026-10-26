@@ -261,26 +261,101 @@ def generate_caption(phrases, category, lang_field="native", words=None, metadat
         base.extend(["Like & follow for daily vocabulary!", ""])
         base.extend([f"#{tag}", f"#{tag}daily", "#vocabulary", "#englishlearning", "#wordroots", "#learnenglish"])
         return "\n".join(base)
+
     lang_name = get_language_name(phrases, lang_field)
-    lang_tag = lang_name.lower().replace(" ", "")
+    lang_lower = lang_name.lower()
+
+    if "chin" in lang_lower or "zh" in lang_lower:
+        name = "Chinese"
+        flag = "🇨🇳"
+        domain = "velocitychinese.com"
+        pron_key = "pinyin"
+        keywords = "learn chinese, mandarin chinese for beginners, daily chinese phrases, hsk vocabulary, speak chinese fluently, pinyin guide, velocity chinese"
+        tags = ["learnchinese", "chineselessons", "chineseforbeginners", "mandarinchinese", "chinesevocabulary", "velocitychinese", "speakchinese", "dailychinese"]
+    elif "jap" in lang_lower or "ja" in lang_lower or "jp" in lang_lower:
+        name = "Japanese"
+        flag = "🇯🇵"
+        domain = "velocityjapanese.com"
+        pron_key = "romaji"
+        keywords = "learn japanese, japanese for beginners, daily japanese phrases, jlpt vocabulary, speak japanese fluently, romaji guide, velocity japanese"
+        tags = ["learnjapanese", "japaneselessons", "japaneseforbeginners", "japanesepodcast", "japanesevocabulary", "velocityjapanese", "speakjapanese", "dailyjapanese"]
+    elif "heb" in lang_lower:
+        name = "Hebrew"
+        flag = "🇮🇱"
+        domain = "velocityhebrew.com"
+        pron_key = "transliteration"
+        keywords = "learn hebrew, hebrew for beginners, daily hebrew phrases, hebrew cursive ktav, biblical hebrew, speak hebrew fluently, alef bet, velocity hebrew"
+        tags = ["learnhebrew", "hebrewlessons", "hebrewforbeginners", "hebrewcursive", "hebrewvocabulary", "velocityhebrew", "speakhebrew", "dailyhebrew"]
+    else:
+        name = lang_name
+        flag = "🌍"
+        domain = f"velocity{name.lower()}.com"
+        pron_key = "transliteration"
+        keywords = f"learn {name.lower()}, {name.lower()} for beginners, daily {name.lower()} phrases, velocity {name.lower()}"
+        tags = [f"learn{name.lower()}", f"{name.lower()}lessons", f"{name.lower()}forbeginners", f"velocity{name.lower()}"]
+
+    cat_tag = category.lower().replace(" ", "").replace("&", "")
+    tag_list = [f"#{t}" for t in tags] + [f"#{cat_tag}"]
+
     if platform == "instagram":
-        base = [f"Learn {lang_name} with VELOCITY {lang_name.upper()}!", "", f"Category: {category}", ""]
-        for i, p in enumerate(phrases[:3], 1):
+        base = [
+            f"{flag} Learn {name} with VELOCITY {name.upper()}!",
+            f"👉 Practice free lessons & guides: https://{domain}/ (Link in bio!)",
+            "",
+            f"Category: {category}",
+            f"Master {name} one phrase at a time! Today's {category} lesson:",
+            ""
+        ]
+        for i, p in enumerate(phrases[:4], 1):
+            foreign_text = p.get(lang_field, "") or p.get(name.lower(), "")
+            pron_text = p.get(pron_key) or p.get('transliteration') or p.get('romaji') or p.get('pinyin') or p.get('pronunciation') or ''
             base.append(f"{i}. {p['english']}")
-            base.append(f"   {p.get(lang_field, '')}")
-            base.append(f"   [{p.get('transliteration') or p.get('romaji') or p.get('pinyin') or p.get('romanization') or p.get('pronunciation') or ''}]")
+            if foreign_text:
+                base.append(f"   {foreign_text}")
+            if pron_text:
+                base.append(f"   [{pron_text}]")
             base.append("")
-        base.extend(["Which phrase is your favorite? 👇", f"Follow for daily {lang_name} lessons!", ""])
-        base.extend([f"#learn{lang_tag}", f"#{lang_tag}lessons", "#languagelearning", f"#velocity{lang_tag}", f"#daily{lang_tag}"])
+        base.extend([
+            "Which phrase is your favorite? Drop a comment below! 👇",
+            f"Follow for daily {name} lessons!",
+            f"🔗 Full vocabulary guides: https://{domain}/ (Link in bio)",
+            "",
+            f"🔍 Search keywords: {keywords}",
+            "",
+            " ".join(tag_list[:12])
+        ])
         return "\n".join(base)
-    base = [f"Learn {lang_name} with VELOCITY {lang_name.upper()}!", "", f"Category: {category}", "", f"Master {lang_name} one phrase at a time! Today's {category} lesson:", ""]
+
+    base = [
+        f"{flag} Learn {name} with VELOCITY {name.upper()}!",
+        f"👉 Free Interactive Lessons & Study Guides: https://{domain}/",
+        f"📖 Read our latest {name} blog articles: https://{domain}/blog/",
+        "",
+        f"📚 Category: {category}",
+        f"Master {name} one phrase at a time! Today's {category} lesson:",
+        ""
+    ]
     for i, p in enumerate(phrases[:5], 1):
+        foreign_text = p.get(lang_field, "") or p.get(name.lower(), "")
+        pron_text = p.get(pron_key) or p.get('transliteration') or p.get('romaji') or p.get('pinyin') or p.get('pronunciation') or ''
         base.append(f"{i}. {p['english']}")
-        base.append(f"   {p.get(lang_field, '')}")
-        base.append(f"   [{p.get('transliteration') or p.get('romaji') or p.get('pinyin') or p.get('romanization') or p.get('pronunciation') or ''}]")
+        if foreign_text:
+            base.append(f"   {foreign_text}")
+        if pron_text:
+            base.append(f"   [{pron_text}]")
         base.append("")
-    base.extend(["Tip: Repeat each phrase out loud 3 times!", "Like this video if you learned something new!", "Comment your favorite phrase below!", "Follow for daily lessons!", ""])
-    base.extend([f"#learn{lang_tag}", f"#{lang_tag}lessons", f"#{lang_tag}forbeginners", "#languagelearning", f"#{lang_tag}vocabulary", f"#velocity{lang_tag}", f"#daily{lang_tag}", f"#{lang_tag}", "#learnlanguages"])
+    base.extend([
+        "💡 Tip: Repeat each phrase out loud 3 times for muscle memory!",
+        "👍 Like this video if you learned something new!",
+        "💬 Comment your favorite phrase below!",
+        f"🔔 Follow for daily {name} lessons!",
+        "",
+        f"🌐 Free Interactive Practice: https://{domain}/",
+        "",
+        f"🔍 Popular Search Topics: {keywords}",
+        "",
+        " ".join(tag_list)
+    ])
     return "\n".join(base)
 
 
@@ -313,10 +388,12 @@ def upload_to_all_platforms(video_path, caption, category, phrases=None, lang_fi
                 elif pname == "tiktok":
                     r = func(video_path=video_path, description=caption, title=caption[:100])
                 elif pname == "facebook":
-                    r = func(video_path=video_path, description=caption)
+                    fb_title = f"Learn {lang_name}: {category} Phrases | Velocity {lang_name}"
+                    r = func(video_path=video_path, description=caption, title=fb_title)
                 elif pname == "instagram":
                     ig_cap = generate_caption(phrases, category, lang_field, words if words else None, metadata if metadata else None, platform="instagram")
-                    r = func(video_path=video_path, caption=ig_cap, is_story=False)
+                    ig_audio = f"Velocity {lang_name} • Learn {lang_name}"
+                    r = func(video_path=video_path, caption=ig_cap, is_story=False, audio_name=ig_audio)
                 t_end = datetime.now()
                 t_sec = round((t_end - t_start).total_seconds())
                 results["timing"][pname] = f"{t_sec}s"
