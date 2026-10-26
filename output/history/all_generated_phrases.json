@@ -26270,7 +26270,42 @@
       "romaji": "Kyoto de ryoushin to issho ni kurasiteru.",
       "category": "Family Terms",
       "generated_at": "2026-10-25T22:19:18.843000"
+    },
+    {
+      "english": "One ticket to Tokyo, please.",
+      "japanese": "東京までの切符を一枚ください。",
+      "romaji": "Tōkyō made no kippu o ichi-mai kudasai.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-26T23:35:48.265927"
+    },
+    {
+      "english": "Which platform does this train leave from?",
+      "japanese": "この電車は何番のホームですか。",
+      "romaji": "Kono densha wa nanban no hōmu desu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-26T23:35:48.265938"
+    },
+    {
+      "english": "Is there a restroom for foreigners?",
+      "japanese": "外国人でも使えるトイレはありますか。",
+      "romaji": "Gaikokujin demo tsukaeru otearai wa arimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-26T23:35:48.265939"
+    },
+    {
+      "english": "Do I need to pay to enter?",
+      "japanese": "入るのにお金はかかりますか。",
+      "romaji": "Hairu no ni o-kane wa kakari masu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-26T23:35:48.265940"
+    },
+    {
+      "english": "What time do you serve lunch until?",
+      "japanese": "ランチは何時までやっていますか。",
+      "romaji": "Ranchi wa nanji made yatteimasu ka.",
+      "category": "Travel Japanese",
+      "generated_at": "2026-10-26T23:35:48.265941"
     }
   ],
-  "last_updated": "2026-10-25T22:19:18.843002"
+  "last_updated": "2026-10-26T23:35:48.265943"
 }
