@@ -26305,7 +26305,42 @@
       "romaji": "Ranchi wa nanji made yatteimasu ka.",
       "category": "Travel Japanese",
       "generated_at": "2026-10-26T23:35:48.265941"
+    },
+    {
+      "english": "Do you have this without onions?",
+      "japanese": "玉ねぎ抜きでできますか？",
+      "romaji": "Tamanegi nuki de dekimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-27T23:30:45.219690"
+    },
+    {
+      "english": "Is this spicy, or not?",
+      "japanese": "これ、辛いですか？辛くないですか？",
+      "romaji": "Kore, karai desu ka? Karakunai desu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-27T23:30:45.219701"
+    },
+    {
+      "english": "Could I get the set meal?",
+      "japanese": "定食でお願いします。",
+      "romaji": "Teishoku de onegaishimasu.",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-27T23:30:45.219703"
+    },
+    {
+      "english": "Do you have water or tea?",
+      "japanese": "お水かお茶はありますか？",
+      "romaji": "Omizu ka ocha wa arimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-27T23:30:45.219704"
+    },
+    {
+      "english": "Can I have it less sweet?",
+      "japanese": "甘さ控えめにできますか？",
+      "romaji": "Amasa hikaeme ni dekimasu ka?",
+      "category": "Restaurant Japanese",
+      "generated_at": "2026-10-27T23:30:45.219705"
     }
   ],
-  "last_updated": "2026-10-26T23:35:48.265943"
+  "last_updated": "2026-10-27T23:30:45.219706"
 }
