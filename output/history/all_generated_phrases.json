@@ -26340,7 +26340,42 @@
       "romaji": "Amasa hikaeme ni dekimasu ka?",
       "category": "Restaurant Japanese",
       "generated_at": "2026-10-27T23:30:45.219705"
+    },
+    {
+      "english": "What time do they stop serving food?",
+      "japanese": "料理って何時まで出してますか？",
+      "romaji": "Ryōri tte nanji made dashitemasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-28T23:57:36.554228"
+    },
+    {
+      "english": "Can we do a round of drinks now?",
+      "japanese": "とりあえず、乾杯しましょうか。",
+      "romaji": "Toriaezu, kanpai shimashō ka.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-28T23:57:36.554237"
+    },
+    {
+      "english": "Do you have draft beer right now?",
+      "japanese": "生ビールありますか？",
+      "romaji": "Nama bīru arimasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-28T23:57:36.554239"
+    },
+    {
+      "english": "Please bring the menu, we’re ready.",
+      "japanese": "メニュー持ってきてください、もう決めます。",
+      "romaji": "Menyū motte kite kudasai, mō kimeshimasu.",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-28T23:57:36.554241"
+    },
+    {
+      "english": "Is there a counter seat for two?",
+      "japanese": "カウンター、二人空いてますか？",
+      "romaji": "Kauntā, futari aiteimasu ka?",
+      "category": "Izakaya & Nightlife",
+      "generated_at": "2026-10-28T23:57:36.554242"
     }
   ],
-  "last_updated": "2026-10-27T23:30:45.219706"
+  "last_updated": "2026-10-28T23:57:36.554243"
 }
