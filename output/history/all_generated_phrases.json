@@ -26375,7 +26375,42 @@
       "romaji": "Kauntā, futari aiteimasu ka?",
       "category": "Izakaya & Nightlife",
       "generated_at": "2026-10-28T23:57:36.554242"
+    },
+    {
+      "english": "I have two tickets, do you accept them?",
+      "japanese": "切符は二枚ありますが、使えますか。",
+      "romaji": "Kippu wa ni-mai arimasu ga, tsukaemasu ka.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-29T23:48:47.561910"
+    },
+    {
+      "english": "I’ll take three of these, please.",
+      "japanese": "これ、三つください。",
+      "romaji": "Kore, mittsu kudasai.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-29T23:48:47.561922"
+    },
+    {
+      "english": "The total comes to seven hundred yen.",
+      "japanese": "合計は七百円になります。",
+      "romaji": "Goukei wa nana-hyaku en ni narimasu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-29T23:48:47.561924"
+    },
+    {
+      "english": "It’s on the fourth floor, right there.",
+      "japanese": "四階です、こちらです。",
+      "romaji": "Yon-kai desu, kochira desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-29T23:48:47.561926"
+    },
+    {
+      "english": "My phone number is nine-zero-one-eight, okay?",
+      "japanese": "電話番号は九〇一八で大丈夫です。",
+      "romaji": "Denwa bangou wa kyuu-rei-ichi-hachi de daijoubu desu.",
+      "category": "Numbers Japanese",
+      "generated_at": "2026-10-29T23:48:47.561927"
     }
   ],
-  "last_updated": "2026-10-28T23:57:36.554243"
+  "last_updated": "2026-10-29T23:48:47.561929"
 }
