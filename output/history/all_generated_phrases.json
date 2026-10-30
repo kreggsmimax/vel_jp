@@ -26410,7 +26410,42 @@
       "romaji": "Denwa bangou wa kyuu-rei-ichi-hachi de daijoubu desu.",
       "category": "Numbers Japanese",
       "generated_at": "2026-10-29T23:48:47.561927"
+    },
+    {
+      "english": "It’s soダルい,無理 today.",
+      "japanese": "めっちゃダルい、今日は無理。",
+      "romaji": "meccha darui, kyou wa muri.",
+      "category": "Native Slang",
+      "generated_at": "2026-10-30T23:32:37.705645"
+    },
+    {
+      "english": "That’s kindaヤバい,ちょっと待って。",
+      "japanese": "それ、ちょっとヤバい、待って。",
+      "romaji": "sore, chotto yabai, matte.",
+      "category": "Native Slang",
+      "generated_at": "2026-10-30T23:32:37.705656"
+    },
+    {
+      "english": "Don’t ghost me,連絡してよ。",
+      "japanese": "既読スルーやめて、連絡してよ。",
+      "romaji": "kidoku suruu yamete, renraku shite yo.",
+      "category": "Native Slang",
+      "generated_at": "2026-10-30T23:32:37.705658"
+    },
+    {
+      "english": "I totally got it,さすがだね。",
+      "japanese": "わかる、マジでさすが。",
+      "romaji": "wakaru, maji de sasuga.",
+      "category": "Native Slang",
+      "generated_at": "2026-10-30T23:32:37.705659"
+    },
+    {
+      "english": "I’m broke now,今月死ぬ。",
+      "japanese": "今月やばい、マジで金ない。",
+      "romaji": "kongetsu yabai, maje de kane nai.",
+      "category": "Native Slang",
+      "generated_at": "2026-10-30T23:32:37.705660"
     }
   ],
-  "last_updated": "2026-10-29T23:48:47.561929"
+  "last_updated": "2026-10-30T23:32:37.705662"
 }
