@@ -26445,7 +26445,42 @@
       "romaji": "kongetsu yabai, maje de kane nai.",
       "category": "Native Slang",
       "generated_at": "2026-10-30T23:32:37.705660"
+    },
+    {
+      "english": "What time does the train arrive at Shibuya?",
+      "japanese": "渋谷に着くのは何時ですか。",
+      "romaji": "Shibuya ni tsuku no wa nanji desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-31T23:07:31.115086"
+    },
+    {
+      "english": "Is it open today, or closed?",
+      "japanese": "今日、何時からですか。",
+      "romaji": "Kyou, nanji kara desu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-31T23:07:31.115098"
+    },
+    {
+      "english": "I have class until five today.",
+      "japanese": "今日は五時まで授業です。",
+      "romaji": "Kyou wa go-ji made jugyou desu.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-31T23:07:31.115099"
+    },
+    {
+      "english": "Can we finish by six?",
+      "japanese": "六時までに終われますか。",
+      "romaji": "Roku-ji made ni owaremasu ka.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-31T23:07:31.115100"
+    },
+    {
+      "english": "Sorry, I’m late, I’ll be there in ten.",
+      "japanese": "ごめん、遅れる、あと十分で着く。",
+      "romaji": "Gomen, okureru, ato juppun de tsuku.",
+      "category": "Time Japanese",
+      "generated_at": "2026-10-31T23:07:31.115101"
     }
   ],
-  "last_updated": "2026-10-30T23:32:37.705662"
+  "last_updated": "2026-10-31T23:07:31.115103"
 }
