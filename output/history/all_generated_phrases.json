@@ -26480,7 +26480,42 @@
       "romaji": "Gomen, okureru, ato juppun de tsuku.",
       "category": "Time Japanese",
       "generated_at": "2026-10-31T23:07:31.115101"
+    },
+    {
+      "english": "Could you email the updated document today, please?",
+      "japanese": "今日、更新した資料をメールしてもらえますか。",
+      "romaji": "Kyou, koushin shita shiryou o meeru shite morae-masu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-11-01T23:23:43.360809"
+    },
+    {
+      "english": "I’ll review it, then send you feedback tomorrow.",
+      "japanese": "確認して、明日フィードバックを送ります。",
+      "romaji": "Kakunin shite, ashita fiidobakku o okurimasu.",
+      "category": "Work & Business",
+      "generated_at": "2026-11-01T23:23:43.360818"
+    },
+    {
+      "english": "Let’s align on the schedule for this week.",
+      "japanese": "今週のスケジュールをすり合わせましょう。",
+      "romaji": "Konnshuu no sukeジュuru o suri-awasemashou.",
+      "category": "Work & Business",
+      "generated_at": "2026-11-01T23:23:43.360820"
+    },
+    {
+      "english": "Sorry, I missed that point in your message.",
+      "japanese": "すみません、メッセージのその部分が抜けてました。",
+      "romaji": "Sumimasen, messeeji no sono bubun ga nukete mashita.",
+      "category": "Work & Business",
+      "generated_at": "2026-11-01T23:23:43.360821"
+    },
+    {
+      "english": "Can you share the agenda before the meeting?",
+      "japanese": "会議の前に議題を共有してもらえますか。",
+      "romaji": "Kaigi no mae ni gidai o kyōyuu shite morae-masu ka.",
+      "category": "Work & Business",
+      "generated_at": "2026-11-01T23:23:43.360822"
     }
   ],
-  "last_updated": "2026-10-31T23:07:31.115103"
+  "last_updated": "2026-11-01T23:23:43.360824"
 }
