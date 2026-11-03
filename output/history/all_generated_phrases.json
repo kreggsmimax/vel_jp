@@ -26515,7 +26515,42 @@
       "romaji": "Kaigi no mae ni gidai o kyōyuu shite morae-masu ka.",
       "category": "Work & Business",
       "generated_at": "2026-11-01T23:23:43.360822"
+    },
+    {
+      "english": "I’m really nervous, my stomach feels weird.",
+      "japanese": "めちゃくちゃ緊張してて、胃が変な感じ。",
+      "romaji": "Mecchaku chō kinchō shite te, i ga hen na kanji.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-11-03T02:01:22.034819"
+    },
+    {
+      "english": "I’m relieved, I thought it would go wrong.",
+      "japanese": "ホッとした、失敗するかと思った。",
+      "romaji": "Hotto shita, shippai suru ka to omotta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-11-03T02:01:22.034830"
+    },
+    {
+      "english": "I’m embarrassed, I didn’t mean to say that.",
+      "japanese": "恥ずかしい、そんなつもりじゃなかった。",
+      "romaji": "Hazukashii, sonna tsumori janakatta.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-11-03T02:01:22.034832"
+    },
+    {
+      "english": "I feel guilty for forgetting to text you.",
+      "japanese": "連絡するの忘れて、ごめんって思ってる。",
+      "romaji": "Renraku suru no wasure te, gomen tte omottēru.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-11-03T02:01:22.034833"
+    },
+    {
+      "english": "I’m annoyed, you always do that.",
+      "japanese": "ムカつく、いつもそうなんだよね。",
+      "romaji": "Mukatsuku, itsumo sō nanda yo ne.",
+      "category": "Emotions & Feelings",
+      "generated_at": "2026-11-03T02:01:22.034834"
     }
   ],
-  "last_updated": "2026-11-01T23:23:43.360824"
+  "last_updated": "2026-11-03T02:01:22.034836"
 }
