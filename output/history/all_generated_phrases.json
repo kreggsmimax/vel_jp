@@ -26550,7 +26550,42 @@
       "romaji": "Mukatsuku, itsumo sō nanda yo ne.",
       "category": "Emotions & Feelings",
       "generated_at": "2026-11-03T02:01:22.034834"
+    },
+    {
+      "english": "The rain stops, and the air turns cool.",
+      "japanese": "雨が上がって、空気がすっと冷える。",
+      "romaji": "Ame ga agatte, kūki ga sutto hiegelu.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-11-04T00:25:18.640058"
+    },
+    {
+      "english": "This light through the leaves feels unreal.",
+      "japanese": "木漏れ日が、なんか眩しすぎる。",
+      "romaji": "Komorebi ga, nanka mabushisugiru.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-11-04T00:25:18.640068"
+    },
+    {
+      "english": "I love that quiet, after the noise settles.",
+      "japanese": "ざわざわが引いて、あの静けさが好き。",
+      "romaji": "Zawazawa ga hīte, ano shizukesa ga suki.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-11-04T00:25:18.640070"
+    },
+    {
+      "english": "It’s not perfect, but it feels nicely imperfect.",
+      "japanese": "完璧じゃないけど、いい不揃い感。",
+      "romaji": "Kanpeki janai kedo, ii fuzoroi kan.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-11-04T00:25:18.640071"
+    },
+    {
+      "english": "That smell after rain always makes me happy.",
+      "japanese": "雨上がりの匂い、ほんと癒される。",
+      "romaji": "Amaagari no nioi, honto iyasareru.",
+      "category": "Untranslatable Japanese",
+      "generated_at": "2026-11-04T00:25:18.640072"
     }
   ],
-  "last_updated": "2026-11-03T02:01:22.034836"
+  "last_updated": "2026-11-04T00:25:18.640074"
 }
