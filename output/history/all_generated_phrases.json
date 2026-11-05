@@ -26585,7 +26585,42 @@
       "romaji": "Amaagari no nioi, honto iyasareru.",
       "category": "Untranslatable Japanese",
       "generated_at": "2026-11-04T00:25:18.640072"
+    },
+    {
+      "english": "Excuse me, which line goes to Shinjuku?",
+      "japanese": "すみません、新宿には何線で行きますか。",
+      "romaji": "Sumimasen, Shinjuku ni wa nansen de ikimasu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-11-05T01:32:08.339758"
+    },
+    {
+      "english": "Where is the platform for this line?",
+      "japanese": "この線のホームはどこですか。",
+      "romaji": "Kono sen no hōmu wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-11-05T01:32:08.339768"
+    },
+    {
+      "english": "Is there a transfer at Akihabara?",
+      "japanese": "秋葉原で乗り換えは必要ですか。",
+      "romaji": "Akihabara de norikae wa hitsuyō desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-11-05T01:32:08.339770"
+    },
+    {
+      "english": "Is the station entrance on the left side?",
+      "japanese": "駅の入口は左側ですか。",
+      "romaji": "Eki no iriguchi wa hidari-gawa desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-11-05T01:32:08.339771"
+    },
+    {
+      "english": "Please tell me the nearest bus stop.",
+      "japanese": "いちばん近いバス停はどこですか。",
+      "romaji": "Ichiban chikai basu-tei wa doko desu ka.",
+      "category": "Directions & Transit",
+      "generated_at": "2026-11-05T01:32:08.339772"
     }
   ],
-  "last_updated": "2026-11-04T00:25:18.640074"
+  "last_updated": "2026-11-05T01:32:08.339774"
 }
