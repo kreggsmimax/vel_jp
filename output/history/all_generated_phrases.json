@@ -26655,7 +26655,42 @@
       "romaji": "Kangae ga ukande mo, tsuite ikanai de.",
       "category": "Zen Wisdom",
       "generated_at": "2026-11-06T00:46:21.750534"
+    },
+    {
+      "english": "Excuse me, is this seat taken?",
+      "japanese": "すみません、この席は空いてますか？",
+      "romaji": "Sumimasen, kono seki wa aitemasu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-06T23:58:26.574026"
+    },
+    {
+      "english": "Do you have this in a different size?",
+      "japanese": "これ、別のサイズありますか？",
+      "romaji": "Kore, betsu no saizu arimasu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-06T23:58:26.574038"
+    },
+    {
+      "english": "Where is the bathroom?",
+      "japanese": "トイレはどこですか？",
+      "romaji": "Toire wa doko desu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-06T23:58:26.574040"
+    },
+    {
+      "english": "I’d like this to go, please.",
+      "japanese": "これ、持ち帰りでお願いします。",
+      "romaji": "Kore, mochi-kaeri de onegaishimasu.",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-06T23:58:26.574041"
+    },
+    {
+      "english": "Could I get the menu, please?",
+      "japanese": "メニューをいただけますか？",
+      "romaji": "Menyū o itadakemasu ka?",
+      "category": "Basic Phrases",
+      "generated_at": "2026-11-06T23:58:26.574042"
     }
   ],
-  "last_updated": "2026-11-06T00:46:21.750536"
+  "last_updated": "2026-11-06T23:58:26.574043"
 }
