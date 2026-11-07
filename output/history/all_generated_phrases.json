@@ -26690,7 +26690,42 @@
       "romaji": "Menyū o itadakemasu ka?",
       "category": "Basic Phrases",
       "generated_at": "2026-11-06T23:58:26.574042"
+    },
+    {
+      "english": "Do you have this in stock?",
+      "japanese": "これ、在庫ありますか。",
+      "romaji": "Kore, zaiko arimasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-11-07T23:26:32.824463"
+    },
+    {
+      "english": "You got time for a quick chat?",
+      "japanese": "ちょっと話せる？",
+      "romaji": "Chotto hanaseru?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-11-07T23:26:32.824471"
+    },
+    {
+      "english": "Could I pay by card?",
+      "japanese": "カードでお支払いできますか。",
+      "romaji": "Kādo de o-shiharai dekimasu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-11-07T23:26:32.824473"
+    },
+    {
+      "english": "Let me pay, okay?",
+      "japanese": "私が払うわ。いい？",
+      "romaji": "Watashi ga harau wa. Ii?",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-11-07T23:26:32.824474"
+    },
+    {
+      "english": "Is this seat taken already?",
+      "japanese": "この席、空いてますか。",
+      "romaji": "Kono seki, aite masu ka.",
+      "category": "Polite vs Casual",
+      "generated_at": "2026-11-07T23:26:32.824475"
     }
   ],
-  "last_updated": "2026-11-06T23:58:26.574043"
+  "last_updated": "2026-11-07T23:26:32.824477"
 }
