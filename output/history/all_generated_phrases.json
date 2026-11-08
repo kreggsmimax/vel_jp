@@ -26725,7 +26725,42 @@
       "romaji": "Kono seki, aite masu ka.",
       "category": "Polite vs Casual",
       "generated_at": "2026-11-07T23:26:32.824475"
+    },
+    {
+      "english": "Help! I need a doctor, please!",
+      "japanese": "助けてください、医者をお願いします！",
+      "romaji": "tasukete kudasai, isha o onegaishimasu!",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-11-08T23:27:06.567929"
+    },
+    {
+      "english": "I think I’m having an allergic reaction.",
+      "japanese": "アレルギー反応かもしれません。",
+      "romaji": "arerugii hannoh ga kamoshiremasen.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-11-08T23:27:06.567943"
+    },
+    {
+      "english": "My chest hurts, I need help.",
+      "japanese": "胸が痛いんです、助けてください。",
+      "romaji": "mune ga itain desu, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-11-08T23:27:06.567944"
+    },
+    {
+      "english": "Call an ambulance, please, right now.",
+      "japanese": "救急車を呼んでください、今すぐ。",
+      "romaji": "kyuukyuu-sha o yonde kudasai, imasugu.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-11-08T23:27:06.567946"
+    },
+    {
+      "english": "I can’t breathe, please help me.",
+      "japanese": "息ができません、助けてください。",
+      "romaji": "iki ga dekimasen, tasukete kudasai.",
+      "category": "Emergency Japanese",
+      "generated_at": "2026-11-08T23:27:06.567947"
     }
   ],
-  "last_updated": "2026-11-07T23:26:32.824477"
+  "last_updated": "2026-11-08T23:27:06.567949"
 }
