@@ -26760,7 +26760,42 @@
       "romaji": "iki ga dekimasen, tasukete kudasai.",
       "category": "Emergency Japanese",
       "generated_at": "2026-11-08T23:27:06.567947"
+    },
+    {
+      "english": "Sorry, where’s this train for?",
+      "japanese": "すみません、これ何線ですか。",
+      "romaji": "Sumimasen, kore nan-sen desu ka.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-11-10T02:50:05.489528"
+    },
+    {
+      "english": "This is my stop, thanks!",
+      "japanese": "ここで降ります、ありがとうございます。",
+      "romaji": "Koko de orimasu, arigatou gozaimasu.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-11-10T02:50:05.489537"
+    },
+    {
+      "english": "Can you read this? It’s hard for me.",
+      "japanese": "これ読めます？ちょっと苦手で。",
+      "romaji": "Kore yomemasu? Chotto nigate de.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-11-10T02:50:05.489539"
+    },
+    {
+      "english": "Is there a discount today?",
+      "japanese": "今日セールとかあります？",
+      "romaji": "Kyou seru toka arimasu?",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-11-10T02:50:05.489540"
+    },
+    {
+      "english": "No worries, I’ll wait a bit.",
+      "japanese": "大丈夫、ちょっと待ちます。",
+      "romaji": "Daijoubu, chotto machimasu.",
+      "category": "Tokyo Street Japanese",
+      "generated_at": "2026-11-10T02:50:05.489541"
     }
   ],
-  "last_updated": "2026-11-08T23:27:06.567949"
+  "last_updated": "2026-11-10T02:50:05.489543"
 }
