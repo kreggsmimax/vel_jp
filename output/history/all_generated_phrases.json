@@ -26795,7 +26795,42 @@
       "romaji": "Daijoubu, chotto machimasu.",
       "category": "Tokyo Street Japanese",
       "generated_at": "2026-11-10T02:50:05.489541"
+    },
+    {
+      "english": "It’s cloudy, and it might rain later.",
+      "japanese": "くもってて、あとで雨が降りそうです。",
+      "romaji": "kumotte te, atode ame ga furisou desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-11-11T00:26:07.572358"
+    },
+    {
+      "english": "Is it going to snow this week?",
+      "japanese": "今週、雪降りそうですか。",
+      "romaji": "konshuu, yuki furisou desu ka.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-11-11T00:26:07.572368"
+    },
+    {
+      "english": "Today is warm, but it feels windy.",
+      "japanese": "今日は暖かいけど、風が強いです。",
+      "romaji": "kyou wa atatakai kedo, kaze ga tsuyoi desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-11-11T00:26:07.572370"
+    },
+    {
+      "english": "The rainy season starts around June.",
+      "japanese": "梅雨はだいたい六月ごろからです。",
+      "romaji": "tsuyu wa daitai rokugatsu goro kara desu.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-11-11T00:26:07.572371"
+    },
+    {
+      "english": "It’s sunny now, but clouds are coming.",
+      "japanese": "いま晴れてるけど、雲が増えてきました。",
+      "romaji": "ima haret erukedo, kumo ga fuete kimashita.",
+      "category": "Weather & Seasons",
+      "generated_at": "2026-11-11T00:26:07.572373"
     }
   ],
-  "last_updated": "2026-11-10T02:50:05.489543"
+  "last_updated": "2026-11-11T00:26:07.572374"
 }
