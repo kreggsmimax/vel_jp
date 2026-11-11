@@ -26830,7 +26830,42 @@
       "romaji": "ima haret erukedo, kumo ga fuete kimashita.",
       "category": "Weather & Seasons",
       "generated_at": "2026-11-11T00:26:07.572373"
+    },
+    {
+      "english": "Where is the nearest train station?",
+      "japanese": "いちばん近い駅はどこですか。",
+      "transliteration": "ichiban chikai eki wa doko desu ka",
+      "category": "Travel",
+      "generated_at": "2026-11-11T09:32:03.390076"
+    },
+    {
+      "english": "I need a ticket to Shinjuku.",
+      "japanese": "新宿までの切符をください。",
+      "transliteration": "Shinjuku made no kippu o kudasai",
+      "category": "Travel",
+      "generated_at": "2026-11-11T09:32:03.390088"
+    },
+    {
+      "english": "Please show me on the map.",
+      "japanese": "地図で教えてください。",
+      "transliteration": "chizu de oshiete kudasai",
+      "category": "Travel",
+      "generated_at": "2026-11-11T09:32:03.390093"
+    },
+    {
+      "english": "Excuse me, I’m lost.",
+      "japanese": "すみません、迷いました。",
+      "transliteration": "sumimasen, mayoi mashita",
+      "category": "Travel",
+      "generated_at": "2026-11-11T09:32:03.390095"
+    },
+    {
+      "english": "Is this bus going to Kyoto?",
+      "japanese": "このバスは京都に行きますか。",
+      "transliteration": "kono basu wa Kyoto ni ikimasu ka",
+      "category": "Travel",
+      "generated_at": "2026-11-11T09:32:03.390097"
     }
   ],
-  "last_updated": "2026-11-11T00:26:07.572374"
+  "last_updated": "2026-11-11T09:32:03.390100"
 }
