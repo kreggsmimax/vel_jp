@@ -26865,7 +26865,42 @@
       "transliteration": "kono basu wa Kyoto ni ikimasu ka",
       "category": "Travel",
       "generated_at": "2026-11-11T09:32:03.390097"
+    },
+    {
+      "english": "It’s sunny today, isn’t it?",
+      "japanese": "今日は晴れてるね。",
+      "transliteration": "Kyou wa hareteru ne.",
+      "category": "Weather",
+      "generated_at": "2026-11-12T01:48:28.859204"
+    },
+    {
+      "english": "The sky looks cloudy, though.",
+      "japanese": "でも空が雲っぽい。",
+      "transliteration": "Demo sora ga kumoppoi.",
+      "category": "Weather",
+      "generated_at": "2026-11-12T01:48:28.859218"
+    },
+    {
+      "english": "It’s raining right now, sorry.",
+      "japanese": "いま雨が降ってる、ね。",
+      "transliteration": "Ima ame ga futteru, ne.",
+      "category": "Weather",
+      "generated_at": "2026-11-12T01:48:28.859220"
+    },
+    {
+      "english": "The rain is light, I think.",
+      "japanese": "雨、けっこう弱いよ。",
+      "transliteration": "Ame, kekkou yowai yo.",
+      "category": "Weather",
+      "generated_at": "2026-11-12T01:48:28.859222"
+    },
+    {
+      "english": "Stop, it’s going to rain.",
+      "japanese": "やめて、雨になりそう。",
+      "transliteration": "Yamete, ame ni narisou.",
+      "category": "Weather",
+      "generated_at": "2026-11-12T01:48:28.859224"
     }
   ],
-  "last_updated": "2026-11-11T09:32:03.390100"
+  "last_updated": "2026-11-12T01:48:28.859226"
 }
