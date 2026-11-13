@@ -26900,7 +26900,42 @@
       "transliteration": "Yamete, ame ni narisou.",
       "category": "Weather",
       "generated_at": "2026-11-12T01:48:28.859224"
+    },
+    {
+      "english": "I can’t log in right now.",
+      "japanese": "いまログインできません。",
+      "transliteration": "ima roguin dekimasen",
+      "category": "Technology",
+      "generated_at": "2026-11-13T00:54:57.637812"
+    },
+    {
+      "english": "My phone is running out of battery.",
+      "japanese": "スマホの電池がもう少ない。",
+      "transliteration": "sumaho no denchi ga mou sukunai",
+      "category": "Technology",
+      "generated_at": "2026-11-13T00:54:57.637827"
+    },
+    {
+      "english": "The Wi‑Fi keeps disconnecting.",
+      "japanese": "Wi‑Fiがすぐ切れる。",
+      "transliteration": "Wi-Fi ga sugu kireru",
+      "category": "Technology",
+      "generated_at": "2026-11-13T00:54:57.637829"
+    },
+    {
+      "english": "Please connect the cable firmly.",
+      "japanese": "ケーブルをしっかり挿して。",
+      "transliteration": "ke-buru o shikkari sashtte",
+      "category": "Technology",
+      "generated_at": "2026-11-13T00:54:57.637830"
+    },
+    {
+      "english": "Can you send that link again?",
+      "japanese": "そのリンク、もう一度送って。",
+      "transliteration": "sono rinku, mou ichido okutte",
+      "category": "Technology",
+      "generated_at": "2026-11-13T00:54:57.637831"
     }
   ],
-  "last_updated": "2026-11-12T01:48:28.859226"
+  "last_updated": "2026-11-13T00:54:57.637835"
 }
