@@ -26935,7 +26935,42 @@
       "transliteration": "sono rinku, mou ichido okutte",
       "category": "Technology",
       "generated_at": "2026-11-13T00:54:57.637831"
+    },
+    {
+      "english": "My head hurts, really bad today.",
+      "japanese": "頭が痛い、今日は本当にひどい。",
+      "transliteration": "Atama ga itai, kyou wa hontou ni hidoi.",
+      "category": "Body Parts",
+      "generated_at": "2026-11-14T00:41:37.897696"
+    },
+    {
+      "english": "I bumped my shoulder on the door.",
+      "japanese": "ドアに肩をぶつけた。",
+      "transliteration": "Doa ni kata o butsuketa.",
+      "category": "Body Parts",
+      "generated_at": "2026-11-14T00:41:37.897711"
+    },
+    {
+      "english": "My back feels stiff right now.",
+      "japanese": "今、背中がこわばってる。",
+      "transliteration": "Ima, senaka ga kowa batteru.",
+      "category": "Body Parts",
+      "generated_at": "2026-11-14T00:41:37.897713"
+    },
+    {
+      "english": "Wash your hands, please.",
+      "japanese": "手を洗ってください。",
+      "transliteration": "Te o aratte kudasai.",
+      "category": "Body Parts",
+      "generated_at": "2026-11-14T00:41:37.897714"
+    },
+    {
+      "english": "My stomach is upset, sorry.",
+      "japanese": "お腹が気持ち悪い、ごめんね。",
+      "transliteration": "O-naka ga kimochi warui, gomen ne.",
+      "category": "Body Parts",
+      "generated_at": "2026-11-14T00:41:37.897715"
     }
   ],
-  "last_updated": "2026-11-13T00:54:57.637835"
+  "last_updated": "2026-11-14T00:41:37.897717"
 }
