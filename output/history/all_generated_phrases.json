@@ -27005,7 +27005,42 @@
       "transliteration": "Kyō no shizuka na yūki mo, chanto kazoeru.",
       "category": "Courage",
       "generated_at": "2026-11-14T23:39:26.255323"
+    },
+    {
+      "english": "Stand firm, even when it’s windy.",
+      "japanese": "風が強くても、まっすぐ立つ。",
+      "transliteration": "kaze ga tsuyokute mo, massugu tatsu.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T23:46:13.448327"
+    },
+    {
+      "english": "Keep going, one breath at a time.",
+      "japanese": "一呼吸ずつ、進み続ける。",
+      "transliteration": "ichi kokyuu zutsu, susumi tsuzukeru.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T23:46:13.448341"
+    },
+    {
+      "english": "You’re stronger than yesterday’s you.",
+      "japanese": "昨日の自分より、強い。",
+      "transliteration": "kinou no jibun yori, tsuyoi.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T23:46:13.448343"
+    },
+    {
+      "english": "Take the hit, then move forward.",
+      "japanese": "こけても、また前へ進む。",
+      "transliteration": "koko te mo, mata mae e susumu.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T23:46:13.448345"
+    },
+    {
+      "english": "Do it anyway, with steady effort.",
+      "japanese": "それでもやる、こつこつ続ける。",
+      "transliteration": "sore demo yaru, kotsu kotsu tsuzukeru.",
+      "category": "Strength",
+      "generated_at": "2026-11-15T23:46:13.448346"
     }
   ],
-  "last_updated": "2026-11-14T23:39:26.255325"
+  "last_updated": "2026-11-15T23:46:13.448348"
 }
