@@ -27040,7 +27040,42 @@
       "transliteration": "sore demo yaru, kotsu kotsu tsuzukeru.",
       "category": "Strength",
       "generated_at": "2026-11-15T23:46:13.448346"
+    },
+    {
+      "english": "I’m counting to ten, now.",
+      "japanese": "いま十まで数えてるよ。",
+      "transliteration": "ima juu made kazoeteru yo",
+      "category": "Numbers",
+      "generated_at": "2026-11-17T02:47:20.009512"
+    },
+    {
+      "english": "Give me three, please.",
+      "japanese": "3つください。",
+      "transliteration": "mittsu kudasai",
+      "category": "Numbers",
+      "generated_at": "2026-11-17T02:47:20.009527"
+    },
+    {
+      "english": "We need five more minutes.",
+      "japanese": "あと5分必要だよ。",
+      "transliteration": "ato go-fun hitsuyou da yo",
+      "category": "Numbers",
+      "generated_at": "2026-11-17T02:47:20.009529"
+    },
+    {
+      "english": "My phone is number seven.",
+      "japanese": "私の電話は7番だよ。",
+      "transliteration": "watashi no denwa wa nana-ban da yo",
+      "category": "Numbers",
+      "generated_at": "2026-11-17T02:47:20.009531"
+    },
+    {
+      "english": "Wait, it’s 12 o’clock.",
+      "japanese": "まって、12時だよ。",
+      "transliteration": "matte, juu-ni-ji da yo",
+      "category": "Numbers",
+      "generated_at": "2026-11-17T02:47:20.009533"
     }
   ],
-  "last_updated": "2026-11-15T23:46:13.448348"
+  "last_updated": "2026-11-17T02:47:20.009534"
 }
