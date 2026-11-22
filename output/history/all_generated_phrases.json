@@ -27215,7 +27215,42 @@
       "transliteration": "kyou wa booru o tsuyoku uchisugita",
       "category": "Sports",
       "generated_at": "2026-11-21T01:06:22.163274"
+    },
+    {
+      "english": "I need clean socks, today.",
+      "japanese": "きれいな靴下が必要です、今日。",
+      "transliteration": "kirei na kutsushita ga hitsuyō desu, kyō.",
+      "category": "Clothes",
+      "generated_at": "2026-11-22T00:06:27.813597"
+    },
+    {
+      "english": "Where are my shoes, please?",
+      "japanese": "私の靴はどこですか、お願いします。",
+      "transliteration": "watashi no kutsu wa doko desu ka, onegaishimasu.",
+      "category": "Clothes",
+      "generated_at": "2026-11-22T00:06:27.813608"
+    },
+    {
+      "english": "This jacket fits me well.",
+      "japanese": "このジャケット、私にぴったりです。",
+      "transliteration": "kono jaketto, watashi ni pitta-ri desu.",
+      "category": "Clothes",
+      "generated_at": "2026-11-22T00:06:27.813610"
+    },
+    {
+      "english": "I spilled coffee on my shirt.",
+      "japanese": "シャツにコーヒーをこぼしました。",
+      "transliteration": "shatsu ni kōhī o koboshimashita.",
+      "category": "Clothes",
+      "generated_at": "2026-11-22T00:06:27.813615"
+    },
+    {
+      "english": "The hat is too small for me.",
+      "japanese": "その帽子は、私には小さすぎます。",
+      "transliteration": "sono bōshi wa, watashi ni wa chiisugimasu.",
+      "category": "Clothes",
+      "generated_at": "2026-11-22T00:06:27.813617"
     }
   ],
-  "last_updated": "2026-11-21T01:06:22.163276"
+  "last_updated": "2026-11-22T00:06:27.813618"
 }
