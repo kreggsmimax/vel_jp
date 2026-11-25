@@ -10,3 +10,4 @@ output/upload_results_*.json
 output/latest.txt
 scene/preview.html
 scene/.preview_*.json
+scene_storybook/preview.html

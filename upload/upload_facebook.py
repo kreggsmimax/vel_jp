@@ -14,6 +14,9 @@ from cover_frame import extract_cover_frame
 
 load_dotenv()
 
+WEBSITE = "https://velocityjapanese.com"
+WEBSITE_LABEL = "velocityjapanese.com"
+
 
 def _set_reel_cover(video_id, access_token, video_path):
     cover = extract_cover_frame(video_path)
@@ -57,7 +60,7 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
             comment_url = f"https://graph.facebook.com/v21.0/{video_id}/comments"
             comment_data = {
                 'access_token': access_token,
-                'message': description
+                'message': description + f"\n\n🌐 Learn more at our website: {WEBSITE}\nVisit {WEBSITE_LABEL} for daily Japanese lessons!"
             }
             res_comment = requests.post(comment_url, data=comment_data, timeout=30)
             if res_comment.status_code == 200:

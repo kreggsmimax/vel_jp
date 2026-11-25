@@ -1,9 +1,33 @@
-name: Velocity Japanese - Daily 5x Upload
+name: Velocity Japanese - Storybook 3x Upload
 
 on:
   schedule:
-    - cron: '0 20 * * *'
+    # 07:00, 12:00 and 19:00 Japan time (UTC+9)
+    - cron: '0 22 * * *'
+    - cron: '0 3 * * *'
+    - cron: '0 10 * * *'
   workflow_dispatch:
+    inputs:
+      category:
+        description: 'Optional category, e.g. Greetings'
+        required: false
+        default: ''
+      theme:
+        description: 'Optional palette id, e.g. duo'
+        required: false
+        default: ''
+      world:
+        description: 'Optional world, e.g. cherry'
+        required: false
+        default: ''
+      cast:
+        description: 'Optional cast: left,pond,mid,right'
+        required: false
+        default: ''
+      phrases:
+        description: 'Optional phrase count (3-5)'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -28,14 +52,20 @@ jobs:
           mkdir -p output/history
           if [ ! -f "output/history/all_generated_phrases.json" ]; then
             echo '{"phrases": [], "last_updated": null}' > output/history/all_generated_phrases.json
-            echo "Created new phrase history file"
-          else
-            python -c "import json; print('History phrases:', len(json.load(open('output/history/all_generated_phrases.json'))['phrases']))"
           fi
           if [ ! -f "output/history/recent_categories.json" ]; then
             echo '{"recent_categories": [], "last_updated": null}' > output/history/recent_categories.json
-            echo "Created recent categories file"
           fi
+          if [ ! -f "output/history/storybook_theme_deck.json" ]; then
+            echo '{"deck": [], "recent": [], "updated": null}' > output/history/storybook_theme_deck.json
+          fi
+          if [ ! -f "output/history/storybook_set_deck.json" ]; then
+            echo '{"deck": [], "recent": [], "updated": null}' > output/history/storybook_set_deck.json
+          fi
+          if [ ! -f "output/history/storybook_cast.json" ]; then
+            echo '{"recent": [], "updated": null}' > output/history/storybook_cast.json
+          fi
+          python -c "import json; print('History phrases:', len(json.load(open('output/history/all_generated_phrases.json'))['phrases']))"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -102,11 +132,26 @@ jobs:
           done
           echo ".env written ($(wc -l < .env) lines)"
 
-      - name: Build lesson reel
+      - name: Build storybook reel
+        env:
+          CATEGORY: ${{ github.event.inputs.category }}
+          THEME: ${{ github.event.inputs.theme }}
+          WORLD: ${{ github.event.inputs.world }}
+          CAST: ${{ github.event.inputs.cast }}
+          PHRASES: ${{ github.event.inputs.phrases }}
         run: |
-          python build.py
+          args=(--recipe storybook-3)
+          if [ -n "$CATEGORY" ]; then args+=(--category "$CATEGORY"); fi
+          if [ -n "$THEME" ]; then args+=(--theme "$THEME"); fi
+          if [ -n "$WORLD" ]; then args+=(--world "$WORLD"); fi
+          if [ -n "$CAST" ]; then args+=(--cast "$CAST"); fi
+          if [ -n "$PHRASES" ]; then args+=(--phrases "$PHRASES"); fi
+          python build.py "${args[@]}"
           echo ""
           ls -la output/lessons/*/ | tail -20
+
+      - name: Validate reel
+        run: python validate.py
 
       - name: Publish to all platforms
         run: python upload_all_platforms.py
@@ -133,28 +178,25 @@ jobs:
             output/upload_results_*.json
           retention-days: 14
 
-      - name: Persist phrase history
-        uses: actions/upload-artifact@v4
-        if: always() && hashFiles('output/history/all_generated_phrases.json') != ''
-        with:
-          name: phrase-history
-          path: |
-            output/history/all_generated_phrases.json
-            output/history/recent_categories.json
-          retention-days: 90
-          overwrite: true
-
-      - name: Commit phrase history
-        if: always() && hashFiles('output/history/all_generated_phrases.json') != ''
+      - name: Commit rotation and phrase history
+        if: always()
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -f output/history/all_generated_phrases.json output/history/recent_categories.json
+          for file in \
+            output/history/all_generated_phrases.json \
+            output/history/recent_categories.json \
+            output/history/storybook_theme_deck.json \
+            output/history/storybook_set_deck.json \
+            output/history/storybook_cast.json \
+            output/history/generated_themes.json; do
+            if [ -f "$file" ]; then git add -f "$file"; fi
+          done
           if ! git diff --staged --quiet; then
-            git commit -m "Update phrase history - Run #${{ github.run_number }}"
+            git commit -m "Storybook rotation - Run #${{ github.run_number }}"
             git pull --rebase
             git push
-            echo "History committed - no repeated phrases across runs"
+            echo "Rotation state committed - next run gets a fresh theme and world"
           else
             echo "No history changes"
           fi
