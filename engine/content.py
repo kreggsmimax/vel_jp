@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import random
+import re
 import time
 from datetime import datetime
 
@@ -37,6 +38,22 @@ def _valid_native(text: str) -> bool:
     if not _has_japanese(text):
         return False
     return not any(ch in _VI_CHARS for ch in text)
+
+
+def _clean_translit(text: str) -> str:
+    """Tidy AI romaji: capitalisation, punctuation spacing, split te-forms."""
+    text = text.strip().strip("[]")
+    if not text:
+        return text
+    text = re.sub(r"\b(\w+)tsu te\b", r"\1tte", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(\w*[aeiou]) i\b", r"\1i", text, flags=re.IGNORECASE)
+    text = re.sub(r"\s+([,.!?])", r"\1", text)
+    text = re.sub(
+        r"(^|[.!?]\s+)([a-z])",
+        lambda match: match.group(1) + match.group(2).upper(),
+        text,
+    )
+    return text
 
 # ==== FALLBACK PHRASES START ====
 # Kept fresh and Japanese-only. The live bot normally uses the AI generator;
@@ -196,7 +213,7 @@ def _normalize_phrase(item):
     out = {
         "english": english.replace("  ", " ").strip(),
         "native": native.strip(),
-        "transliteration": translit.strip().strip("[]"),
+        "transliteration": _clean_translit(translit),
     }
     if isinstance(item_tiles, list) and item_tiles and all(isinstance(t, str) and t.strip() for t in item_tiles):
         out["tiles"] = [t.strip() for t in item_tiles]
@@ -287,7 +304,7 @@ Rules:
 3. Each phrase must be speakable in 2-4 seconds.
 4. Write natural {LANGUAGE_NAME} in {NATIVE_NAME}. Use kanji and kana as a native speaker would. One translation only, no slashes, no romaji in the native field.
 5. The native field must contain Japanese script only (kanji, hiragana, katakana, Japanese punctuation). Never return Vietnamese, Chinese, or English in the native field.
-6. Transliteration is Hepburn romaji: a friendly Roman-script pronunciation guide for English speakers (not IPA). It may use macrons.
+6. Transliteration is properly capitalised Hepburn romaji: a friendly Roman-script pronunciation guide for English speakers (not IPA). Use wa for the particle は, o for を, and e for へ. Keep word endings attached: write "tamotte", not "tamotsu te"; "ikkai", not "ikka i"; "shite", not "shi te".
 7. Vary the sentence patterns and emotions. No duplicates.
 8. Phrases must feel like real everyday language, not textbook filler.
 9. The English must be idiomatic and complete. Avoid filler endings such as "really" and literal word-for-word translations.
