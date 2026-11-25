@@ -27355,7 +27355,70 @@
       "transliteration": "Usagi ga niwa ni pyon to haitte kita.",
       "category": "Animals",
       "generated_at": "2026-11-25T03:23:20.490872"
+    },
+    {
+      "english": "You can do this, one step at a time.",
+      "japanese": "できますよ、いっぽずつね。",
+      "transliteration": "Dekimasu yo, ippo-zutsu ne.",
+      "category": "Success",
+      "generated_at": "2026-11-25T23:16:46.450181"
+    },
+    {
+      "english": "Take your time, you’re getting there.",
+      "japanese": "ゆっくりで大丈夫、ちゃんと近いよ。",
+      "transliteration": "Yukkuri de daijōbu, chanto chikai yo.",
+      "category": "Success",
+      "generated_at": "2026-11-25T23:16:46.450194"
+    },
+    {
+      "english": "Keep your promises to yourself.",
+      "japanese": "自分との約束は守ろう。",
+      "transliteration": "Jibun to no yakusoku wa mamorō.",
+      "category": "Success",
+      "generated_at": "2026-11-25T23:16:46.450196"
+    },
+    {
+      "english": "When it’s tough, keep your rhythm.",
+      "japanese": "つらい時は、リズムを保って。",
+      "transliteration": "tsurai toki wa, rizumu o tamotsu te.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:25:02.800635"
+    },
+    {
+      "english": "Tomorrow will be kinder, keep going.",
+      "japanese": "明日はきっと優しいよ、進もう。",
+      "transliteration": "ashita wa kitto yasashii yo, susumou.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:25:02.800647"
+    },
+    {
+      "english": "Take a breath, then try again.",
+      "japanese": "深呼吸して、それからもう一回。",
+      "transliteration": "shinkokyuu shite, sorekara mou ikka i.",
+      "category": "Perseverance",
+      "generated_at": "2026-11-25T23:25:02.800649"
+    },
+    {
+      "english": "I’ll have ramen, please.",
+      "japanese": "ラーメンをお願いします。",
+      "transliteration": "Raamen o onegaishimasu.",
+      "category": "Restaurant",
+      "generated_at": "2026-11-25T23:32:20.587774"
+    },
+    {
+      "english": "Is the spicy ramen very hot?",
+      "japanese": "辛いラーメンはすごく辛いですか？",
+      "transliteration": "Karai raamen wa sugoku karai desu ka?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-25T23:32:20.587799"
+    },
+    {
+      "english": "May I have water, please?",
+      "japanese": "お水をいただけますか？",
+      "transliteration": "Omizu o itadakemasu ka?",
+      "category": "Restaurant",
+      "generated_at": "2026-11-25T23:32:20.587800"
     }
   ],
-  "last_updated": "2026-11-25T03:23:20.490875"
+  "last_updated": "2026-11-25T23:32:20.587802"
 }
