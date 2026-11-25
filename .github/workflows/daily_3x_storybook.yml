@@ -1,31 +1,30 @@
-name: Velocity Japanese - Storybook 3x Upload
+name: Velocity Japanese - Storybook Publish
 
 on:
   schedule:
-    # 07:00, 12:00 and 19:00 Japan time (UTC+9)
     - cron: '0 22 * * *'
     - cron: '0 3 * * *'
     - cron: '0 10 * * *'
   workflow_dispatch:
     inputs:
       category:
-        description: 'Optional category, e.g. Greetings'
+        description: 'Optional category'
         required: false
         default: ''
       theme:
-        description: 'Optional palette id, e.g. duo'
+        description: 'Optional palette'
         required: false
         default: ''
       world:
-        description: 'Optional world, e.g. cherry'
+        description: 'Optional world'
         required: false
         default: ''
       cast:
-        description: 'Optional cast: left,pond,mid,right'
+        description: 'Optional cast'
         required: false
         default: ''
       phrases:
-        description: 'Optional phrase count (3-5)'
+        description: 'Optional phrase count'
         required: false
         default: ''
 
