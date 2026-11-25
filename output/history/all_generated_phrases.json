@@ -27320,7 +27320,42 @@
       "transliteration": "aishiteru, chanto honki da yo.",
       "category": "Relationships",
       "generated_at": "2026-11-24T04:38:03.032683"
+    },
+    {
+      "english": "Look, a cat is napping.",
+      "japanese": "見て、猫が昼寝してるよ。",
+      "transliteration": "Mite, neko ga hirune shiteru yo.",
+      "category": "Animals",
+      "generated_at": "2026-11-25T03:23:20.490855"
+    },
+    {
+      "english": "My dog wants to go outside.",
+      "japanese": "うちの犬が外に出たがってる。",
+      "transliteration": "Uchi no inu ga soto ni detagatтeру.",
+      "category": "Animals",
+      "generated_at": "2026-11-25T03:23:20.490867"
+    },
+    {
+      "english": "That bird sounds so cheerful.",
+      "japanese": "あの鳥、すごく楽しそうな鳴き声だね。",
+      "transliteration": "Ano tori, sugoku tanoshisou na nakigoe da ne.",
+      "category": "Animals",
+      "generated_at": "2026-11-25T03:23:20.490869"
+    },
+    {
+      "english": "The fish is swimming near the rocks.",
+      "japanese": "魚が岩のそばを泳いでるよ。",
+      "transliteration": "Sakana ga iwa no soba o oyoideru yo.",
+      "category": "Animals",
+      "generated_at": "2026-11-25T03:23:20.490871"
+    },
+    {
+      "english": "A rabbit hopped into the garden.",
+      "japanese": "うさぎが庭にぴょんと入ってきた。",
+      "transliteration": "Usagi ga niwa ni pyon to haitte kita.",
+      "category": "Animals",
+      "generated_at": "2026-11-25T03:23:20.490872"
     }
   ],
-  "last_updated": "2026-11-24T04:38:03.032685"
+  "last_updated": "2026-11-25T03:23:20.490875"
 }
