@@ -27,6 +27,7 @@ _JP_PARTICLE_POS = "助詞"
 _JP_DEMONSTRATIVE_POS = "連体詞"
 _JP_SURU = ("し", "する", "され", "さ")
 _JP_ADVERB_MERGE = ("よろしく", "どうぞ")
+_JP_SMALL_KANA = "ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮ"
 
 
 def _is_punct(token: str) -> bool:
@@ -125,6 +126,8 @@ def _jp_tiles(text: str) -> list:
             merge = pos in (_JP_PARTICLE_POS, _JP_AUX_POS)
             if pos == _JP_VERB_POS and prev["text"].endswith(("て", "で")):
                 merge = True
+            if prev["text"].endswith("っ") and not _is_punct(surface):
+                merge = True
             if pos == _JP_VERB_POS and surface in _JP_SURU and prev["pos"] == _JP_NOUN_POS:
                 merge = True
             if pos == _JP_NOUN_POS and prev["pos"] == _JP_DEMONSTRATIVE_POS:
@@ -174,7 +177,18 @@ def _jp_tiles(text: str) -> list:
                 continue
         out.append(surface)
         i += 1
-    return [tile for tile in out if tile.strip()]
+
+    # Pass 5: repair rare tokenizer splits inside a single word.
+    repaired = []
+    for tile in out:
+        if repaired and tile and (tile[0] in _JP_SMALL_KANA or tile[0] == "ー"):
+            repaired[-1] += tile
+            continue
+        if repaired and repaired[-1].endswith("っ") and not _is_punct(tile[0]):
+            repaired[-1] += tile
+            continue
+        repaired.append(tile)
+    return [tile for tile in repaired if tile.strip()]
 
 
 def _norm(text: str) -> str:
