@@ -34,6 +34,14 @@ def _is_punct(token: str) -> bool:
     return bool(_PUNCT.fullmatch(token))
 
 
+def _is_kanji_or_katakana(ch: str) -> bool:
+    return (
+        "\u3400" <= ch <= "\u4dbf"
+        or "\u4e00" <= ch <= "\u9fff"
+        or "\u30a0" <= ch <= "\u30ff"
+    )
+
+
 def _jp_tiles_pykakasi(text: str) -> list:
     """Fallback segmentation when Janome is unavailable."""
     global _JP_KKS
@@ -132,6 +140,14 @@ def _jp_tiles(text: str) -> list:
                 merge = True
             if pos == _JP_NOUN_POS and prev["pos"] == _JP_DEMONSTRATIVE_POS:
                 merge = True
+            if pos == _JP_NOUN_POS and prev["pos"] == _JP_NOUN_POS:
+                if (
+                    prev["text"]
+                    and surface
+                    and _is_kanji_or_katakana(prev["text"][-1])
+                    and _is_kanji_or_katakana(surface[0])
+                ):
+                    merge = True
             if prev["text"] in _JP_ADVERB_MERGE:
                 merge = True
             if surface.startswith("ござ") and prev["text"] in ("ありがとう", "おめでとう"):
