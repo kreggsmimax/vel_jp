@@ -27481,7 +27481,28 @@
       "transliteration": "Imōto wa watashi ni origatami kasa o kashite kuremashita.",
       "category": "Family Terms",
       "generated_at": "2026-11-26T00:22:29.494483"
+    },
+    {
+      "english": "It's okay, I won't bring it up.",
+      "japanese": "だいじょうぶ、もう言わないよ。",
+      "transliteration": "Daijoubu, mou iwanai yo.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-26T11:57:20.321113"
+    },
+    {
+      "english": "I forgive you, I understand your stress.",
+      "japanese": "許すよ、あなたのつらさも分かる。",
+      "transliteration": "Yurusuyo, anata no tsurasa mo wakaru.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-26T11:57:20.321128"
+    },
+    {
+      "english": "Let it go, we’ll be fine.",
+      "japanese": "気にしないで、大丈夫だよ。",
+      "transliteration": "Ki ni shina ide, daijoubu da yo.",
+      "category": "Forgiveness",
+      "generated_at": "2026-11-26T11:57:20.321130"
     }
   ],
-  "last_updated": "2026-11-26T00:22:29.494485"
+  "last_updated": "2026-11-26T11:57:20.321133"
 }
