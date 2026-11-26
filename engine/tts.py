@@ -28,6 +28,17 @@ _JP_DEMONSTRATIVE_POS = "連体詞"
 _JP_SURU = ("し", "する", "され", "さ")
 _JP_ADVERB_MERGE = ("よろしく", "どうぞ")
 _JP_SMALL_KANA = "ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮ"
+_JP_NOUN_NO_MERGE = {
+    "今日", "明日", "昨日", "今年", "来年", "去年", "今週", "来週", "先週",
+    "今月", "来月", "先月", "毎日", "毎週", "毎朝", "毎晩", "今", "私", "僕",
+    "君", "人", "物", "事", "時", "前", "後", "上", "下", "中", "外", "間",
+}
+_JP_PARTICLE_SUFFIXES = (
+    "から", "まで", "より", "だけ", "しか", "でも", "など", "くらい", "ほど",
+    "ばかり", "ながら", "ので", "のに", "けど", "けれど", "し", "て", "は",
+    "が", "を", "に", "で", "と", "も", "の", "へ", "や", "か", "ね", "よ",
+    "な", "さ",
+)
 
 
 def _is_punct(token: str) -> bool:
@@ -40,6 +51,10 @@ def _is_kanji_or_katakana(ch: str) -> bool:
         or "\u4e00" <= ch <= "\u9fff"
         or "\u30a0" <= ch <= "\u30ff"
     )
+
+
+def _ends_with_particle(text: str) -> bool:
+    return text.endswith(_JP_PARTICLE_SUFFIXES)
 
 
 def _jp_tiles_pykakasi(text: str) -> list:
@@ -144,8 +159,9 @@ def _jp_tiles(text: str) -> list:
                 if (
                     prev["text"]
                     and surface
-                    and _is_kanji_or_katakana(prev["text"][-1])
                     and _is_kanji_or_katakana(surface[0])
+                    and prev["text"] not in _JP_NOUN_NO_MERGE
+                    and not _ends_with_particle(prev["text"])
                 ):
                     merge = True
             if prev["text"] in _JP_ADVERB_MERGE:
