@@ -278,6 +278,30 @@ def _soften_sfx(sfx: np.ndarray, cutoff: float) -> np.ndarray:
     return np.fft.irfft(spec, n=n, axis=0).astype(np.float32)
 
 
+def _normalize_loudness(path: Path, target_lufs: float = -13.0, true_peak: float = -1.5) -> None:
+    """Normalize the finished mix so the validator gate is stable run-to-run."""
+    tmp = path.with_name(path.stem + "_norm.wav")
+    try:
+        result = subprocess.run(
+            [
+                "ffmpeg", "-y", "-loglevel", "error", "-i", str(path),
+                "-af", f"loudnorm=I={target_lufs}:TP={true_peak}:LRA=11",
+                "-ar", str(SR), "-ac", "2", "-c:a", "pcm_s16le", str(tmp),
+            ],
+            capture_output=True, text=True, timeout=180,
+        )
+        if result.returncode == 0 and tmp.exists() and tmp.stat().st_size > 1000:
+            tmp.replace(path)
+            print(f"[audio] Loudness normalized to {target_lufs:.1f} LUFS / {true_peak:.1f} dBTP")
+        else:
+            print(f"[audio] Loudness normalization skipped: {result.stderr[:160]}")
+    except Exception as exc:  # noqa: BLE001 - keep the original mix if ffmpeg fails
+        print(f"[audio] Loudness normalization failed: {exc}")
+    finally:
+        if tmp.exists():
+            tmp.unlink()
+
+
 def build_mix(clips: list, timeline: dict, out_path: Path) -> dict:
     duration = float(timeline["duration"])
     n = int((duration + 0.15) * SR)
@@ -324,6 +348,7 @@ def build_mix(clips: list, timeline: dict, out_path: Path) -> dict:
     master *= config.MASTER_GAIN
 
     _write_wav(out_path, master)
+    _normalize_loudness(out_path)
     size_mb = out_path.stat().st_size / (1024 * 1024)
     print(f"[audio] Mix: {out_path.name} ({duration:.1f}s, {size_mb:.1f} MB)")
     return {"duration": duration, "path": str(out_path), "peak": round(peak, 3)}
