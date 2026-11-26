@@ -27460,7 +27460,28 @@
       "transliteration": "Isha o yonde kudasai.",
       "category": "Emergency",
       "generated_at": "2026-11-25T23:55:07.909355"
+    },
+    {
+      "english": "My mom worries about my health.",
+      "japanese": "母は私の健康が心配です。",
+      "transliteration": "Haha wa watashi no kenkō ga shinpai desu.",
+      "category": "Family Terms",
+      "generated_at": "2026-11-26T00:22:29.494465"
+    },
+    {
+      "english": "Dad helps me with homework.",
+      "japanese": "父は宿題を手伝ってくれます。",
+      "transliteration": "Chichi wa shukudai o tetsudatte kuremasu.",
+      "category": "Family Terms",
+      "generated_at": "2026-11-26T00:22:29.494480"
+    },
+    {
+      "english": "My sister lent me her umbrella.",
+      "japanese": "妹は私に折りたたみ傘を貸してくれました。",
+      "transliteration": "Imōto wa watashi ni origatami kasa o kashite kuremashita.",
+      "category": "Family Terms",
+      "generated_at": "2026-11-26T00:22:29.494483"
     }
   ],
-  "last_updated": "2026-11-25T23:55:07.909356"
+  "last_updated": "2026-11-26T00:22:29.494485"
 }
