@@ -62,6 +62,7 @@ LANGUAGE = {
     "rtl": False,
     "char_tiles": False,
     "script_font": "NotoSansJP-Bold.ttf",
+    "tile_scale": 1.16,
 }
 # ==== LANGUAGE PACK END ====
 

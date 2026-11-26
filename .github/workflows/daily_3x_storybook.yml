@@ -153,7 +153,7 @@ jobs:
         run: python validate.py
 
       - name: Publish to all platforms
-        run: python upload_all_platforms.py --require facebook,instagram
+        run: python upload_all_platforms.py
 
       - name: Upload video artifact
         uses: actions/upload-artifact@v4
