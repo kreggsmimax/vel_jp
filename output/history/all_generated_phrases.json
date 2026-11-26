@@ -27418,7 +27418,49 @@
       "transliteration": "Omizu o itadakemasu ka?",
       "category": "Restaurant",
       "generated_at": "2026-11-25T23:32:20.587800"
+    },
+    {
+      "english": "I track my spending every week.",
+      "japanese": "毎週、支出を記録しています。",
+      "transliteration": "Maishuu, shishutsu o kiroku shiteimasu.",
+      "category": "Finance",
+      "generated_at": "2026-11-25T23:49:08.068082"
+    },
+    {
+      "english": "Did you check the bill amount?",
+      "japanese": "請求額、確認しましたか。",
+      "transliteration": "Seikyuu gaku, kakunin shimashita ka.",
+      "category": "Finance",
+      "generated_at": "2026-11-25T23:49:08.068095"
+    },
+    {
+      "english": "I'm paying with my credit card.",
+      "japanese": "クレジットカードで支払っています。",
+      "transliteration": "Kurejitto kaado de shiharatteimasu.",
+      "category": "Finance",
+      "generated_at": "2026-11-25T23:49:08.068097"
+    },
+    {
+      "english": "Help me, please. I'm in danger.",
+      "japanese": "助けてください、危ないです。",
+      "transliteration": "Tasukete kudasai, abunai desu.",
+      "category": "Emergency",
+      "generated_at": "2026-11-25T23:55:07.909340"
+    },
+    {
+      "english": "Call an ambulance now, please.",
+      "japanese": "救急車を今すぐお願いします。",
+      "transliteration": "Kyuukusha o imasugu onegaishimasu.",
+      "category": "Emergency",
+      "generated_at": "2026-11-25T23:55:07.909353"
+    },
+    {
+      "english": "I need a doctor, please.",
+      "japanese": "医者を呼んでください。",
+      "transliteration": "Isha o yonde kudasai.",
+      "category": "Emergency",
+      "generated_at": "2026-11-25T23:55:07.909355"
     }
   ],
-  "last_updated": "2026-11-25T23:32:20.587802"
+  "last_updated": "2026-11-25T23:55:07.909356"
 }
