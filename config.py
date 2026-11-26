@@ -52,7 +52,7 @@ LANGUAGE = {
     "native_engine": "edge",
     "native_lang_code": "ja",
     "english_rate": "-2%",
-    "native_rate": "-6%",
+    "native_rate": "-16%",
     "english_pitch": "+0Hz",
     "native_pitch": "+0Hz",
     "native_label": "日本語",
