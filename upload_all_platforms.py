@@ -160,7 +160,10 @@ def missing_creds(platform: str) -> list[str]:
         page = _env("FACEBOOK_PAGE_ID", "FB_PAGE_ID")
         return [name for name, value in (("FACEBOOK_ACCESS_TOKEN", token), ("FACEBOOK_PAGE_ID", page)) if not value]
     if platform == "instagram":
-        return [] if _env("INSTAGRAM_ACCESS_TOKEN", "IG_ACCESS_TOKEN") else ["INSTAGRAM_ACCESS_TOKEN"]
+        token = _env("INSTAGRAM_ACCESS_TOKEN", "IG_ACCESS_TOKEN", "FACEBOOK_ACCESS_TOKEN", "FB_ACCESS_TOKEN", "FB_PAGE_ACCESS_TOKEN")
+        account = _env("INSTAGRAM_ACCOUNT_ID", "IG_USER_ID")
+        page = _env("FACEBOOK_PAGE_ID", "FB_PAGE_ID")
+        return [] if token and (account or page) else ["INSTAGRAM_ACCESS_TOKEN"]
     if platform == "youtube":
         return [] if all(_env(a, b) for a, b in (
             ("YT_CLIENT_ID", "YOUTUBE_CLIENT_ID"),
@@ -227,7 +230,8 @@ def upload_to_all(lesson: dict, dry_run: bool = False) -> dict:
             result = None
             if platform == "facebook":
                 result = func(video_path=str(lesson["video"]), description=caption,
-                              title=f"{LANG_NAME}: {lesson['category']}")
+                              title=f"{LANG_NAME}: {lesson['category']}",
+                              thumbnail_path=str(lesson["thumbnail"]))
             elif platform == "instagram":
                 result = func(video_path=str(lesson["video"]), caption=caption, is_story=False)
             elif platform == "youtube":

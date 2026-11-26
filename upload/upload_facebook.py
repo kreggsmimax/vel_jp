@@ -18,8 +18,14 @@ WEBSITE = "https://velocityjapanese.com"
 WEBSITE_LABEL = "velocityjapanese.com"
 
 
-def _set_reel_cover(video_id, access_token, video_path):
-    cover = extract_cover_frame(video_path)
+def _set_reel_cover(video_id, access_token, video_path, thumbnail_path=None):
+    cover = None
+    if thumbnail_path:
+        candidate = Path(thumbnail_path)
+        if candidate.exists() and candidate.stat().st_size > 0:
+            cover = candidate
+    if cover is None:
+        cover = extract_cover_frame(video_path)
     if not cover:
         print("[facebook] No cover frame available, keeping default")
         return
@@ -97,7 +103,7 @@ def _post_pinned_comment(video_id, description, access_token, page_id):
             print(f"[facebook] Pin attempt error: {e}")
 
 
-def upload_to_facebook(video_path, description, title="Velocity lesson"):
+def upload_to_facebook(video_path, description, title="Velocity lesson", thumbnail_path=None):
     print("\n" + "=" * 60)
     print("FACEBOOK UPLOAD STARTING")
     print("=" * 60)
@@ -166,7 +172,7 @@ def upload_to_facebook(video_path, description, title="Velocity lesson"):
         if res_finish.status_code == 200 and res_finish.json().get('success'):
             print(f"[facebook] SUCCESS! Reel uploaded! Video ID: {video_id}")
             try:
-                _set_reel_cover(video_id, access_token, video_path)
+                _set_reel_cover(video_id, access_token, video_path, thumbnail_path=thumbnail_path)
             except Exception as exc:
                 print(f"[facebook] Cover setup skipped: {exc}")
             _post_pinned_comment(video_id, description, access_token, page_id)
