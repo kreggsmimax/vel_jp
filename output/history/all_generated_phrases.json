@@ -27523,7 +27523,28 @@
       "transliteration": "Futsuu no hi mo, kirakira suru",
       "category": "Joy",
       "generated_at": "2026-11-26T14:08:38.976080"
+    },
+    {
+      "english": "I’m thirsty, can I drink water?",
+      "japanese": "のどがかわいたよ、水をもらえる？",
+      "transliteration": "Nodo ga kawaita yo, mizu o moraeru?",
+      "category": "Health",
+      "generated_at": "2026-11-26T19:25:43.758109"
+    },
+    {
+      "english": "I ate too fast, I feel sick.",
+      "japanese": "早く食べすぎて、気持ち悪い。",
+      "transliteration": "Hayaku tabesugite, kimochi warui.",
+      "category": "Health",
+      "generated_at": "2026-11-26T19:25:43.758125"
+    },
+    {
+      "english": "I have a headache, please be quiet.",
+      "japanese": "頭が痛いから、静かにして。",
+      "transliteration": "Atama ga itai kara, shizukani shite.",
+      "category": "Health",
+      "generated_at": "2026-11-26T19:25:43.758127"
     }
   ],
-  "last_updated": "2026-11-26T14:08:38.976082"
+  "last_updated": "2026-11-26T19:25:43.758129"
 }
