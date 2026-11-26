@@ -294,6 +294,7 @@ def main():
     parser.add_argument("--lesson", help="lesson folder (default: newest in output/lessons)")
     parser.add_argument("--dry-run", action="store_true", help="check credentials and captions without uploading")
     parser.add_argument("--print-captions", action="store_true", help="print every caption variant and exit")
+    parser.add_argument("--require", help="comma-separated platforms that must succeed, e.g. facebook,instagram")
     args = parser.parse_args()
 
     folder = find_latest_lesson(args.lesson)
@@ -312,6 +313,13 @@ def main():
         return
 
     results = upload_to_all(lesson, dry_run=args.dry_run)
+    if not args.dry_run:
+        required = [p.strip().lower() for p in (args.require or "").split(",") if p.strip()]
+        missing_required = [p for p in required if p not in results["successful"]]
+        if missing_required:
+            print("\n  REQUIRED PLATFORMS NOT PUBLISHED: "
+                  + ", ".join(DISPLAY.get(p, p) for p in missing_required))
+            sys.exit(1)
     if results["successful"] or (args.dry_run and results["skipped"]):
         sys.exit(0)
     sys.exit(1)
