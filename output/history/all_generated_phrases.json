@@ -27649,7 +27649,28 @@
       "transliteration": "Gakusei waribiki wa arimasu ka.",
       "category": "Travel",
       "generated_at": "2026-11-28T11:25:41.181572"
+    },
+    {
+      "english": "I feel calm, right now.",
+      "japanese": "今、落ち着いているよ。",
+      "transliteration": "Ima, ochitsuite iru yo.",
+      "category": "Feelings",
+      "generated_at": "2026-11-28T17:57:31.092727"
+    },
+    {
+      "english": "I’m a bit nervous, waiting.",
+      "japanese": "少し緊張してる、待ってる。",
+      "transliteration": "Sukoshi kinchou shiteru, matte iru.",
+      "category": "Feelings",
+      "generated_at": "2026-11-28T17:57:31.092739"
+    },
+    {
+      "english": "I’m excited, today feels special.",
+      "japanese": "今日は特別な気がする。",
+      "transliteration": "Kyou wa betsu ni na kiga suru.",
+      "category": "Feelings",
+      "generated_at": "2026-11-28T17:57:31.092742"
     }
   ],
-  "last_updated": "2026-11-28T11:25:41.181574"
+  "last_updated": "2026-11-28T17:57:31.092743"
 }
