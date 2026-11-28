@@ -27628,7 +27628,28 @@
       "transliteration": "Kotae o mite, mou ichido yarou.",
       "category": "Motivation",
       "generated_at": "2026-11-28T03:40:39.915505"
+    },
+    {
+      "english": "I’d like a window seat, please.",
+      "japanese": "窓側の席がいいです、お願いします。",
+      "transliteration": "Madoshi gawa no seki ga ii desu, onegai shimasu.",
+      "category": "Travel",
+      "generated_at": "2026-11-28T11:25:41.181557"
+    },
+    {
+      "english": "What time does it leave?",
+      "japanese": "それは何時に出発しますか。",
+      "transliteration": "Sore wa nanji ni shuppatsu shimasu ka.",
+      "category": "Travel",
+      "generated_at": "2026-11-28T11:25:41.181570"
+    },
+    {
+      "english": "Is there a discount for students?",
+      "japanese": "学生割引はありますか。",
+      "transliteration": "Gakusei waribiki wa arimasu ka.",
+      "category": "Travel",
+      "generated_at": "2026-11-28T11:25:41.181572"
     }
   ],
-  "last_updated": "2026-11-28T03:40:39.915507"
+  "last_updated": "2026-11-28T11:25:41.181574"
 }
